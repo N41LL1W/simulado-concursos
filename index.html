@@ -3,302 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Simulados Avançado</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simulador de Provas - ACS</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --background-color: #f8fafc;
+            --card-color: #ffffff;
+            --text-color: #1e293b;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: var(--card-color);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-container {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+        select, button {
+            padding: 10px 15px;
+            font-size: 16px;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+        }
+
+        select {
+            background-color: var(--card-color);
+            cursor: pointer;
+            flex-grow: 1;
+            max-width: 400px;
+        }
+
+        button {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .info-prova {
+            background: #e2e8f0;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .questao-card {
+            background: var(--card-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .enunciado {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .alternativas-lista {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .alternativa-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .alternativa-item:hover {
+            background-color: #f1f5f9;
+        }
+
+        .alternativa-item input {
+            cursor: pointer;
+        }
+
+        #resultado-banner {
+            position: sticky;
+            bottom: 20px;
+            background: #10b981;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+            margin-top: 30px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
 </head>
-<body class="bg-gray-100 font-sans min-h-screen flex flex-col items-center py-6 px-4">
+<body>
 
-    <div class="max-w-4xl w-full bg-white rounded-lg shadow-md p-6">
-        <!-- Cabeçalho da Prova -->
-        <div class="border-b pb-4 mb-4">
-            <h1 id="prova-titulo" class="text-2xl font-bold text-gray-800">Carregando Simulado...</h1>
-            <p id="prova-subtitulo" class="text-sm text-gray-500"></p>
+    <div class="container">
+        <header>
+            <h1>📝 Simulador de Concursos</h1>
+            <p>Selecione uma das opções abaixo para iniciar o teste simulado.</p>
+            
+            <div class="menu-container">
+                <select id="seletor-prova">
+                    <option value="dados/provas/questoes_sertaozinho_2016_acs.json">Sertãozinho 2016 - ACS (Opção 1)</option>
+                    <option value="dados/provas/2016_vunesp_acs_sertaozinho.json">Sertãozinho 2016 - ACS (Vunesp)</option>
+                </select>
+                <button onclick="inicializarSimulado()">Carregar Prova</button>
+            </div>
+        </header>
+
+        <!-- Detalhes da Prova Ativa -->
+        <div id="info-prova" class="info-prova hidden"></div>
+
+        <!-- Área de Renderização das Questões -->
+        <main id="container-questoes"></main>
+
+        <!-- Ações do Simulado -->
+        <div id="acoes-prova" class="hidden" style="text-align: center; margin-bottom: 50px;">
+            <button onclick="corrigirProva()" style="background-color: #059669; font-size: 18px; padding: 15px 40px;">Finalizar e Corrigir</button>
         </div>
 
-        <!-- Painel de Abas / Navegação Rápida de Questões -->
-        <div class="mb-6">
-            <p class="text-xs font-semibold text-gray-400 uppercase mb-2">Navegação Rápida (Abas):</p>
-            <div id="painel-abas" class="flex flex-wrap gap-1.5 bg-gray-50 p-2.5 rounded-lg border border-gray-200">
-                <!-- Abas geradas via JS -->
-            </div>
-        </div>
-
-        <!-- Área da Questão -->
-        <div id="area-questao" class="hidden">
-            <div class="flex justify-between items-center mb-4">
-                <span id="questao-materia" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded"></span>
-                <span id="questao-numero" class="text-sm font-medium text-gray-500"></span>
-            </div>
-
-            <!-- Imagem da Questão (se houver) -->
-            <div id="container-imagem" class="mb-4 hidden justify-center bg-gray-50 p-2 rounded border">
-                <img id="questao-imagem" src="" alt="Imagem da Questão" class="max-h-64 object-contain">
-            </div>
-
-            <!-- Enunciado -->
-            <p id="questao-enunciado" class="text-gray-700 text-base mb-6 whitespace-pre-line font-medium leading-relaxed border-l-4 border-blue-500 pl-3"></p>
-
-            <!-- Alternativas -->
-            <div id="alternativas" class="space-y-3">
-                <!-- Injetado por JS -->
-            </div>
-
-            <!-- Feedback e Controles de Navegação -->
-            <div class="mt-8 border-t pt-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div id="feedback" class="text-base font-bold hidden"></div>
-                
-                <div class="flex gap-2 w-full sm:w-auto justify-end">
-                    <button id="btn-anterior" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-5 rounded transition">
-                        Anterior
-                    </button>
-                    <button id="btn-proxima" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded transition">
-                        Próxima
-                    </button>
-                </div>
-            </div>
-        </div>
+        <!-- Banner de Resultado -->
+        <div id="resultado-banner" class="hidden"></div>
     </div>
 
     <script>
-        let provaData = null;
-        let questaoAtualIndex = 0;
-        
-        // Estrutura para salvar o progresso: { questaoNumero: { alternativaSelecionada: 'A', correta: true/false } }
-        let historicoRespostas = {};
+        // Estado Global da Prova Ativa
+        let gabaritoOficial = {};
+        let totalQuestoes = 0;
 
-        const provaTitulo = document.getElementById('prova-titulo');
-        const provaSubtitulo = document.getElementById('prova-subtitulo');
-        const areaQuestao = document.getElementById('area-questao');
-        const questaoMateria = document.getElementById('questao-materia');
-        const questaoNumero = document.getElementById('questao-numero');
-        const containerImagem = document.getElementById('container-imagem');
-        const questaoImagem = document.getElementById('questao-imagem');
-        const questaoEnunciado = document.getElementById('questao-enunciado');
-        const alternativasContainer = document.getElementById('alternativas');
-        const feedback = document.getElementById('feedback');
-        const painelAbas = document.getElementById('painel-abas');
-        const btnAnterior = document.getElementById('btn-anterior');
-        const btnProxima = document.getElementById('btn-proxima');
+        // 1. Carrega o JSON de forma Assíncrona
+        async function inicializarSimulado() {
+            const caminhoArquivo = document.getElementById('seletor-prova').value;
+            const container = document.getElementById('container-questoes');
+            const infoDiv = document.getElementById('info-prova');
+            const acoesDiv = document.getElementById('acoes-prova');
+            const bannerResultado = document.getElementById('resultado-banner');
 
-        // Carrega o arquivo JSON da prova
-        fetch('dados/provas/2016_vunesp_acs_sertaozinho.json')
-            .then(response => response.json())
-            .then(data => {
-                provaData = data;
-                inicializarSimulado();
-            })
-            .catch(error => {
-                provaTitulo.innerText = "Erro ao carregar a prova.";
-                console.error(error);
-            });
-
-        function inicializarSimulado() {
-            provaTitulo.innerText = `${provaData.banca} (${provaData.ano}) - ${provaData.cargo}`;
-            provaSubtitulo.innerText = `${provaData.localidade} | ${provaData.questoes.length} Questões`;
-            areaQuestao.classList.remove('hidden');
+            // Reset de interface
+            container.innerHTML = "Carregando questões...";
+            bannerResultado.classList.add('hidden');
             
-            gerarPainelAbas();
-            mostrarQuestao();
-        }
-
-        // Cria os botões de abas de 1 a 40
-        function gerarPainelAbas() {
-            painelAbas.innerHTML = '';
-            provaData.questoes.forEach((q, index) => {
-                const btnAba = document.createElement('button');
-                btnAba.id = `aba-q-${index}`;
-                btnAba.innerText = q.numero < 10 ? `0${q.numero}` : q.numero;
+            try {
+                const response = await fetch(caminhoArquivo);
+                if (!response.ok) throw new Error("Erro ao ler o arquivo JSON.");
                 
-                btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border border-gray-300 bg-white text-gray-700 hover:bg-gray-100";
+                const dadosProva = await response.json();
                 
-                btnAba.addEventListener('click', () => {
-                    questaoAtualIndex = index;
-                    mostrarQuestao();
-                });
-                painelAbas.appendChild(btnAba);
-            });
-        }
+                // Configura as variáveis de controle global
+                totalQuestoes = dadosProva.total_questoes;
+                gabaritoOficial = {}; 
 
-        // Atualiza as cores das abas com base no progresso do usuário
-        function atualizarEstiloAbas() {
-            provaData.questoes.forEach((q, index) => {
-                const btnAba = document.getElementById(`aba-q-${index}`);
-                if (!btnAba) return;
-
-                btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border";
-
-                const respondida = historicoRespostas[q.numero];
-
-                if (index === questaoAtualIndex) {
-                    // Aba ativa no momento
-                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-blue-600 text-white border-blue-700 ring-2 ring-blue-300";
-                } else if (respondida) {
-                    // Já respondida anteriormente
-                    if (respondida.correta) {
-                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-green-100 text-green-800 border-green-300";
-                    } else {
-                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-red-100 text-red-800 border-red-300";
-                    }
-                } else {
-                    // Não respondida
-                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-white text-gray-700 border-gray-300 hover:bg-gray-100";
-                }
-            });
-        }
-
-        function mostrarQuestao() {
-            feedback.classList.add('hidden');
-            alternativasContainer.innerHTML = '';
-            atualizarEstiloAbas();
-
-            const q = provaData.questoes[questaoAtualIndex];
-
-            questaoMateria.innerText = q.materia;
-            questaoNumero.innerText = `Questão ${q.numero} de ${provaData.questoes.length}`;
-            questaoEnunciado.innerText = q.enunciado;
-
-            // Tratamento de exibição da imagem
-            if (q.tem_imagem && q.imagem_url) {
-                questaoImagem.src = q.imagem_url;
-                containerImagem.classList.remove('hidden');
-                containerImagem.classList.add('flex');
-            } else {
-                containerImagem.classList.add('hidden');
-                containerImagem.classList.remove('flex');
-            }
-
-            const statusAnterior = historicoRespostas[q.numero];
-
-            // Gerar botões de alternativas (Suporta texto puro ou objeto com ícone)
-            Object.keys(q.alternativas).forEach(letra => {
-                const opcao = q.alternativas[letra];
-                
-                let textoOpcao = "";
-                let iconeHtml = "";
-
-                // Identifica se a alternativa é uma string ou um objeto com imagem integrada
-                if (typeof opcao === 'object' && opcao !== null) {
-                    textoOpcao = opcao.texto;
-                    if (opcao.icone_url) {
-                        iconeHtml = `<img src="${opcao.icone_url}" class="h-6 w-auto inline-block align-middle ml-2 bg-white border p-0.5 rounded shadow-sm" alt="ícone">`;
-                    }
-                } else {
-                    textoOpcao = opcao;
-                }
-                
-                const botao = document.createElement('button');
-                botao.className = "w-full text-left p-3.5 border rounded-lg bg-gray-50 hover:bg-gray-100 transition flex items-start gap-3 border-gray-200 text-sm";
-                
-                botao.innerHTML = `
-                    <span class="font-bold bg-gray-200 text-gray-700 rounded-full w-5 h-5 text-xs flex items-center justify-center shrink-0 mt-0.5">${letra}</span>
-                    <div class="text-gray-700 leading-relaxed">
-                        <span>${textoOpcao}</span>
-                        ${iconeHtml}
-                    </div>
+                // Exibe metadados da prova
+                infoDiv.innerHTML = `
+                    <strong>Instituição:</strong> ${dadosProva.instituicao} | 
+                    <strong>Cargo:</strong> ${dadosProva.cargo} <br>
+                    <strong>Ano:</strong> ${dadosProva.data_prova.split('/').pop()} | 
+                    <strong>Total:</strong> ${totalQuestoes} Questões
                 `;
+                infoDiv.classList.remove('hidden');
 
-                if (statusAnterior) {
-                    // Trava o estado visual caso a questão já tenha sido respondida
-                    botao.disabled = true;
-                    if (letra === q.resposta_correta) {
-                        botao.classList.replace('bg-gray-50', 'bg-green-50');
-                        botao.classList.replace('border-gray-200', 'border-green-300');
-                    }
-                    if (letra === statusAnterior.alternativaSelecionada && letra !== q.resposta_correta) {
-                        botao.classList.replace('bg-gray-50', 'bg-red-50');
-                        botao.classList.replace('border-gray-200', 'border-red-300');
-                    }
-                } else {
-                    botao.addEventListener('click', () => verificarResposta(letra, botao, q.resposta_correta, q.numero));
-                }
+                // Renderiza a lista de questões
+                renderizarQuestoes(dadosProva.questoes);
+                acoesDiv.classList.remove('hidden');
 
-                alternativasContainer.appendChild(botao);
-            });
-
-            // Resgata o feedback caso o usuário volte na questão
-            if (statusAnterior) {
-                feedback.classList.remove('hidden');
-                if (statusAnterior.correta) {
-                    feedback.innerText = "🎉 Resposta Correta (Respondida)";
-                    feedback.className = "text-base font-bold text-green-600";
-                } else {
-                    feedback.innerText = `❌ Respondida Errada (Correta: ${q.resposta_correta})`;
-                    feedback.className = "text-base font-bold text-red-600";
-                }
+            } catch (erro) {
+                console.error(erro);
+                container.innerHTML = `<span style="color: red; font-weight: bold;">Erro ao carregar o simulado: Verifique se o arquivo existe em "${caminhoArquivo}".</span>`;
+                infoDiv.classList.add('hidden');
+                acoesDiv.classList.add('hidden');
             }
-
-            // Gerencia botões físicos de navegação lateral
-            btnAnterior.disabled = questaoAtualIndex === 0;
-            btnProxima.innerText = questaoAtualIndex === provaData.questoes.length - 1 ? "Finalizar" : "Próxima";
         }
 
-        function verificarResposta(letraSelecionada, botaoClicado, respostaCorreta, numQuestao) {
-            const botoes = alternativasContainer.querySelectorAll('button');
-            botoes.forEach(b => b.disabled = true);
+        // 2. Constrói o HTML das Questões Dinamicamente
+        function renderizarQuestoes(listaQuestoes) {
+            const container = document.getElementById('container-questoes');
+            container.innerHTML = ""; // Limpa texto de loading
 
-            const ehCorreta = letraSelecionada === respostaCorreta;
+            listaQuestoes.forEach(q => {
+                // Popula o gabarito de conferência em background
+                gabaritoOficial[q.numero] = q.resposta_correta;
 
-            // Grava a resposta no histórico de execução
-            historicoRespostas[numQuestao] = {
-                alternativaSelecionada: letraSelecionada,
-                correta: ehCorreta
-            };
+                // Monta o Card da Questão
+                const card = document.createElement('div');
+                card.className = 'questao-card';
 
-            if (ehCorreta) {
-                botaoClicado.classList.replace('bg-gray-50', 'bg-green-100');
-                botaoClicado.classList.replace('border-gray-200', 'border-green-400');
-                feedback.innerText = "🎉 Resposta Correta!";
-                feedback.className = "text-base font-bold text-green-600";
-            } else {
-                botaoClicado.classList.replace('bg-gray-50', 'bg-red-100');
-                botaoClicado.classList.replace('border-gray-200', 'border-red-400');
-                
-                botoes.forEach(b => {
-                    const letraBotao = b.querySelector('span').innerText;
-                    if (letraBotao === respostaCorreta) {
-                        b.classList.replace('bg-gray-50', 'bg-green-50');
-                        b.classList.replace('border-gray-200', 'border-green-300');
-                    }
+                // Enunciado
+                const enunciado = document.createElement('div');
+                enunciado.className = 'enunciado';
+                enunciado.innerText = `${q.numero}) ${q.enunciado}`;
+                card.appendChild(enunciado);
+
+                // Alternativas
+                const listaAlternativas = document.createElement('div');
+                listaAlternativas.className = 'alternativas-lista';
+
+                Object.keys(q.alternativas).forEach(letra => {
+                    const label = document.createElement('label');
+                    label.className = 'alternativa-item';
+                    
+                    label.innerHTML = `
+                        <input type="radio" name="questao-${q.numero}" value="${letra}">
+                        <span><strong>${letra})</strong> ${q.alternativas[letra]}</span>
+                    `;
+                    listaAlternativas.appendChild(label);
                 });
 
-                feedback.innerText = `❌ Errado. Resposta correta: (${respostaCorreta})`;
-                feedback.className = "text-base font-bold text-red-600";
-            }
-
-            feedback.classList.remove('hidden');
-            atualizarEstiloAbas();
+                card.appendChild(listaAlternativas);
+                container.appendChild(card);
+            });
         }
 
-        // Ações dos botões inferiores
-        btnAnterior.addEventListener('click', () => {
-            if (questaoAtualIndex > 0) {
-                questaoAtualIndex--;
-                mostrarQuestao();
-            }
-        });
+        // 3. Processa as Respostas e exibe a Pontuação
+        function corrigirProva() {
+            let acertos = 0;
+            const bannerResultado = document.getElementById('resultado-banner');
 
-        btnProxima.addEventListener('click', () => {
-            if (questaoAtualIndex < provaData.questoes.length - 1) {
-                questaoAtualIndex++;
-                mostrarQuestao();
-            } else {
-                // Exibe tela final de pontuação total
-                let acertos = Object.values(historicoRespostas).filter(r => r.correta).length;
-                areaQuestao.innerHTML = `
-                    <div class="text-center py-10">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-2">Simulado Concluído!</h2>
-                        <p class="text-gray-600 text-lg mb-6">Você respondeu ${Object.keys(historicoRespostas).length} de ${provaData.questoes.length} questões.</p>
-                        <div class="inline-block bg-blue-50 text-blue-700 text-2xl font-black px-6 py-4 rounded-xl border border-blue-200 mb-8">
-                            Resultado: ${acertos} Acertos
-                        </div>
-                        <br>
-                        <button onclick="window.location.reload()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg shadow transition">
-                            Refazer Simulado
-                        </button>
-                    </div>
-                `;
+            for (let num = 1; num <= totalQuestoes; num++) {
+                const marcada = document.querySelector(`input[name="questao-${num}"]:checked`);
+                
+                if (marcada && marcada.value === gabaritoOficial[num]) {
+                    acertos++;
+                }
             }
-        });
+
+            // Cálculo da porcentagem de aproveitamento
+            const aproveitamento = ((acertos / totalQuestoes) * 100).toFixed(1);
+
+            // Exibe o Banner de feedback
+            bannerResultado.innerHTML = `🎉 Simulado Concluído! Você acertou ${acertos} de ${totalQuestoes} questões (${aproveitamento}% de aproveitamento).`;
+            bannerResultado.classList.remove('hidden');
+            
+            // Scroll suave até o resultado
+            bannerResultado.scrollIntoView({ behavior: 'smooth' });
+        }
     </script>
 </body>
 </html>

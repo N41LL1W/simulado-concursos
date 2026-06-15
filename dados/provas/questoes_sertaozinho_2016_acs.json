@@ -1,0 +1,490 @@
+{
+  "instituicao": "Prefeitura Municipal de Sertãozinho",
+  "concurso": "Concurso Público - PMST1503",
+  "data_prova": "28/02/2016",
+  "codigo_prova": "001",
+  "cargo": "AGENTE COMUNITÁRIO",
+  "total_questoes": 40,
+  "questoes": [
+    {
+      "numero": 1,
+      "enunciado": "De acordo com o sentido do texto (quadrinho), a lacuna deve ser preenchida com:",
+      "alternativas": {
+        "A": "no entanto.",
+        "B": "embora.",
+        "C": "mas.",
+        "D": "portanto.",
+        "E": "pois."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 2,
+      "enunciado": "De acordo com o texto 'Ministério da Saúde confirma relação entre microcefalia e o zika vírus',",
+      "alternativas": {
+        "A": "mais estudos serão necessários para se concluir se o zika vírus está relacionado com a grande incidência de bebês com microcefalia no Nordeste.",
+        "B": "pesquisas feitas em Instituto do Ceará comprovaram a presença do zika vírus no sangue de uma gestante.",
+        "C": "estudos deverão continuar a ser feitos para se saber de que maneira o feto é infectado pelo zika vírus.",
+        "D": "já ficou comprovado pelo Ministério da Saúde que o maior risco para o feto ocorre no primeiro trimestre da gestação.",
+        "E": "no mundo todo, pesquisadores concluíram que o zika vírus ataca diretamente o sistema nervoso do feto e da gestante depois dos três meses."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 3,
+      "enunciado": "Conforme informações do texto, é correto afirmar que",
+      "alternativas": {
+        "A": "o mosquito transmissor do zika vírus é parecido com o que transmite a dengue.",
+        "B": "a microcefalia só é detectada nos bebês a partir dos três meses de idade.",
+        "C": "o Nordeste foi a região onde houve a maior ocorrência de casos de microcefalia.",
+        "D": "os casos de microcefalia se devem às abundantes chuvas no Nordeste, no ano passado.",
+        "E": "o mosquito Aedes aegypti se desenvolve em ambientes secos e em correntes de água."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 4,
+      "enunciado": "Assinale a alternativa que substitui, corretamente, de acordo com a norma-padrão, a expressão em destaque por um pronome.",
+      "alternativas": {
+        "A": "O Instituto Evandro Chagas identificou a presença do zika vírus em amostras de sangue. / O Instituto Evandro Chagas identificou-os em amostras de sangue.",
+        "B": "O bebê apresentava outras malformações congênitas. / O bebê apresentava-lhes.",
+        "C": "Identificaram a presença do zika vírus em amostras de sangue. / Identificaram-nos em amostras de sangue.",
+        "D": "As investigações sobre o tema devem continuar para esclarecer questões... / As investigações sobre o tema devem continuar para esclarecê-las...",
+        "E": "Os cérebros dos bebês também apresentam deformações. / Os cérebros dos bebês também apresentam-las."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 5,
+      "enunciado": "Nas passagens - 'Essa é uma situação inédita na pesquisa científica mundial.' e '... período de maior vulnerabilidade para a gestante.' (2º parágrafo) - as palavras destacadas têm sinônimos adequados, respectivamente, em:",
+      "alternativas": {
+        "A": "original - fragilidade",
+        "B": "incomum - transitoriedade",
+        "C": "nunca vista - benefício",
+        "D": "ignorada - insegurança",
+        "E": "intocável - instabilidade"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 6,
+      "enunciado": "Quanto à ocorrência da crase e à concordância verbal, assinale a alternativa que completa, correta e respectivamente, as lacunas do trecho: 'A secretária de saúde parabeniza ___ todos os agentes de saúde pelo seu dia e pelo trabalho que ___ prestando ___ todas as famílias de nosso município.'",
+      "alternativas": {
+        "A": "a ... vem ... a",
+        "B": "a ... vêm ... a",
+        "C": "a ... vem ... à",
+        "D": "à ... vêm ... a",
+        "E": "à ... vem ... à"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 7,
+      "enunciado": "Assinale a alternativa que completa, correta e respectivamente, as lacunas do texto quanto à concordância verbal, nominal e à ocorrência da crase: 'Quase quatro anos ___ e a população da cidade de Itapetim, no sertão pernambucano, continua sem água nas torneiras. ___ abundantes as caixas d'água espalhadas pelas ruas e dentro de casas, à espera de receber água para as atividades ___'",
+      "alternativas": {
+        "A": "se passaram ... São ... básicas",
+        "B": "se passou ... São ... básicas",
+        "C": "se passaram ... É ... básicas",
+        "D": "se passou ... É ... básica",
+        "E": "se passaram ... São ... básica"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 8,
+      "enunciado": "Alterando-se a primeira frase do texto 'Piabas - um exército natural...', ela se mantém correta, de acordo com a norma-padrão da regência nominal, na alternativa: 'Em Itapetim, a fim de evitar o surgimento de novos mosquitos, agentes de combate de endemias recorrem...'",
+      "alternativas": {
+        "A": "a um exército natural - as piabas.",
+        "B": "com um exército natural - as piabas.",
+        "C": "por um exército natural - as piabas.",
+        "D": "sobre um exército natural - as piabas.",
+        "E": "em um exército natural - as piabas."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 9,
+      "enunciado": "Os dois travessões empregados no final do texto (Piabas) poderiam ser substituídos por duas vírgulas, e é correto afirmar que eles servem para",
+      "alternativas": {
+        "A": "introduzir a fala de alguém.",
+        "B": "destacar uma explicação.",
+        "C": "indicar uma dúvida.",
+        "D": "introduzir uma discordância.",
+        "E": "expressar um estado emotivo."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 10,
+      "enunciado": "No poema de Mário Quintana ('Não te abras com teu amigo...'), há uma recomendação para que, principalmente, se",
+      "alternativas": {
+        "A": "valorizem as boas amizades.",
+        "B": "coloque a sinceridade acima de tudo.",
+        "C": "demonstre honestidade em todos os atos.",
+        "D": "pratique a discrição nos comentários.",
+        "E": "tenha compaixão pelos amigos."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 11,
+      "enunciado": "De acordo com o gráfico fornecido pelo Ministério da Saúde, o número de casos suspeitos registrados em 2015 (1761), até 5 de dezembro, foi maior, em relação a 2014 (147), aproximadamente,",
+      "alternativas": {
+        "A": "11 vezes.",
+        "B": "12 vezes.",
+        "C": "13 vezes.",
+        "D": "14 vezes.",
+        "E": "15 vezes."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 12,
+      "enunciado": "O médico prescreveu, para certa pessoa que tem hipertensão arterial, um medicamento em comprimidos de certa miligramagem, para tomar todos os dias, de 12 em 12 horas. Se a caixa desse medicamento é vendida em embalagem com 20 comprimidos, para fazer o tratamento em 90 dias, a quantidade dessas caixas de que ele precisará é",
+      "alternativas": {
+        "A": "18.",
+        "B": "15.",
+        "C": "12.",
+        "D": "10.",
+        "E": "9."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 13,
+      "enunciado": "Em um município de risco de dengue, do total de imóveis visitados, as equipes de saúde encontraram larvas do mosquito transmissor em 16 deles, o que corresponde a 1/25 do total dos imóveis visitados, índice considerado preocupante. De acordo com esses dados, o número de imóveis visitados nesse município foi",
+      "alternativas": {
+        "A": "370.",
+        "B": "390.",
+        "C": "400.",
+        "D": "420.",
+        "E": "500."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 14,
+      "enunciado": "O mapa da dengue mostra que a ausência de saneamento facilita o surgimento de criadouros do mosquito da dengue. Em certa região do País, dos 450 focos de transmissão, foram identificados 44% deles no lixo, o que representa uma quantidade de",
+      "alternativas": {
+        "A": "298.",
+        "B": "238.",
+        "C": "220.",
+        "D": "198.",
+        "E": "176."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 15,
+      "enunciado": "Uma torneira que despeja 2 litros de água por minuto leva 20 minutos para encher totalmente um tanque. Se ela despejasse 5 litros por minuto, levaria, para encher totalmente esse mesmo tanque, exatamente, em minutos,",
+      "alternativas": {
+        "A": "12.",
+        "B": "10.",
+        "C": "8.",
+        "D": "6.",
+        "E": "5."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 16,
+      "enunciado": "Em certa localidade, em 4 dias de visitas aos domicílios, foram registrados 420 focos do mosquito Aedes Aegypti. No segundo dia, encontraram o dobro do que encontraram no primeiro dia. No terceiro dia, encontraram 50 focos a mais que no dia anterior, e no último dia, 20 a menos que no primeiro dia. Nesse caso, a quantidade de focos encontrados no segundo dia foi",
+      "alternativas": {
+        "A": "130.",
+        "B": "140.",
+        "C": "156.",
+        "D": "180.",
+        "E": "210."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 17,
+      "enunciado": "Um agente comunitário percorreu, em um dia, uma distância equivalente ao percurso de uma volta completa sobre os lados de um retângulo ABCD, representado na figura, onde estão indicadas suas medidas (1,3 km e 0,6 km). Desse modo, nesse dia, a distância percorrida por esse agente foi de",
+      "alternativas": {
+        "A": "2600 metros.",
+        "B": "2800 metros.",
+        "C": "3600 metros.",
+        "D": "3800 metros.",
+        "E": "4800 metros."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 18,
+      "enunciado": "Um hospital oferece para o tempero da salada, nas refeições, vinagre e azeite, em embalagens separadas, com 4 mL de cada produto. Supondo que sejam distribuídos 125 saquinhos de cada um, o total de líquido de vinagre e de azeite contido em todos eles corresponde a",
+      "alternativas": {
+        "A": "10,0 litros.",
+        "B": "5,0 litros.",
+        "C": "2,0 litros.",
+        "D": "1,5 litro.",
+        "E": "1,0 litro."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 19,
+      "enunciado": "Um grupo de agentes comunitários foi indicado para atender várias famílias que moram em uma área que corresponde à área de um quadrado de 80 metros de lado. Como houve uma alteração na programação, esse grupo vai atender apenas as famílias localizadas em 2/5 da área programada anteriormente. Nesse caso, esse grupo atenderá as famílias localizadas em uma área que mede, em metros quadrados,",
+      "alternativas": {
+        "A": "2560.",
+        "B": "2480.",
+        "C": "1560.",
+        "D": "1280.",
+        "E": "640."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 20,
+      "enunciado": "Lucinha tinha R$ 8.400,00 no banco. Desse total, emprestou para sua irmã R$ 5.600,00. Desse modo, a razão da quantia restante, após o empréstimo, para o valor que tinha inicialmente no banco é, nessa ordem, de",
+      "alternativas": {
+        "A": "1 para 5.",
+        "B": "1 para 3.",
+        "C": "2 para 5.",
+        "D": "2 para 3.",
+        "E": "3 para 4."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 21,
+      "enunciado": "Em 13 de novembro de 2015, explosões ocorreram próximo ao estádio de futebol durante um jogo entre seleções. Além disso, três tiroteios simultâneos - entre eles um ataque a uma casa de show - deixaram mais de 100 mortos. Os fatos descritos ocorreram em",
+      "alternativas": {
+        "A": "Londres.",
+        "B": "Roma.",
+        "C": "Paris.",
+        "D": "Berlim.",
+        "E": "Madri."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 22,
+      "enunciado": "Nos noticiários do segundo semestre de 2015, vários países da Europa têm sido citados com muita frequência. O principal motivo do destaque",
+      "alternativas": {
+        "A": "é a onda de insatisfação da população que sofre com os baixos salários e o aumento da inflação.",
+        "B": "são os problemas de poluição atmosférica que têm gerado doenças e mortes, principalmente em idosos.",
+        "C": "é a vitória de políticos conservadores em eleições que têm se caracterizado por fraudes e anulações.",
+        "D": "são os problemas econômicos que foram responsabilizados por renúncias de presidentes e ministros.",
+        "E": "é a chegada de milhares de imigrantes e refugiados que fogem, principalmente, de países como a Síria."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 23,
+      "enunciado": "O Ministério da Saúde confirmou nesta terça-feira (17.11.15) que o zika vírus é a causa mais provável para o aumento de casos de microcefalia na região [ I ]. Em 2015, foram notificados 399 casos de microcefalia em recém-nascidos de sete estados da região. O estado que teve maior número de casos de microcefalia foi [ II ], que registrou 268 recém-nascidos com a malformação no último ano. Assinale a alternativa que completa corretamente as lacunas I e II:",
+      "alternativas": {
+        "A": "I - Nordeste; II - Pernambuco.",
+        "B": "I - Nordeste; II - o Maranhão.",
+        "C": "I - Sudeste; II - Minas Gerais.",
+        "D": "I - Sudeste; II - o Espírito Santo.",
+        "E": "I - Sul; II - Paraná."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 24,
+      "enunciado": "A tragédia provocada pelo rompimento de duas barragens de rejeitos de mineração na última quinta-feira (05.11.15) deixou um rastro de lama, destruição e morte no município e comoveu o País. O desastre mostrado na notícia ocorreu no município de",
+      "alternativas": {
+        "A": "Montes Claros (MG).",
+        "B": "Ouro Preto (MG).",
+        "C": "Ilhéus (BA).",
+        "D": "Mariana (MG).",
+        "E": "Juiz de Fora (MG)."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 25,
+      "enunciado": "No segundo semestre de 2015, a delação premiada (mencionada no quadrinho informativo) foi muito utilizada",
+      "alternativas": {
+        "A": "no Supremo Tribunal Federal.",
+        "B": "na Operação Lava Jato.",
+        "C": "na Assembleia Legislativa de São Paulo.",
+        "D": "no Congresso Nacional.",
+        "E": "no Ministério da Fazenda."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 26,
+      "enunciado": "No Windows Explorer do MS-Windows 7, a partir da sua configuração padrão, a figura ilustra uma pasta chamada CONCURSO. Assinale a alternativa que descreve corretamente o conteúdo dessa pasta.",
+      "alternativas": {
+        "A": "3 subpastas chamadas: EXCEL, fotos e animações; 2 atalhos, sendo um do Google Chrome, e outro do Internet Explorer; 3 documentos do Word 2010.",
+        "B": "2 subpastas chamadas: EXCEL e fotos; 3 atalhos, sendo um do Google Chrome, um do Internet Explorer, e outro chamado animações; 2 documentos do Word 2010 e uma planilha do Excel 2010.",
+        "C": "2 subpastas chamadas: EXCEL e fotos; 3 atalhos, sendo um do Google Chrome, um do Internet Explorer, e outro chamado animações; 1 documento do Word 2010 e duas planilhas do Excel 2010.",
+        "D": "3 subpastas chamadas: EXCEL, fotos e animações; 2 atalhos, sendo um do Google Chrome, e outro do Internet Explorer; 3 planilhas do Excel 2010.",
+        "E": "2 subpastas chamadas: EXCEL, fotos; 3 atalhos, sendo um do Google Chrome, um do Internet Explorer, e outro chamado animações; 3 Planilhas do Excel 2010."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 27,
+      "enunciado": "Em uma planilha de controle de uma papelaria feita no MS-Excel 2010, em sua configuração padrão, assinale a alternativa que contém a fórmula correta a ser aplicada na célula D2 para calcular o valor final do produto com o desconto concedido.",
+      "alternativas": {
+        "A": "=B2-C2/100",
+        "B": "=B2-(B2*C2)*100",
+        "C": "=B2-(B2*C2)/100",
+        "D": "=(B2*C2)/100",
+        "E": "=B2*(10-C2)/100"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 28,
+      "enunciado": "Na elaboração de um documento no MS-Word 2010, em sua configuração padrão, a sequência a partir do menu principal, para numerar as páginas, é:",
+      "alternativas": {
+        "A": "selecione a aba 'Layout da Página' e clique no ícone correspondente.",
+        "B": "selecione a aba 'Layout da Página' e clique no ícone de orientação.",
+        "C": "selecione a aba 'Inserir' e clique no ícone de tabelas.",
+        "D": "selecione a aba 'Inserir' e clique no ícone '# Número de Página'.",
+        "E": "selecione a aba 'Inserir' e clique no ícone de quebra de página."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 29,
+      "enunciado": "No MS-PowerPoint 2010, a partir da sua configuração padrão, na aba 'Exibição', existem vários grupos que permitem modificar os modos de exibição. Assinale a alternativa que contém os nomes corretos do grupo 1 e do grupo 2, respectivamente.",
+      "alternativas": {
+        "A": "Grupo 1 - Modos de Exibição de Apresentação. Grupo 2 - Modos de Exibição Mestres.",
+        "B": "Grupo 1 - Modos de Exibição de Folhetos e Anotações. Grupo 2 - Modos de Exibição Mestres.",
+        "C": "Grupo 1 - Modos de Exibição de Apresentação. Grupo 2 - Modos de Exibição Mestres de Folhetos.",
+        "D": "Grupo 1 - Modos de Exibição de Slides Chaves. Grupo 2 - Modos de Exibição Mestres de Slides.",
+        "E": "Grupo 1 - Modos de Exibição de Slides com Comentários. Grupo 2 - Modos de Exibição Mestres de Anotações."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 30,
+      "enunciado": "Considere a preparação de um e-mail no Outlook 2010, a partir da sua configuração padrão, conforme ilustrado. Assinale a alternativa que contém a afirmativa correta.",
+      "alternativas": {
+        "A": "O e-mail não será enviado, pois está faltando o campo Cco no corpo do e-mail.",
+        "B": "O e-mail será enviado sem nenhum problema.",
+        "C": "O e-mail não será enviado, pois o endereço eletrônico contido no campo Assunto está errado.",
+        "D": "O e-mail será enviado somente para o destinatário do endereço eletrônico contido no campo 'Cc'.",
+        "E": "O e-mail não será enviado, pois os endereços eletrônicos contidos nos campos 'Para' e 'Cc' estão errados."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 31,
+      "enunciado": "O Agente Comunitário de Saúde (ACS) fornece e recebe informações das famílias, realizando orientações sobre promoção à saúde e prevenção de agravos. Essas ações abrangem:",
+      "alternativas": {
+        "A": "atenção terciária.",
+        "B": "atenção quaternária.",
+        "C": "atenção secundária.",
+        "D": "atendimento prioritário.",
+        "E": "atenção primária."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 32,
+      "enunciado": "A Promoção à Saúde visa reduzir situações de risco à população por meio de diversas ações, entre as quais a participação da comunidade nas políticas de saúde. É citado, aqui, o princípio do SUS denominado",
+      "alternativas": {
+        "A": "equidade.",
+        "B": "controle social.",
+        "C": "vulnerabilidade.",
+        "D": "resolutividade.",
+        "E": "descentralização."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 33,
+      "enunciado": "A visita domiciliar é uma das atividades rotineiras do Agente Comunitário de Saúde (ACS), que precisa ser",
+      "alternativas": {
+        "A": "planejada, pois por meio dela é possível identificar as famílias que precisam de um acompanhamento mais próximo.",
+        "B": "acompanhada pelo enfermeiro, que irá indicar medicamentos para a população usar em seus problemas de saúde.",
+        "C": "orientada pelos moradores, que irão definir quais as famílias têm necessidade de acompanhamento.",
+        "D": "agendada no mês anterior, para que as famílias possam se preparar economicamente para receber o ACS.",
+        "E": "realizada na companhia de autoridade policial a fim de evitar transtornos nas famílias em que existem indivíduos usuários de drogas."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 34,
+      "enunciado": "O Agente Comunitário de Saúde desenvolve ações que buscam a integração entre a equipe de saúde e a população adstrita à Unidade Básica de Saúde (UBS), pois trabalha em uma base geográfica definida, e algumas de suas responsabilidades são:",
+      "alternativas": {
+        "A": "distribuir para as famílias os endereços dos hospitais da região; cadastrar todas as crianças de sua área; implantar novos leitos hospitalares.",
+        "B": "fiscalizar os planos de saúde; realizar, na UBS, a matrícula das crianças menores de 05 anos; agendar as internações nos hospitais.",
+        "C": "cadastrar as pessoas de sua área; orientar as famílias quanto à utilização dos serviços de saúde disponíveis; acompanhar, por meio de visita domiciliar, todas as famílias sob sua responsabilidade.",
+        "D": "administrar os recursos orçamentários e financeiros destinados à saúde; fiscalizar os hábitos das famílias durante a visita domiciliar.",
+        "E": "cadastrar todos os moradores que possuem carteira de trabalho assinada, nas fichas A, e aqueles que estão desempregados, na ficha e-SUS de cadastro individual; realizar ações de assistência à saúde do trabalhador."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 35,
+      "enunciado": "A Política Nacional de Humanização produziu mudanças no gerir e no cuidar da saúde. Uma das diretrizes dessa política é o acolhimento do paciente, que",
+      "alternativas": {
+        "A": "ocorre em qualquer local da área de abrangência da Unidade Básica de Saúde, mas só pode ser realizada pelo médico da Equipe de Saúde.",
+        "B": "deve ocorrer na admissão da Unidade Básica de Saúde e ser realizado por qualquer membro da Equipe de Saúde.",
+        "C": "implica em reconhecer que as queixas do usuário não têm importância no processo de adoecimento.",
+        "D": "será atendido somente quando residir na área de abrangência da Unidade Básica de Saúde.",
+        "E": "ocorre nos hospitais e somente pode ser feito por enfermeira responsável pela vigilância epidemiológica."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 36,
+      "enunciado": "A realização do diagnóstico de saúde em um território evidenciou que a taxa de mortalidade por câncer de colo uterino está acima da média do município. Entre os moradores, a prevalência maior é de indivíduos na faixa etária de 20 a 60 anos. Nesse caso, a equipe tem que",
+      "alternativas": {
+        "A": "realizar um trabalho coletivo com a comunidade, elaborando um relatório sobre as mulheres que têm câncer de colo de útero, para que os homens possam se prevenir.",
+        "B": "se organizar e realizar um mutirão para coleta de exame papanicolau na residência das moradoras, a cada semestre.",
+        "C": "priorizar as ações de saúde da mulher, como prevenção do câncer ginecológico, mas sem deixar de lado a assistência à saúde masculina.",
+        "D": "oferecer treinamento diferenciado para o ACS aprender a realizar o diagnóstico de câncer de colo uterino.",
+        "E": "ser constituída por 75% de médicos ginecologistas, pois a prioridade na UBS é o atendimento às mulheres em idade fértil."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 37,
+      "enunciado": "Os moradores que residem no alto de um morro despejam o esgoto diretamente nos cursos de água, contaminando o lençol freático. A água utilizada é coletada em um poço comunitário que possui 6 metros de profundidade, localizado na parte mais baixa do terreno. Nesse caso, o ACS deve",
+      "alternativas": {
+        "A": "ignorar a situação, pois esse fato é comum na periferia da cidade.",
+        "B": "orientar os moradores para filtrar a água, tornando-a potável.",
+        "C": "aconselhar os moradores para construir fossa negra nas residências.",
+        "D": "orientar os moradores a não consumir a água do poço e considerar o local como uma microárea de risco.",
+        "E": "colaborar com os moradores para a instalação de uma bomba e canalizar a água do poço até as casas."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 38,
+      "enunciado": "O Agente Comunitário de Saúde deve orientar os moradores a respeito das medidas de prevenção para a dengue, como trocar a água dos animais diariamente, sempre esfregando as paredes do recipiente, porque",
+      "alternativas": {
+        "A": "com o decorrer dos dias, a água parada passa a exalar mau cheiro.",
+        "B": "a fêmea do mosquito vetor da dengue realiza a oviposição nesses recipientes, e os ovos ficam aderidos às suas paredes.",
+        "C": "o mosquito prefere colocar os ovos na água, onde seu ciclo de vida se completa mais rapidamente do que quando colocados na areia.",
+        "D": "ao pousar na água, o mosquito libera o vírus causador da dengue, contaminando-a.",
+        "E": "a água parada é um meio de veiculação de diversas doenças de origem hídrica, como sarampo, varicela, caxumba, etc."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 39,
+      "enunciado": "O Estatuto da Criança e do Adolescente (ECA) é uma Lei Federal que trata dos direitos das crianças e adolescentes em todo o Brasil. O objetivo do ECA é",
+      "alternativas": {
+        "A": "ter restringida sua liberdade sempre que a criança ou adolescente estiver sofrendo, ou sendo ameaçada de sofrer violência.",
+        "B": "permitir a investigação sobre crianças e adolescentes desaparecidos, utilizando recursos do Ministério da Justiça, até a solução do caso.",
+        "C": "autorizar a viagem de crianças e adolescentes, desacompanhados do responsável legal, ao exterior, para a participação em eventos esportivos e/ou culturais.",
+        "D": "proteger os menores de 18 anos, proporcionando-lhes desenvolvimento físico, mental, moral e social condizentes com os princípios constitucionais da liberdade e da dignidade, preparando-os para a vida adulta em sociedade.",
+        "E": "propiciar, para as famílias que possuem sob sua responsabilidade crianças e adolescentes, o benefício do programa bolsa-família."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 40,
+      "enunciado": "A moradora informa que seu pai (idoso com 72 anos) encontra-se internado e ela gostaria de permanecer ao seu lado, no hospital. Nesse caso, o Agente Comunitário de Saúde deve orientar a família, informando-a de que, de acordo com o Estatuto do Idoso,",
+      "alternativas": {
+        "A": "a Atenção Primária/Saúde da Família não oferece à pessoa idosa e aos seus familiares uma atenção humanizada, já que o paciente se encontra sob cuidados médicos.",
+        "B": "o idoso hospitalizado passa a ser responsabilidade do Município, não sendo permitida a presença de acompanhantes.",
+        "C": "é assegurado ao idoso internado no hospital todos os cuidados de enfermagem de que necessita.",
+        "D": "é garantido à pessoa acima de 60 anos que está hospitalizada o direito de receber cuidados de um acompanhante, desde que este tenha formação em enfermagem.",
+        "E": "é assegurado ao idoso o direito a acompanhante, devendo o órgão de saúde proporcionar as condições adequadas para a sua permanência em tempo integral."
+      },
+      "resposta_correta": "E"
+    }
+  ]
+}
