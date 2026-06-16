@@ -82,76 +82,76 @@
     },
     {
       "numero": 6,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Lingua Portuguesa",
+      "enunciado": "O efeito de sentido da tira está associado",
       "tem_imagem": true,
       "imagem_url": "2025_vunesp_acs_sao_jose_do_rio_preto_q06",
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "à voz que vem da plateia e se recusa a discutir o uso do dinheiro.",
+        "B": "ao sentido da palavra dinheiro, segundo cada personagem.",
+        "C": "à recomendação do palestrante defendendo a ideia de poupar.",
+        "D": "à interpretação que o palestrante dá à mensagem que vem da plateia.",
+        "E": "ao desinteresse da plateia pelo assunto de que o palestrante trata."
       },
       "resposta_correta": "D"
     },
     {
       "numero": 7,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Lingua Portuguesa",
+      "enunciado": "A frase, baseada na tira, que está redigida de acordo com a norma-padrão de pontuação e de concordância verbal e nominal é:",
       "tem_imagem": true,
       "imagem_url": "2025_vunesp_acs_sao_jose_do_rio_preto_q07",
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "Há certas ideias que não se passam para os filhos, tais como o apego ao dinheiro.",
+        "B": "Existe coisas que precisam ser dita: uma delas é que só o dinheiro importa.",
+        "C": "É certo que somente valores, em dinheiro é que deve ser passado para os filhos.",
+        "D": "Os valores, que quero passar para meu filho não se confunde com dinheiro.",
+        "E": "Uma coisa que deve ser sempre lembrado é: que só valores em dinheiro não basta."
       },
       "resposta_correta": "A"
     },
     {
       "numero": 8,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Lingua Portuguesa",
+      "enunciado": "O objetivo do programa Muralha Paulista para vincular as câmeras de particulares às das polícias Civil e Militar é, de acordo com o texto,",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "criar inquéritos criminais para inibir a ocorrência de delitos.",
+        "B": "ampliar o monitoramento da mobilidade criminal no estado.",
+        "C": "suprir a ausência de policiamento efetivo nas cidades.",
+        "D": "bloquear iniciativas que impeçam a vigilância privada.",
+        "E": "atribuir aos particulares competência para investigar crimes."
       },
       "resposta_correta": "B"
     },
     {
       "numero": 9,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Lingua Portuguesa",
+      "enunciado": "Serão envolvidos no programa Muralha Paulista moradores e empresários ______ haja câmeras voltadas para a rua.",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "no qual os imóveis deles",
+        "B": "aonde nos seus imóveis",
+        "C": "onde nos imóveis deles",
+        "D": "a quem nos imóveis",
+        "E": "em cujos imóveis"
       },
       "resposta_correta": "E"
     },
     {
       "numero": 10,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Lingua Portuguesa",
+      "enunciado": "A alternativa com o enunciado que dá sequência à frase 'Se as câmeras de moradores se transformarem em olhos da polícia', caracterizando argumentação lógica e compatível com o sentido do texto, é:",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "portanto haverá voluntários atuando com as polícias.",
+        "B": "portanto o objetivo do estado será atingido.",
+        "C": "então a sociedade poderá estar mais protegida.",
+        "D": "então o cinturão eletrônico será instalado.",
+        "E": "então as polícias poderão ficar de fora da vigilância."
       },
       "resposta_correta": "C"
     },
