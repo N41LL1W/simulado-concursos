@@ -113,7 +113,7 @@
     {
       "numero": 8,
       "materia": "Lingua Portuguesa",
-      "enunciado": "O objetivo do programa Muralha Paulista para vincular as câmeras de particulares às das polícias Civil e Militar é, de acordo com o texto,",
+      "enunciado": "Leia o texto a seguir para responder às questões de 08 a 10:\n\n Estado quer transformar câmeras de moradores em olhos da polícia\n\n Com 38 mil câmeras interligadas em todo o estado, sendo 1,1 mil na região de Rio Preto, o programa Muralha Paulista, criado pela Secretaria de Segurança Pública para controle da mobilidade criminal por meio de sistemas de videomonitoramento, avança para incluir câmeras particulares de moradores e empresas à base de dados. No propósito voluntário de ser mais um braço na proteção da sociedade e na investigação de crimes, moradores e empresários que tenham câmeras de seus imóveis voltadas para a rua já podem vincular o equipamento ao “cinturão eletrônico” da Segurança Pública. Em Rio Preto, as polícias Civil e Militar já têm se beneficiado do monitoramento em tempo real para robustecer inquéritos criminais e aprimorar o planejamento operacional.\n\n (Joseane Teixeira, Estado quer transformar câmeras de moradores em olhos da polícia, 02.11.2025. Disponível em:<diariodaregiao.com.br. Adaptado)\n\n O objetivo do programa Muralha Paulista para vincular as câmeras de particulares às das polícias Civil e Militar é, de acordo com o texto,",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
@@ -128,7 +128,7 @@
     {
       "numero": 9,
       "materia": "Lingua Portuguesa",
-      "enunciado": "Serão envolvidos no programa Muralha Paulista moradores e empresários ______ haja câmeras voltadas para a rua.",
+      "enunciado": "Leia o texto a seguir para responder às questões de 08 a 10:\n\n Estado quer transformar câmeras de moradores em olhos da polícia\n\n Com 38 mil câmeras interligadas em todo o estado, sendo 1,1 mil na região de Rio Preto, o programa Muralha Paulista, criado pela Secretaria de Segurança Pública para controle da mobilidade criminal por meio de sistemas de videomonitoramento, avança para incluir câmeras particulares de moradores e empresas à base de dados. No propósito voluntário de ser mais um braço na proteção da sociedade e na investigação de crimes, moradores e empresários que tenham câmeras de seus imóveis voltadas para a rua já podem vincular o equipamento ao “cinturão eletrônico” da Segurança Pública. Em Rio Preto, as polícias Civil e Militar já têm se beneficiado do monitoramento em tempo real para robustecer inquéritos criminais e aprimorar o planejamento operacional.\n\n (Joseane Teixeira, Estado quer transformar câmeras de moradores em olhos da polícia, 02.11.2025. Disponível em:<diariodaregiao.com.br. Adaptado)\n\n Serão envolvidos no programa Muralha Paulista moradores e empresários ______ haja câmeras voltadas para a rua.",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
@@ -143,7 +143,7 @@
     {
       "numero": 10,
       "materia": "Lingua Portuguesa",
-      "enunciado": "A alternativa com o enunciado que dá sequência à frase 'Se as câmeras de moradores se transformarem em olhos da polícia', caracterizando argumentação lógica e compatível com o sentido do texto, é:",
+      "enunciado": "Leia o texto a seguir para responder às questões de 08 a 10:\n\n Estado quer transformar câmeras de moradores em olhos da polícia\n\n Com 38 mil câmeras interligadas em todo o estado, sendo 1,1 mil na região de Rio Preto, o programa Muralha Paulista, criado pela Secretaria de Segurança Pública para controle da mobilidade criminal por meio de sistemas de videomonitoramento, avança para incluir câmeras particulares de moradores e empresas à base de dados. No propósito voluntário de ser mais um braço na proteção da sociedade e na investigação de crimes, moradores e empresários que tenham câmeras de seus imóveis voltadas para a rua já podem vincular o equipamento ao “cinturão eletrônico” da Segurança Pública. Em Rio Preto, as polícias Civil e Militar já têm se beneficiado do monitoramento em tempo real para robustecer inquéritos criminais e aprimorar o planejamento operacional.\n\n (Joseane Teixeira, Estado quer transformar câmeras de moradores em olhos da polícia, 02.11.2025. Disponível em:<diariodaregiao.com.br. Adaptado)\n\n A alternativa com o enunciado que dá sequência à frase 'Se as câmeras de moradores se transformarem em olhos da polícia', caracterizando argumentação lógica e compatível com o sentido do texto, é:",
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
@@ -157,16 +157,16 @@
     },
     {
       "numero": 11,
-      "materia": "",
-      "enunciado": "",
+      "materia": "Matemática",
+      "enunciado": "Veja, a seguir, o extrato simplificado de uma conta bancária:\n\n Qual é o valor de X + Y + Z?",
       "tem_imagem": true,
       "imagem_url": "imagens/2025_vunesp_acs_sao_jose_do_rio_preto_q11.png",
       "alternativas": {
-        "A": "",
-        "B": "",
-        "C": "",
-        "D": "",
-        "E": ""
+        "A": "-18,30",
+        "B": "-89,30",
+        "C": "-160,50",
+        "D": "18,30",
+        "E": "52,90"
       },
       "resposta_correta": "B"
     },
