@@ -160,7 +160,7 @@
             // Tratamento de exibição da imagem
             if (q.tem_imagem && q.imagem_url) {
                 questaoImagem.src =
-    `/imagens/provas/${q.imagem_url}.png`;
+    `/imagens/${q.imagem_url}`;
                 containerImagem.classList.remove('hidden');
                 containerImagem.classList.add('flex');
             } else {
