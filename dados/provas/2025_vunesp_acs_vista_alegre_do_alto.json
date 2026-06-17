@@ -204,8 +204,8 @@
       "numero": 14,
       "materia": "Matemática",
       "enunciado": "Tabela de Atendimento comunitário:\n\nSabendo que a média aritmética simples dos números de atendimentos dos quatro agentes é 13, é correto afirmar que o valor de X é",
-      "tem_imagem": "2025_vunesp_acs_vista_alegre_do_alto_q14.png",
-      "imagem_url": null,
+      "tem_imagem": true,
+      "imagem_url": "2025_vunesp_acs_vista_alegre_do_alto_q14.png",
       "alternativas": {
         "A": "12.",
         "B": "13.",
