@@ -10,7 +10,7 @@
       "materia": "Língua Portuguesa",
       "enunciado": "Leia o quadrinho para responder à questão.\n\nDe acordo com o sentido do texto, a lacuna deve ser preenchida com:",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q1.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q1.png",
       "alternativas": {
         "A": "no entanto.",
         "B": "embora.",
@@ -100,7 +100,7 @@
       "materia": "Língua Portuguesa",
       "enunciado": "Leia o texto a seguir para responder à questão.\n\nPiabas - um exército natural - são usadas por agentes de combate de endemias para evitar que surjam novos mosquitos em Itapetim. Os peixes são colocados em reservatórios. O Aedes aegypti solta seus ovos nas paredes do depósito e quando você volta a colocar água, os ovos eclodem. A piaba se alimenta dos ovos, impedindo que virem novos mosquitos.\n(g1.globo.com/PE/caruaru-regiao/noticia/2015/12. Adaptado)\n\nAlterando-se a primeira frase do texto, ela se mantém correta, de acordo com a norma-padrão da regência nominal, na alternativa:\nEm Itapetim, a fim de evitar o surgimento de novos mosquitos, agentes de combate de endemias recorrem",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q7.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q7.png",
       "alternativas": {
         "A": "em um exército natural - as piabas.",
         "B": "com um exército natural - as piabas.",
@@ -160,7 +160,7 @@
       "materia": "Matemática",
       "enunciado": "Os casos de bebês nascidos com suspeita de microcefalia, com má formação do crânio, que está relacionada ao surto do zika vírus no País, continuam apresentando uma forte tendência de aumento. (Metro, 9 de dezembro de 2015)\n\nDe acordo com o gráfico, o número de casos suspeitos registrados em 2015, até 5 de dezembro, foi maior, em relação a 2014, aproximadamente,",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q11.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q11.png",
       "alternativas": {
         "A": "11 vezes.",
         "B": "12 vezes.",
@@ -250,7 +250,7 @@
       "materia": "Matemática",
       "enunciado": "Um agente comunitário percorreu, em um dia, uma distância equivalente ao percurso de uma volta completa sobre os lados de um retângulo ABCD, representado na figura, onde estão indicadas suas medidas.\n\nDesse modo, nesse dia, a distância percorrida por esse agente foi de",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q17.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q17.png",
       "alternativas": {
         "A": "2600 metros.",
         "B": "2800 metros.",
@@ -370,7 +370,7 @@
       "materia": "Atualidades",
       "enunciado": "Observe a imagem para responder à questão.\n\nNo segundo semestre de 2015, a delação premiada foi muito utilizada",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q25.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q25.png",
       "alternativas": {
         "A": "no Supremo Tribunal Federal.",
         "B": "na Operação Lava Jato.",
@@ -385,7 +385,7 @@
       "materia": "Noções de Informática",
       "enunciado": "No Windows Explorer do MS-Windows 7, a partir da sua configuração padrão, a figura ilustra uma pasta chamada CONCURSO.\n\nAssinale a alternativa que descreve corretamente o conteúdo dessa pasta.",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q26.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q26.png",
       "alternativas": {
         "A": "3 subpastas chamadas: EXCEL, fotos e animações; • 2 atalhos, sendo um do Google Chrome, e outro do Internet Explorer; • 3 documentos do Word 2010.",
         "B": "2 subpastas chamadas: EXCEL e fotos; • 3 atalhos, sendo um do Google Chrome, um do Internet Explorer, e outro chamado animações; • 2 documentos do Word 2010 e uma planilha do Excel 2010.",
@@ -400,7 +400,7 @@
       "materia": "Noções de Informática",
       "enunciado": "Em uma planilha de controle de uma papelaria feita no MS-Excel 2010, em sua configuração padrão, conforme ilustra a figura, a coluna A contém o nome do produto, a coluna B contém o valor original do produto, a coluna C contém a porcentagem do desconto a ser concedido no produto, e a coluna D contém o valor final do produto com o desconto concedido.\n\nAssinale a alternativa que contém a fórmula correta a ser aplicada na célula D2 para calcular o valor final do produto com o desconto concedido.",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q27.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q27.png",
       "alternativas": {
         "A": "=B2-C2/100",
         "B": "=B2-(B2*C2)*100",
@@ -417,11 +417,11 @@
       "tem_imagem": false,
       "imagem_url": null,
       "alternativas": {
-        "A": { "texto": "selecione a aba \"Layout da Página\" e clique no ícone", "icone_url": "imagens/2016_vunesp_acs_sertaozinho_q28_a.png" },
-        "B": { "texto": "selecione a aba \"Layout da Página\" e clique no ícone de quebra", "icone_url": "imagens/2016_vunesp_acs_sertaozinho_q28_b.png" },
-        "C": { "texto": "selecione a aba \"Inserir\" e clique no ícone de folha", "icone_url": "imagens/2016_vunesp_acs_sertaozinho_q28_c.png" },
-        "D": { "texto": "selecione a aba \"Inserir\" e clique no ícone", "icone_url": "imagens/2016_vunesp_acs_sertaozinho_q28_d.png" },
-        "E": { "texto": "selecione a aba \"Inserir\" e clique no ícone de documento", "icone_url": "imagens/2016_vunesp_acs_sertaozinho_q28_e.png" }
+        "A": { "texto": "selecione a aba \"Layout da Página\" e clique no ícone", "icone_url": "2016_vunesp_acs_sertaozinho_q28_a.png" },
+        "B": { "texto": "selecione a aba \"Layout da Página\" e clique no ícone de quebra", "icone_url": "2016_vunesp_acs_sertaozinho_q28_b.png" },
+        "C": { "texto": "selecione a aba \"Inserir\" e clique no ícone de folha", "icone_url": "2016_vunesp_acs_sertaozinho_q28_c.png" },
+        "D": { "texto": "selecione a aba \"Inserir\" e clique no ícone", "icone_url": "2016_vunesp_acs_sertaozinho_q28_d.png" },
+        "E": { "texto": "selecione a aba \"Inserir\" e clique no ícone de documento", "icone_url": "2016_vunesp_acs_sertaozinho_q28_e.png" }
       },
       "resposta_correta": "D"
     },
@@ -430,7 +430,7 @@
       "materia": "Noções de Informática",
       "enunciado": "No MS-PowerPoint 2010, a partir da sua configuração padrão, na aba \"Exibição\", existem vários grupos que permitem modificar os modos de exibição.\n\nAssinale a alternativa que contém os nomes corretos do grupo 1 e do grupo 2, respectivamente.",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q29.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q29.png",
       "alternativas": {
         "A": "Grupo 1 - Modos de Exibição de Apresentação. Grupo 2 - Modos de Exibição Mestres.",
         "B": "Grupo 1 - Modos de Exibição de Folhetos e Anotações. Grupo 2 - Modos de Exibição Mestres.",
@@ -445,7 +445,7 @@
       "materia": "Noções de Informática",
       "enunciado": "Considere a preparação de um e-mail no Outlook 2010, a partir da sua configuração padrão, conforme é ilustrado na figura.\n\nAssinale a alternativa que contém a afirmativa correta.",
       "tem_imagem": true,
-      "imagem_url": "imagens/2016_vunesp_acs_sertaozinho_q30.png",
+      "imagem_url": "2016_vunesp_acs_sertaozinho_q30.png",
       "alternativas": {
         "A": "O e-mail não será enviado, pois está faltando o campo Cco no corpo do e-mail.",
         "B": "O e-mail será enviado sem nenhum problema.",
