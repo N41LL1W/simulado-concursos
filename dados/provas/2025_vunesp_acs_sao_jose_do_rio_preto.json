@@ -248,7 +248,7 @@
     {
       "numero": 17,
       "materia": "Matemática",
-      "enunciado": "## NÚMERO DE VEÍCULOS VENDIDOS NA SEMANA\n\n| VENDEDOR | QUANTIDADE |\n|----------|------------|\n| F        | 11         |\n| G        | 6          |\n| H        | 7          |\n| J        | 4          |\n| K        | 3          |\n| L        | ?          |\n\nSabendo que a média aritmética simples dos números de veículos vendidos pelos seis vendedores foi igual a média aritmética simples dos números de veículos vendidos pelos vendedores F, G, H e J, quantos veículos o vendedor L vendeu nessa semana?",
+      "enunciado": "Sabendo que a média aritmética simples dos números de veículos vendidos pelos seis vendedores foi igual a média aritmética simples dos números de veículos vendidos pelos vendedores F, G, H e J, quantos veículos o vendedor L vendeu nessa semana?",
       "tem_imagem": true,
       "imagem_url": "2025_vunesp_acs_sao_jose_do_rio_preto_q17.png",
       "alternativas": {
@@ -338,7 +338,7 @@
     {
       "numero": 23,
       "materia": "Noções de Informática",
-      "enunciado": "Considere a planilha a seguir, criada no Microsoft Excel 2016, em sua configuração padrão:\n\n|   | Α     | В         | С |\n|---|-------|-----------|---|\n| 1 | Valor | Acumulado |   |\n| 2 | 1     | 1         |   |\n| 3 | 2     | 3         |   |\n| 4 | 3     | 6         |   |\n| 5 | 4     | 10        |   |\n\nAs células de B2 até B5 contém, respectivamente:\nB2 contém =A2\nB3 contém =A3+B2\nB4 contém =A4+B3\nB5 contém =A5+B4\n\nSe o usuário selecionar o intervalo entre B2 e B5, pressionar CTRL+C, posicionar o cursor na célula C2, e pressionar CTRL+V, o conteúdo obtido entre o intervalo C2 e C5 será, respectivamente,",
+      "enunciado": "Considere a planilha a seguir, criada no Microsoft Excel 2016, em sua configuração padrão:\n\n As células de B2 até B5 contém, respectivamente:\nB2 contém =A2\nB3 contém =A3+B2\nB4 contém =A4+B3\nB5 contém =A5+B4\n\nSe o usuário selecionar o intervalo entre B2 e B5, pressionar CTRL+C, posicionar o cursor na célula C2, e pressionar CTRL+V, o conteúdo obtido entre o intervalo C2 e C5 será, respectivamente,",
       "tem_imagem": true,
       "imagem_url": "2025_vunesp_acs_sao_jose_do_rio_preto_q23.png",
       "alternativas": {
@@ -728,7 +728,7 @@
     {
       "numero": 49,
       "materia": "Noções de Administração",
-      "enunciado": "Observe a planilha a seguir:\n\n|   | A | B | C | D | E | F | G | H |\n|---|---|---|---|---|---|---|---|---|\n| 1 |   |   |   |   |   |   |   |   |\n| 2 |   |   |   |   |   |   |   |   |\n| 3 |   |   |   |   |   |   |   |   |\n| 4 |   |   |   |   |   |   |   |   |\n| 5 |   |   |   |   |   |   |   |   |\n| 6 |   |   |   |   |   |   |   |   |\n| 7 |   |   |   |   |   |   |   |   |\n\nA planilha traz a quantidade de visitas realizadas por Agentes Comunitários de Saúde durante uma semana no mês de agosto de 2025. Nessa planilha, que começou a ser preenchida, para saber o número total de pacientes atendidos no período da manhã ao longo dessa semana, pode-se utilizar a fórmula",
+      "enunciado": "Observe a planilha a seguir:\n\n A planilha traz a quantidade de visitas realizadas por Agentes Comunitários de Saúde durante uma semana no mês de agosto de 2025. Nessa planilha, que começou a ser preenchida, para saber o número total de pacientes atendidos no período da manhã ao longo dessa semana, pode-se utilizar a fórmula",
       "tem_imagem": true,
       "imagem_url": "2025_vunesp_acs_sao_jose_do_rio_preto_q49.png",
       "alternativas": {
