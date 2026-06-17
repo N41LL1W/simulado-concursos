@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado em Execução</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans min-h-screen flex flex-col items-center py-6 px-4">
+
+    <div class="max-w-4xl w-full bg-white rounded-lg shadow-md p-6">
+        <!-- Cabeçalho da Prova -->
+        <div class="border-b pb-4 mb-4 flex justify-between items-start gap-4">
+            <div>
+                <h1 id="prova-titulo" class="text-2xl font-bold text-gray-800">Carregando Simulado...</h1>
+                <p id="prova-subtitulo" class="text-sm text-gray-500"></p>
+            </div>
+            <a href="index.html" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border px-3 py-1.5 rounded transition font-medium shrink-0">
+                ⬅ Voltar ao Menu
+            </a>
+        </div>
+
+        <!-- Painel de Abas / Navegação Rápida de Questões -->
+        <div class="mb-6">
+            <p class="text-xs font-semibold text-gray-400 uppercase mb-2">Navegação Rápida (Abas):</p>
+            <div id="painel-abas" class="flex flex-wrap gap-1.5 bg-gray-50 p-2.5 rounded-lg border border-gray-200">
+                <!-- Abas geradas via JS -->
+            </div>
+        </div>
+
+        <!-- Área da Questão -->
+        <div id="area-questao" class="hidden">
+            <div class="flex justify-between items-center mb-4">
+                <span id="questao-materia" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded"></span>
+                <span id="questao-numero" class="text-sm font-medium text-gray-500"></span>
+            </div>
+
+            <!-- Imagem da Questão (se houver) -->
+            <div id="container-imagem" class="mb-4 hidden justify-center bg-gray-50 p-2 rounded border">
+                <img id="questao-imagem" src="" alt="Imagem da Questão" class="max-h-64 object-contain">
+            </div>
+
+            <!-- Enunciado -->
+            <p id="questao-enunciado" class="text-gray-700 text-base mb-6 whitespace-pre-line font-medium leading-relaxed border-l-4 border-blue-500 pl-3"></p>
+
+            <!-- Alternativas -->
+            <div id="alternativas" class="space-y-3">
+                <!-- Injetado por JS -->
+            </div>
+
+            <!-- Feedback e Controles de Navegação -->
+            <div class="mt-8 border-t pt-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div id="feedback" class="text-base font-bold hidden"></div>
+                
+                <div class="flex gap-2 w-full sm:w-auto justify-end">
+                    <button id="btn-anterior" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-5 rounded transition">
+                        Anterior
+                    </button>
+                    <button id="btn-proxima" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded transition">
+                        Próxima
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let provaData = null;
+        let questaoAtualIndex = 0;
+        let historicoRespostas = {};
+
+        const provaTitulo = document.getElementById('prova-titulo');
+        const provaSubtitulo = document.getElementById('prova-subtitulo');
+        const areaQuestao = document.getElementById('area-questao');
+        const questaoMateria = document.getElementById('questao-materia');
+        const questaoNumero = document.getElementById('questao-numero');
+        const containerImagem = document.getElementById('container-imagem');
+        const questaoImagem = document.getElementById('questao-imagem');
+        const questaoEnunciado = document.getElementById('questao-enunciado');
+        const alternativasContainer = document.getElementById('alternativas');
+        const feedback = document.getElementById('feedback');
+        const painelAbas = document.getElementById('painel-abas');
+        const btnAnterior = document.getElementById('btn-anterior');
+        const btnProxima = document.getElementById('btn-proxima');
+
+        // Captura o parâmetro '?prova=' definido na URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const arquivoJson = urlParams.get('prova');
+
+        if (!arquivoJson) {
+            provaTitulo.innerText = "Nenhum simulado selecionado.";
+            provaSubtitulo.innerText = "Por favor, volte ao menu principal e escolha uma opção.";
+        } else {
+            // Executa a requisição baseada na escolha vinda da tela inicial
+            fetch(`dados/provas/${arquivoJson}`)
+                .then(response => {
+                    if (!response.ok) throw new Error("Arquivo não encontrado");
+                    return response.json();
+                })
+                .then(data => {
+                    provaData = data;
+                    inicializarSimulado();
+                })
+                .catch(error => {
+                    provaTitulo.innerText = "Erro ao carregar a prova.";
+                    provaSubtitulo.innerText = "Certifique-se de que o arquivo JSON existe na pasta correta.";
+                    console.error(error);
+                });
+        }
+
+        function inicializarSimulado() {
+            document.title = `Simulado: ${provaData.cargo} - ${provaData.localidade}`;
+            provaTitulo.innerText = `${provaData.banca} (${provaData.ano}) - ${provaData.cargo}`;
+            provaSubtitulo.innerText = `${provaData.localidade} | ${provaData.questoes.length} Questões`;
+            areaQuestao.classList.remove('hidden');
+            
+            gerarPainelAbas();
+            mostrarQuestao();
+        }
+
+        function gerarPainelAbas() {
+            painelAbas.innerHTML = '';
+            provaData.questoes.forEach((q, index) => {
+                const btnAba = document.createElement('button');
+                btnAba.id = `aba-q-${index}`;
+                btnAba.innerText = q.numero < 10 ? `0${q.numero}` : q.numero;
+                btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border border-gray-300 bg-white text-gray-700 hover:bg-gray-100";
+                
+                btnAba.addEventListener('click', () => {
+                    questaoAtualIndex = index;
+                    mostrarQuestao();
+                });
+                painelAbas.appendChild(btnAba);
+            });
+        }
+
+        function atualizarEstiloAbas() {
+            provaData.questoes.forEach((q, index) => {
+                const btnAba = document.getElementById(`aba-q-${index}`);
+                if (!btnAba) return;
+
+                const respondida = historicoRespostas[q.numero];
+
+                if (index === questaoAtualIndex) {
+                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-blue-600 text-white border-blue-700 ring-2 ring-blue-300";
+                } else if (respondida) {
+                    if (respondida.correta) {
+                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-green-100 text-green-800 border-green-300";
+                    } else {
+                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-red-100 text-red-800 border-red-300";
+                    }
+                } else {
+                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-white text-gray-700 border-gray-300 hover:bg-gray-100";
+                }
+            });
+        }
+
+        function mostrarQuestao() {
+            feedback.classList.add('hidden');
+            alternativasContainer.innerHTML = '';
+            atualizarEstiloAbas();
+
+            const q = provaData.questoes[questaoAtualIndex];
+
+            questaoMateria.innerText = q.materia;
+            questaoNumero.innerText = `Questão ${q.numero} de ${provaData.questoes.length}`;
+            questaoEnunciado.innerText = q.enunciado;
+
+            // Tratamento Unificado e Inteligente de Imagens
+            if (q.tem_imagem && q.imagem_url) {
+                // Se a URL do JSON já for um caminho relativo/completo ou web, usa direto.
+                // Caso contrário (apenas o nome do arquivo), adiciona o prefixo /imagens/
+                if (q.imagem_url.startsWith('http') || q.imagem_url.startsWith('dados/') || q.imagem_url.startsWith('/')) {
+                    questaoImagem.src = q.imagem_url;
+                } else {
+                    questaoImagem.src = `/imagens/${q.imagem_url}`;
+                }
+                containerImagem.classList.remove('hidden');
+                containerImagem.classList.add('flex');
+            } else {
+                containerImagem.classList.add('hidden');
+                containerImagem.classList.remove('flex');
+            }
+
+            const statusAnterior = historicoRespostas[q.numero];
+
+            Object.keys(q.alternativas).forEach(letra => {
+                const opcao = q.alternativas[letra];
+                let textoOpcao = "";
+                let iconeHtml = "";
+
+                if (typeof opcao === 'object' && opcao !== null) {
+                    textoOpcao = opcao.texto;
+                    if (opcao.icone_url) {
+                        iconeHtml = `<img src="${opcao.icone_url}" class="h-6 w-auto inline-block align-middle ml-2 bg-white border p-0.5 rounded shadow-sm" alt="ícone">`;
+                    }
+                } else {
+                    textoOpcao = opcao;
+                }
+                
+                const botao = document.createElement('button');
+                botao.className = "w-full text-left p-3.5 border rounded-lg bg-gray-50 hover:bg-gray-100 transition flex items-start gap-3 border-gray-200 text-sm";
+                
+                botao.innerHTML = `
+                    <span class="font-bold bg-gray-200 text-gray-700 rounded-full w-5 h-5 text-xs flex items-center justify-center shrink-0 mt-0.5">${letra}</span>
+                    <div class="text-gray-700 leading-relaxed">
+                        <span>${textoOpcao}</span>
+                        ${iconeHtml}
+                    </div>
+                `;
+
+                if (statusAnterior) {
+                    botao.disabled = true;
+                    if (letra === q.resposta_correta) {
+                        botao.classList.replace('bg-gray-50', 'bg-green-50');
+                        botao.classList.replace('border-gray-200', 'border-green-300');
+                    }
+                    if (letra === statusAnterior.alternativaSelecionada && letra !== q.resposta_correta) {
+                        botao.classList.replace('bg-gray-50', 'bg-red-50');
+                        botao.classList.replace('border-gray-200', 'border-red-300');
+                    }
+                } else {
+                    botao.addEventListener('click', () => verificarResposta(letra, botao, q.resposta_correta, q.numero));
+                }
+
+                alternativasContainer.appendChild(botao);
+            });
+
+            if (statusAnterior) {
+                feedback.classList.remove('hidden');
+                if (statusAnterior.correta) {
+                    feedback.innerText = "🎉 Resposta Correta (Respondida)";
+                    feedback.className = "text-base font-bold text-green-600";
+                } else {
+                    feedback.innerText = `❌ Respondida Errada (Correta: ${q.resposta_correta})`;
+                    feedback.className = "text-base font-bold text-red-600";
+                }
+            }
+
+            btnAnterior.disabled = questaoAtualIndex === 0;
+            btnProxima.innerText = questaoAtualIndex === provaData.questoes.length - 1 ? "Finalizar" : "Próxima";
+        }
+
+        function verificarResposta(letraSelecionada, botaoClicado, respostaCorreta, numQuestao) {
+            const botoes = alternativasContainer.querySelectorAll('button');
+            botoes.forEach(b => b.disabled = true);
+
+            const ehCorreta = letraSelecionada === respostaCorreta;
+
+            historicoRespostas[numQuestao] = {
+                alternativaSelecionada: letraSelecionada,
+                correta: ehCorreta
+            };
+
+            if (ehCorreta) {
+                botaoClicado.classList.replace('bg-gray-50', 'bg-green-100');
+                botaoClicado.classList.replace('border-gray-200', 'border-green-400');
+                feedback.innerText = "🎉 Resposta Correta!";
+                feedback.className = "text-base font-bold text-green-600";
+            } else {
+                botaoClicado.classList.replace('bg-gray-50', 'bg-red-100');
+                botaoClicado.classList.replace('border-gray-200', 'border-red-400');
+                
+                botoes.forEach(b => {
+                    const letraBotao = b.querySelector('span').innerText;
+                    if (letraBotao === respostaCorreta) {
+                        b.classList.replace('bg-gray-50', 'bg-green-50');
+                        b.classList.replace('border-gray-200', 'border-green-300');
+                    }
+                });
+
+                feedback.innerText = `❌ Errado. Resposta correta: (${respostaCorreta})`;
+                feedback.className = "text-base font-bold text-red-600";
+            }
+
+            feedback.classList.remove('hidden');
+            atualizarEstiloAbas();
+        }
+
+        btnAnterior.addEventListener('click', () => {
+            if (questaoAtualIndex > 0) {
+                questaoAtualIndex--;
+                mostrarQuestao();
+            }
+        });
+
+        btnProxima.addEventListener('click', () => {
+            if (questaoAtualIndex < provaData.questoes.length - 1) {
+                questaoAtualIndex++;
+                mostrarQuestao();
+            } else {
+                let acertos = Object.values(historicoRespostas).filter(r => r.correta).length;
+                areaQuestao.innerHTML = `
+                    <div class="text-center py-10">
+                        <h2 class="text-3xl font-bold text-gray-800 mb-2">Simulado Concluído!</h2>
+                        <p class="text-gray-600 text-lg mb-6">Você respondeu ${Object.keys(historicoRespostas).length} de ${provaData.questoes.length} questões.</p>
+                        <div class="inline-block bg-blue-50 text-blue-700 text-2xl font-black px-6 py-4 rounded-xl border border-blue-200 mb-8">
+                            Resultado: ${acertos} Acertos
+                        </div>
+                        <br>
+                        <div class="flex justify-center gap-4">
+                            <button onclick="window.location.reload()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow transition">
+                                Refazer Simulado
+                            </button>
+                            <a href="index.html" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 px-6 rounded-lg shadow transition block flex items-center justify-center">
+                                Escolher Outra Prova
+                            </a>
+                        </div>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
