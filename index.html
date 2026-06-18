@@ -6,88 +6,163 @@
     <title>Painel de Simulados - ACS</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans min-h-screen flex flex-col items-center justify-center py-10 px-4">
+<body class="bg-slate-50 font-sans min-h-screen flex flex-col items-center justify-center py-12 px-4">
 
-    <div class="max-w-2xl w-full bg-white rounded-xl shadow-lg p-8">
-        <div class="text-center mb-8 border-b pb-6">
-            <h1 class="text-3xl font-extrabold text-gray-800 tracking-tight">Sistema de Simulados Avançado</h1>
-            <p class="text-gray-500 mt-2">Selecione uma das opções abaixo para iniciar o seu simulado</p>
+    <div class="max-w-3xl w-full bg-white rounded-2xl shadow-xl border border-slate-100 p-6 sm:p-10 transition-all">
+        
+        <div class="text-center mb-8 border-b border-slate-100 pb-6">
+            <div class="inline-flex items-center justify-center w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl mb-4 shadow-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-7 h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.03 0 1.9.693 2.166 1.638m-7.377 0A48.536 48.536 0 0 1 12 3m0 0c2.917 0 5.747.294 8.5.862m-21 10.398c0-.552.448-1 1-1h6.25a1 1 0 0 1 1 1v3.83a1 1 0 0 1-1 1H2.5a1 1 0 0 1-1-1v-3.83Z" />
+                </svg>
+            </div>
+            <h1 class="text-3xl font-black text-slate-800 tracking-tight">Sistema de Simulados Avançado</h1>
+            <p class="text-slate-500 mt-2 text-base">Selecione uma das opções abaixo para iniciar a sua preparação para ACS</p>
         </div>
 
-        <!-- Lista de Provas -->
-        <div class="space-y-4">
-            
-            <!-- Card Prova 1 -->
-            <a href="prova.html?prova=2016_vunesp_acs_sertaozinho.json" 
-               class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-gray-200 rounded-xl hover:border-blue-500 hover:bg-blue-50/50 transition duration-200 group">
-                <div>
-                    <span class="bg-blue-100 text-blue-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">VUNESP (2016)</span>
-                    <h3 class="text-lg font-bold text-gray-800 mt-1.5 group-hover:text-blue-700">ACS — Sertãozinho</h3>
-                    <p class="text-sm text-gray-500">Simulado completo para Agente Comunitário de Saúde</p>
-                </div>
-                <span class="mt-4 sm:mt-0 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow group-hover:bg-blue-700 transition">
-                    Iniciar Prova
-                </span>
-            </a>
-
-            <!-- Card Prova 2 -->
-            <a href="prova.html?prova=2025_vunesp_acs_sao_jose_do_rio_preto.json" 
-               class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-gray-200 rounded-xl hover:border-blue-500 hover:bg-blue-50/50 transition duration-200 group">
-                <div>
-                    <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">VUNESP (2025)</span>
-                    <h3 class="text-lg font-bold text-gray-800 mt-1.5 group-hover:text-blue-700">ACS — São José do Rio Preto</h3>
-                    <p class="text-sm text-gray-500">Simulado atualizado com questões recentes da banca</p>
-                </div>
-                <span class="mt-4 sm:mt-0 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow group-hover:bg-blue-700 transition">
-                    Iniciar Prova
-                </span>
-            </a>
-
-            <!-- Card Prova 3 -->
-            <a href="prova.html?prova=2025_vunesp_acs_vista_alegre_do_alto.json" 
-               class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-gray-200 rounded-xl hover:border-blue-500 hover:bg-blue-50/50 transition duration-200 group">
-                <div>
-                    <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">VUNESP (2025)</span>
-                    <h3 class="text-lg font-bold text-gray-800 mt-1.5 group-hover:text-blue-700">ACS — Vista Alegre do Alto</h3>
-                    <p class="text-sm text-gray-500">Prepare-se com foco no edital do concurso municipal</p>
-                </div>
-                <span class="mt-4 sm:mt-0 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow group-hover:bg-blue-700 transition">
-                    Iniciar Prova
-                </span>
-            </a>
-
-            <!-- Card Prova 4 -->
-            <a href="prova.html?prova=2024_vunesp_acs_itapevi_.json" 
-               class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-gray-200 rounded-xl hover:border-blue-500 hover:bg-blue-50/50 transition duration-200 group">
-                <div>
-                    <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">VUNESP (2024)</span>
-                    <h3 class="text-lg font-bold text-gray-800 mt-1.5 group-hover:text-blue-700">ACS — Itapevi</h3>
-                    <p class="text-sm text-gray-500">Simulado completo para Agente Comunitário de Saúde</p>
-                </div>
-                <span class="mt-4 sm:mt-0 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow group-hover:bg-blue-700 transition">
-                    Iniciar Prova
-                </span>
-            </a>
-
-            <!-- Card Prova 5 -->
-            <a href="prova.html?prova=2023_vunesp_acs_pindamonhangaba.json" 
-               class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-gray-200 rounded-xl hover:border-blue-500 hover:bg-blue-50/50 transition duration-200 group">
-                <div>
-                    <span class="bg-purple-100 text-purple-800 text-xs font-bold px-2.5 py-1 rounded-md uppercase">VUNESP (2023)</span>
-                    <h3 class="text-lg font-bold text-gray-800 mt-1.5 group-hover:text-blue-700">ACS — Pindamonhangaba</h3>
-                    <p class="text-sm text-gray-500">Simulado completo para Agente Comunitário de Saúde</p>
-                </div>
-                <span class="mt-4 sm:mt-0 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg text-sm shadow group-hover:bg-blue-700 transition">
-                    Iniciar Prova
-                </span>
-            </a>
-
+        <div class="mb-6 relative">
+            <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.604 10.604Z" />
+                </svg>
+            </div>
+            <input type="text" id="campo-busca" placeholder="Buscar simulado por cidade ou ano..." 
+                   class="w-full pl-11 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 text-slate-700 placeholder-slate-400 font-medium transition">
         </div>
 
-        <footer class="text-center mt-10 text-xs text-gray-400">
-            Ambiente integrado para testes na Vercel
+        <div class="flex items-center justify-between text-xs font-semibold text-slate-400 uppercase tracking-wider mb-4 px-1">
+            <span id="contador-provas">Carregando provas...</span>
+            <span>Banca: VUNESP</span>
+        </div>
+
+        <div id="lista-provas" class="space-y-4">
+            </div>
+
+        <footer class="text-center mt-12 pt-6 border-t border-slate-100 text-xs text-slate-400 font-medium">
+            Ambiente integrado para testes na Vercel • Dashboard v2.0
         </footer>
     </div>
 
+    <script>
+        // Centralização dos dados das provas para facilitar futuras manutenções
+        const provasData = [
+            {
+                arquivo: "2025_vunesp_acs_sao_jose_do_rio_preto.json",
+                banca: "VUNESP",
+                ano: "2025",
+                cidade: "São José do Rio Preto",
+                questoes: 50,
+                desc: "Simulado atualizado com base na prova oficial recente da banca.",
+                destaque: true
+            },
+            {
+                arquivo: "2025_vunesp_acs_vista_alegre_do_alto.json",
+                banca: "VUNESP",
+                ano: "2025",
+                cidade: "Vista Alegre do Alto",
+                questoes: 40,
+                desc: "Prepare-se com foco no edital recente do concurso municipal.",
+                destaque: true
+            },
+            {
+                arquivo: "2024_vunesp_acs_itapevi_.json",
+                banca: "VUNESP",
+                ano: "2024",
+                cidade: "Itapevi",
+                questoes: 40,
+                desc: "Excelente material de revisão com tópicos consolidados de ACS.",
+                destaque: false
+            },
+            {
+                arquivo: "2023_vunesp_acs_pindamonhangaba.json",
+                banca: "VUNESP",
+                ano: "2023",
+                cidade: "Pindamonhangaba",
+                questoes: 40,
+                desc: "Simulado focado nas atribuições e rotinas do Agente de Saúde.",
+                destaque: false
+            },
+            {
+                arquivo: "2016_vunesp_acs_sertaozinho.json",
+                banca: "VUNESP",
+                ano: "2016",
+                cidade: "Sertãozinho",
+                questoes: 40,
+                desc: "Histórico de questões para entender a evolução da banca.",
+                destaque: false
+            }
+        ];
+
+        const containerLista = document.getElementById('lista-provas');
+        const campoBusca = document.getElementById('campo-busca');
+        const contadorProvas = document.getElementById('contador-provas');
+
+        // Função responsável por renderizar os cards em tela
+        function renderizarProvas(lista) {
+            containerLista.innerHTML = '';
+            
+            if (lista.length === 0) {
+                containerLista.innerHTML = `
+                    <div class="text-center py-12 text-slate-400 font-medium">
+                        Nenhum simulado encontrado para o termo buscado.
+                    </div>
+                `;
+                contadorProvas.textContent = "0 simulados encontrados";
+                return;
+            }
+
+            contadorProvas.textContent = `${lista.length} ${lista.length === 1 ? 'simulado disponível' : 'simulados disponíveis'}`;
+
+            lista.forEach(prova => {
+                // Define cores de badge baseadas no ano
+                const badgeClass = prova.ano === '2025' 
+                    ? 'bg-emerald-50 text-emerald-700 border border-emerald-200/60' 
+                    : prova.ano === '2024'
+                    ? 'bg-purple-50 text-purple-700 border border-purple-200/60'
+                    : 'bg-slate-100 text-slate-700 border border-slate-200/60';
+
+                const cardHTML = `
+                    <a href="prova.html?prova=${prova.arquivo}" 
+                       class="flex flex-col sm:flex-row justify-between items-start sm:items-center p-5 border border-slate-200/70 rounded-2xl hover:border-blue-500 hover:bg-blue-50/20 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 group">
+                        <div class="space-y-1.5 max-w-xl">
+                            <div class="flex flex-wrap items-center gap-2">
+                                <span class="${badgeClass} text-xs font-bold px-2.5 py-0.5 rounded-lg uppercase tracking-wide">
+                                    ${prova.banca} (${prova.ano})
+                                </span>
+                                <span class="bg-blue-50 text-blue-700 border border-blue-100 text-xs font-semibold px-2.5 py-0.5 rounded-lg">
+                                    ${prova.questoes} Questões
+                                </span>
+                            </div>
+                            <h3 class="text-lg font-extrabold text-slate-800 group-hover:text-blue-700 transition-colors">
+                                ACS — ${prova.cidade}
+                            </h3>
+                            <p class="text-sm text-slate-500 leading-relaxed">${prova.desc}</p>
+                        </div>
+                        <span class="mt-4 sm:mt-0 w-full sm:w-auto inline-flex items-center justify-center gap-1 bg-blue-600 text-white font-bold py-2.5 px-4 rounded-xl text-sm shadow-sm group-hover:bg-blue-700 active:scale-[0.98] transition-all">
+                            Iniciar
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4 group-hover:translate-x-0.5 transition-transform">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                            </svg>
+                        </span>
+                    </a>
+                `;
+                containerLista.insertAdjacentHTML('beforeend', cardHTML);
+            });
+        }
+
+        // Evento de escuta para filtrar as provas em tempo real
+        campoBusca.addEventListener('input', (e) => {
+            const termo = e.target.value.toLowerCase().trim();
+            const provasFiltradas = provasData.filter(prova => 
+                prova.cidade.toLowerCase().includes(termo) || 
+                prova.ano.includes(termo) ||
+                prova.desc.toLowerCase().includes(termo)
+            );
+            renderizarProvas(provasFiltradas);
+        });
+
+        // Inicializa a página trazendo todas as provas cadastradas
+        renderizarProvas(provasData);
+    </script>
 </body>
 </html>
