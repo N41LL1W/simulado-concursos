@@ -6,57 +6,67 @@
     <title>Simulado em Execução</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 font-sans min-h-screen flex flex-col items-center py-6 px-4">
+<body class="bg-slate-50 font-sans min-h-screen flex flex-col items-center py-8 px-4 text-slate-800">
 
-    <div class="max-w-4xl w-full bg-white rounded-lg shadow-md p-6">
-        <!-- Cabeçalho da Prova -->
-        <div class="border-b pb-4 mb-4 flex justify-between items-start gap-4">
+    <div class="max-w-4xl w-full bg-white rounded-2xl shadow-xl border border-slate-100 p-6 sm:p-8 transition-all">
+        
+        <div class="border-b border-slate-100 pb-5 mb-5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
             <div>
-                <h1 id="prova-titulo" class="text-2xl font-bold text-gray-800">Carregando Simulado...</h1>
-                <p id="prova-subtitulo" class="text-sm text-gray-500"></p>
+                <h1 id="prova-titulo" class="text-2xl font-black text-slate-800 tracking-tight">Carregando Simulado...</h1>
+                <p id="prova-subtitulo" class="text-sm text-slate-500 mt-1"></p>
             </div>
-            <a href="index.html" class="text-xs bg-gray-100 hover:bg-gray-200 text-gray-600 border px-3 py-1.5 rounded transition font-medium shrink-0">
-                ⬅ Voltar ao Menu
-            </a>
+            <div class="flex flex-wrap gap-2 w-full sm:w-auto">
+                <button id="btn-reiniciar-topo" onclick="reiniciarSimulado()" class="hidden text-xs bg-amber-50 hover:bg-amber-100 text-amber-700 border border-amber-200 px-3 py-2 rounded-xl transition font-bold items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-3.5 h-3.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+                    </svg>
+                    Zerar Simulado
+                </button>
+                <a href="index.html" class="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 border border-slate-200 px-3 py-2 rounded-xl transition font-bold flex items-center gap-1">
+                    ⬅ Voltar ao Menu
+                </a>
+            </div>
         </div>
 
-        <!-- Painel de Abas / Navegação Rápida de Questões -->
+        <div id="container-progresso" class="mb-5 hidden">
+            <div class="flex justify-between text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                <span id="texto-progresso">Progresso: 0/0 Respondidas</span>
+                <span id="porcentagem-progresso">0%</span>
+            </div>
+            <div class="w-full bg-slate-100 rounded-full h-2.5 overflow-hidden">
+                <div id="barra-progresso" class="bg-blue-600 h-2.5 rounded-full transition-all duration-300" style="width: 0%"></div>
+            </div>
+        </div>
+
         <div class="mb-6">
-            <p class="text-xs font-semibold text-gray-400 uppercase mb-2">Navegação Rápida (Abas):</p>
-            <div id="painel-abas" class="flex flex-wrap gap-1.5 bg-gray-50 p-2.5 rounded-lg border border-gray-200">
-                <!-- Abas geradas via JS -->
-            </div>
+            <p class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2.5">Navegação Rápida de Questões:</p>
+            <div id="painel-abas" class="flex flex-wrap gap-2 bg-slate-50 p-3 rounded-xl border border-slate-200/60">
+                </div>
         </div>
 
-        <!-- Área da Questão -->
-        <div id="area-questao" class="hidden">
+        <div id="area-questao" class="hidden bg-slate-50/40 border border-slate-100 p-5 rounded-2xl">
             <div class="flex justify-between items-center mb-4">
-                <span id="questao-materia" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded"></span>
-                <span id="questao-numero" class="text-sm font-medium text-gray-500"></span>
+                <span id="questao-materia" class="bg-blue-50 text-blue-700 border border-blue-100 text-xs font-bold px-2.5 py-1 rounded-lg uppercase tracking-wide"></span>
+                <span id="questao-numero" class="text-sm font-semibold text-slate-400"></span>
             </div>
 
-            <!-- Imagem da Questão (se houver) -->
-            <div id="container-imagem" class="mb-4 hidden justify-center bg-gray-50 p-2 rounded border">
-                <img id="questao-imagem" src="" alt="Imagem da Questão" class="max-h-64 object-contain">
+            <div id="container-imagem" class="mb-5 hidden justify-center bg-white p-3 rounded-xl border border-slate-200 max-w-lg mx-auto shadow-sm">
+                <img id="questao-imagem" src="" alt="Imagem da Questão" class="max-h-64 object-contain rounded-lg">
             </div>
 
-            <!-- Enunciado -->
-            <p id="questao-enunciado" class="text-gray-700 text-base mb-6 whitespace-pre-line font-medium leading-relaxed border-l-4 border-blue-500 pl-3"></p>
+            <p id="questao-enunciado" class="text-slate-700 text-base mb-6 whitespace-pre-line font-medium leading-relaxed border-l-4 border-blue-500 pl-4"></p>
 
-            <!-- Alternativas -->
             <div id="alternativas" class="space-y-3">
-                <!-- Injetado por JS -->
-            </div>
+                </div>
 
-            <!-- Feedback e Controles de Navegação -->
-            <div class="mt-8 border-t pt-4 flex flex-col sm:flex-row justify-between items-center gap-4">
-                <div id="feedback" class="text-base font-bold hidden"></div>
+            <div class="mt-8 border-t border-slate-200/60 pt-5 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <div id="feedback" class="text-base font-extrabold hidden rounded-xl px-4 py-2"></div>
                 
-                <div class="flex gap-2 w-full sm:w-auto justify-end">
-                    <button id="btn-anterior" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-2 px-5 rounded transition">
+                <div class="flex gap-2 w-full sm:w-auto justify-end ml-auto">
+                    <button id="btn-anterior" class="w-full sm:w-auto bg-slate-200 hover:bg-slate-300 active:scale-95 disabled:opacity-40 disabled:pointer-events-none text-slate-700 font-bold py-2.5 px-5 rounded-xl transition text-sm shadow-sm">
                         Anterior
                     </button>
-                    <button id="btn-proxima" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded transition">
+                    <button id="btn-proxima" class="w-full sm:w-auto bg-blue-600 hover:bg-blue-700 active:scale-95 text-white font-bold py-2.5 px-5 rounded-xl transition text-sm shadow-sm">
                         Próxima
                     </button>
                 </div>
@@ -68,6 +78,10 @@
         let provaData = null;
         let questaoAtualIndex = 0;
         let historicoRespostas = {};
+
+        // Chaves para o LocalStorage dinâmico por prova
+        let STORAGE_KEY_RESPOSTAS = "";
+        let STORAGE_KEY_INDEX = "";
 
         const provaTitulo = document.getElementById('prova-titulo');
         const provaSubtitulo = document.getElementById('prova-subtitulo');
@@ -82,8 +96,9 @@
         const painelAbas = document.getElementById('painel-abas');
         const btnAnterior = document.getElementById('btn-anterior');
         const btnProxima = document.getElementById('btn-proxima');
+        const btnReiniciarTopo = document.getElementById('btn-reiniciar-topo');
+        const containerProgresso = document.getElementById('container-progresso');
 
-        // Captura o parâmetro '?prova=' definido na URL
         const urlParams = new URLSearchParams(window.location.search);
         const arquivoJson = urlParams.get('prova');
 
@@ -91,7 +106,10 @@
             provaTitulo.innerText = "Nenhum simulado selecionado.";
             provaSubtitulo.innerText = "Por favor, volte ao menu principal e escolha uma opção.";
         } else {
-            // Executa a requisição baseada na escolha vinda da tela inicial
+            // Define chaves exclusivas para guardar o progresso desse JSON específico
+            STORAGE_KEY_RESPOSTAS = `simulado_respostas_${arquivoJson}`;
+            STORAGE_KEY_INDEX = `simulado_index_${arquivoJson}`;
+
             fetch(`dados/provas/${arquivoJson}`)
                 .then(response => {
                     if (!response.ok) throw new Error("Arquivo não encontrado");
@@ -99,6 +117,17 @@
                 })
                 .then(data => {
                     provaData = data;
+                    
+                    // CARREGA DA SESSÃO SE EXISTIR PROGRESOS SALVO
+                    const salvas = localStorage.getItem(STORAGE_KEY_RESPOSTAS);
+                    if (salvas) {
+                        historicoRespostas = JSON.parse(salvas);
+                    }
+                    const salvoIndex = localStorage.getItem(STORAGE_KEY_INDEX);
+                    if (salvoIndex) {
+                        questaoAtualIndex = parseInt(salvoIndex, 10);
+                    }
+
                     inicializarSimulado();
                 })
                 .catch(error => {
@@ -112,9 +141,14 @@
             document.title = `Simulado: ${provaData.cargo} - ${provaData.localidade}`;
             provaTitulo.innerText = `${provaData.banca} (${provaData.ano}) - ${provaData.cargo}`;
             provaSubtitulo.innerText = `${provaData.localidade} | ${provaData.questoes.length} Questões`;
+            
             areaQuestao.classList.remove('hidden');
+            containerProgresso.classList.remove('hidden');
+            btnReiniciarTopo.classList.remove('hidden');
+            btnReiniciarTopo.classList.add('inline-flex');
             
             gerarPainelAbas();
+            atualizarProgresso();
             mostrarQuestao();
         }
 
@@ -124,7 +158,7 @@
                 const btnAba = document.createElement('button');
                 btnAba.id = `aba-q-${index}`;
                 btnAba.innerText = q.numero < 10 ? `0${q.numero}` : q.numero;
-                btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border border-gray-300 bg-white text-gray-700 hover:bg-gray-100";
+                btnAba.className = "w-10 h-10 text-xs font-bold rounded-xl flex items-center justify-center transition-all duration-200 border bg-white border-slate-200 text-slate-700 hover:bg-slate-100 shadow-sm";
                 
                 btnAba.addEventListener('click', () => {
                     questaoAtualIndex = index;
@@ -142,23 +176,36 @@
                 const respondida = historicoRespostas[q.numero];
 
                 if (index === questaoAtualIndex) {
-                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-blue-600 text-white border-blue-700 ring-2 ring-blue-300";
+                    btnAba.className = "w-10 h-10 text-xs font-bold rounded-xl flex items-center justify-center transition-all duration-200 border bg-blue-600 text-white border-blue-700 ring-4 ring-blue-500/20 shadow-md scale-105";
                 } else if (respondida) {
                     if (respondida.correta) {
-                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-green-100 text-green-800 border-green-300";
+                        btnAba.className = "w-10 h-10 text-xs font-bold rounded-xl flex items-center justify-center transition-all duration-200 border bg-emerald-50 text-emerald-700 border-emerald-200 shadow-sm";
                     } else {
-                        btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-red-100 text-red-800 border-red-300";
+                        btnAba.className = "w-10 h-10 text-xs font-bold rounded-xl flex items-center justify-center transition-all duration-200 border bg-rose-50 text-rose-700 border-rose-200 shadow-sm";
                     }
                 } else {
-                    btnAba.className = "w-9 h-9 text-xs font-bold rounded flex items-center justify-center transition border bg-white text-gray-700 border-gray-300 hover:bg-gray-100";
+                    btnAba.className = "w-10 h-10 text-xs font-bold rounded-xl flex items-center justify-center transition-all duration-200 border bg-white border-slate-200 text-slate-600 hover:bg-slate-100 hover:border-slate-300 shadow-sm";
                 }
             });
         }
 
+        function atualizarProgresso() {
+            const totalQuestoes = provaData.questoes.length;
+            const respondidas = Object.keys(historicoRespostas).length;
+            const porcentagem = Math.round((respondidas / totalQuestoes) * 100);
+
+            document.getElementById('texto-progresso').innerText = `Progresso: ${respondidas}/${totalQuestoes} Respondidas`;
+            document.getElementById('porcentagem-progresso').innerText = `${porcentagem}%`;
+            document.getElementById('barra-progresso').style.width = `${porcentagem}%`;
+        }
+
         function mostrarQuestao() {
-            feedback.classList.add('hidden');
+            feedback.className = "text-base font-extrabold hidden rounded-xl px-4 py-2";
             alternativasContainer.innerHTML = '';
             atualizarEstiloAbas();
+
+            // Salva a questão atual para o usuário voltar nela caso saia da página
+            localStorage.setItem(STORAGE_KEY_INDEX, questaoAtualIndex);
 
             const q = provaData.questoes[questaoAtualIndex];
 
@@ -166,44 +213,32 @@
             questaoNumero.innerText = `Questão ${q.numero} de ${provaData.questoes.length}`;
             questaoEnunciado.innerText = q.enunciado;
 
-            // Tratamento Unificado e Inteligente de Imagens
             if (q.tem_imagem && q.imagem_url) {
-                // Se a URL do JSON já for um caminho relativo/completo ou web, usa direto.
-                // Caso contrário (apenas o nome do arquivo), adiciona o prefixo /imagens/
                 if (q.imagem_url.startsWith('http') || q.imagem_url.startsWith('dados/') || q.imagem_url.startsWith('/')) {
                     questaoImagem.src = q.imagem_url;
                 } else {
                     questaoImagem.src = `/imagens/${q.imagem_url}`;
                 }
-                containerImagem.classList.remove('hidden');
-                containerImagem.classList.add('flex');
+                containerImagem.classList.replace('hidden', 'flex');
             } else {
-                containerImagem.classList.add('hidden');
-                containerImagem.classList.remove('flex');
+                containerImagem.classList.replace('flex', 'hidden');
             }
 
             const statusAnterior = historicoRespostas[q.numero];
 
             Object.keys(q.alternativas).forEach(letra => {
                 const opcao = q.alternativas[letra];
-                let textoOpcao = "";
-                let iconeHtml = "";
-
-                if (typeof opcao === 'object' && opcao !== null) {
-                    textoOpcao = opcao.texto;
-                    if (opcao.icone_url) {
-                        iconeHtml = `<img src="${opcao.icone_url}" class="h-6 w-auto inline-block align-middle ml-2 bg-white border p-0.5 rounded shadow-sm" alt="ícone">`;
-                    }
-                } else {
-                    textoOpcao = opcao;
-                }
+                let textoOpcao = typeof opcao === 'object' && opcao !== null ? opcao.texto : opcao;
+                let iconeHtml = typeof opcao === 'object' && opcao !== null && opcao.icone_url 
+                    ? `<img src="${opcao.icone_url}" class="h-6 w-auto inline-block align-middle ml-2 bg-white border p-0.5 rounded shadow-sm">` 
+                    : "";
                 
                 const botao = document.createElement('button');
-                botao.className = "w-full text-left p-3.5 border rounded-lg bg-gray-50 hover:bg-gray-100 transition flex items-start gap-3 border-gray-200 text-sm";
+                botao.className = "w-full text-left p-4 border rounded-xl bg-white hover:bg-slate-50 border-slate-200 hover:border-slate-300 transition flex items-start gap-3 text-sm shadow-sm font-medium text-slate-700 group";
                 
                 botao.innerHTML = `
-                    <span class="font-bold bg-gray-200 text-gray-700 rounded-full w-5 h-5 text-xs flex items-center justify-center shrink-0 mt-0.5">${letra}</span>
-                    <div class="text-gray-700 leading-relaxed">
+                    <span class="font-bold bg-slate-100 text-slate-600 rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0 group-hover:bg-slate-200 transition">${letra}</span>
+                    <div class="leading-relaxed flex-1">
                         <span>${textoOpcao}</span>
                         ${iconeHtml}
                     </div>
@@ -211,13 +246,14 @@
 
                 if (statusAnterior) {
                     botao.disabled = true;
+                    botao.classList.remove('hover:bg-slate-50', 'hover:border-slate-300');
                     if (letra === q.resposta_correta) {
-                        botao.classList.replace('bg-gray-50', 'bg-green-50');
-                        botao.classList.replace('border-gray-200', 'border-green-300');
+                        botao.className = "w-full text-left p-4 border rounded-xl flex items-start gap-3 text-sm shadow-sm font-bold bg-emerald-50 text-emerald-900 border-emerald-300";
+                        botao.querySelector('span').className = "font-bold bg-emerald-600 text-white rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0";
                     }
                     if (letra === statusAnterior.alternativaSelecionada && letra !== q.resposta_correta) {
-                        botao.classList.replace('bg-gray-50', 'bg-red-50');
-                        botao.classList.replace('border-gray-200', 'border-red-300');
+                        botao.className = "w-full text-left p-4 border rounded-xl flex items-start gap-3 text-sm shadow-sm font-medium bg-rose-50 text-rose-900 border-rose-300";
+                        botao.querySelector('span').className = "font-bold bg-rose-600 text-white rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0";
                     }
                 } else {
                     botao.addEventListener('click', () => verificarResposta(letra, botao, q.resposta_correta, q.numero));
@@ -230,10 +266,10 @@
                 feedback.classList.remove('hidden');
                 if (statusAnterior.correta) {
                     feedback.innerText = "🎉 Resposta Correta (Respondida)";
-                    feedback.className = "text-base font-bold text-green-600";
+                    feedback.classList.add('bg-emerald-50', 'text-emerald-700');
                 } else {
-                    feedback.innerText = `❌ Respondida Errada (Correta: ${q.resposta_correta})`;
-                    feedback.className = "text-base font-bold text-red-600";
+                    feedback.innerText = `❌ Respondida Incorretamente (Gabarito: ${q.resposta_correta})`;
+                    feedback.classList.add('bg-rose-50', 'text-rose-700');
                 }
             }
 
@@ -252,29 +288,46 @@
                 correta: ehCorreta
             };
 
+            // SALVA IMEDIATAMENTE NO LOCALSTORAGE DA PROVA ATUAL
+            localStorage.setItem(STORAGE_KEY_RESPOSTAS, JSON.stringify(historicoRespostas));
+
+            atualizarProgresso();
+
             if (ehCorreta) {
-                botaoClicado.classList.replace('bg-gray-50', 'bg-green-100');
-                botaoClicado.classList.replace('border-gray-200', 'border-green-400');
+                botaoClicado.className = "w-full text-left p-4 border rounded-xl flex items-start gap-3 text-sm shadow-md font-bold bg-emerald-50 text-emerald-900 border-emerald-400 transform scale-[1.01] transition-all";
+                botaoClicado.querySelector('span').className = "font-bold bg-emerald-600 text-white rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0";
+                
                 feedback.innerText = "🎉 Resposta Correta!";
-                feedback.className = "text-base font-bold text-green-600";
+                feedback.classList.add('bg-emerald-50', 'text-emerald-700');
             } else {
-                botaoClicado.classList.replace('bg-gray-50', 'bg-red-100');
-                botaoClicado.classList.replace('border-gray-200', 'border-red-400');
+                botaoClicado.className = "w-full text-left p-4 border rounded-xl flex items-start gap-3 text-sm shadow-sm font-medium bg-rose-50 text-rose-900 border-rose-400";
+                botaoClicado.querySelector('span').className = "font-bold bg-rose-600 text-white rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0";
                 
                 botoes.forEach(b => {
                     const letraBotao = b.querySelector('span').innerText;
                     if (letraBotao === respostaCorreta) {
-                        b.classList.replace('bg-gray-50', 'bg-green-50');
-                        b.classList.replace('border-gray-200', 'border-green-300');
+                        b.className = "w-full text-left p-4 border rounded-xl flex items-start gap-3 text-sm shadow-md font-bold bg-emerald-50 text-emerald-900 border-emerald-300";
+                        b.querySelector('span').className = "font-bold bg-emerald-600 text-white rounded-lg w-6 h-6 text-xs flex items-center justify-center shrink-0";
                     }
                 });
 
-                feedback.innerText = `❌ Errado. Resposta correta: (${respostaCorreta})`;
-                feedback.className = "text-base font-bold text-red-600";
+                feedback.innerText = `❌ Incorreto. Resposta correta: (${respostaCorreta})`;
+                feedback.classList.add('bg-rose-50', 'text-rose-700');
             }
 
             feedback.classList.remove('hidden');
             atualizarEstiloAbas();
+        }
+
+        // FUNÇÃO DE RESET PEDIDA
+        function reiniciarSimulado() {
+            if (confirm("Deseja zerar e reiniciar este simulado? Todo o seu histórico de respostas atual nesta prova será apagado.")) {
+                localStorage.removeItem(STORAGE_KEY_RESPOSTAS);
+                localStorage.removeItem(STORAGE_KEY_INDEX);
+                historicoRespostas = {};
+                questaoAtualIndex = 0;
+                window.location.reload();
+            }
         }
 
         btnAnterior.addEventListener('click', () => {
@@ -289,20 +342,49 @@
                 questaoAtualIndex++;
                 mostrarQuestao();
             } else {
+                // Monta a tela final com os acertos salvos
                 let acertos = Object.values(historicoRespostas).filter(r => r.correta).length;
+                let totalQuestoes = provaData.questoes.length;
+                let erros = Object.keys(historicoRespostas).length - acertos;
+                let naoRespondidas = totalQuestoes - Object.keys(historicoRespostas).length;
+
+                // Esconde a barra de progresso no fim
+                containerProgresso.classList.add('hidden');
+
                 areaQuestao.innerHTML = `
-                    <div class="text-center py-10">
-                        <h2 class="text-3xl font-bold text-gray-800 mb-2">Simulado Concluído!</h2>
-                        <p class="text-gray-600 text-lg mb-6">Você respondeu ${Object.keys(historicoRespostas).length} de ${provaData.questoes.length} questões.</p>
-                        <div class="inline-block bg-blue-50 text-blue-700 text-2xl font-black px-6 py-4 rounded-xl border border-blue-200 mb-8">
-                            Resultado: ${acertos} Acertos
+                    <div class="text-center py-8 max-w-md mx-auto">
+                        <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-50 text-blue-600 rounded-2xl mb-4 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+                            </svg>
                         </div>
-                        <br>
-                        <div class="flex justify-center gap-4">
-                            <button onclick="window.location.reload()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg shadow transition">
-                                Refazer Simulado
+                        <h2 class="text-3xl font-black text-slate-800 mb-2 tracking-tight">Simulado Concluído!</h2>
+                        <p class="text-slate-500 text-sm mb-6 font-medium">Seu progresso foi finalizado com sucesso.</p>
+                        
+                        <div class="grid grid-cols-3 gap-3 mb-8">
+                            <div class="bg-emerald-50 border border-emerald-100 p-3 rounded-xl">
+                                <span class="block text-xl font-black text-emerald-700">${acertos}</span>
+                                <span class="text-[10px] font-bold text-emerald-600 uppercase tracking-wider">Acertos</span>
+                            </div>
+                            <div class="bg-rose-50 border border-rose-100 p-3 rounded-xl">
+                                <span class="block text-xl font-black text-rose-700">${erros}</span>
+                                <span class="text-[10px] font-bold text-rose-600 uppercase tracking-wider">Erros</span>
+                            </div>
+                            <div class="bg-slate-50 border border-slate-100 p-3 rounded-xl">
+                                <span class="block text-xl font-black text-slate-500">${naoRespondidas}</span>
+                                <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Branco</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-blue-50 text-blue-700 text-lg font-bold py-3 px-6 rounded-xl border border-blue-100 mb-8 inline-block w-full">
+                            Pontuação Total: ${Math.round((acertos/totalQuestoes)*100)}% de Aproveitamento
+                        </div>
+                        
+                        <div class="flex flex-col sm:flex-row justify-center gap-3">
+                            <button onclick="reiniciarSimulado()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-xl shadow-md active:scale-95 transition-all text-sm">
+                                Refazer do Zero
                             </button>
-                            <a href="index.html" class="bg-gray-200 hover:bg-gray-300 text-gray-700 font-bold py-3 px-6 rounded-lg shadow transition block flex items-center justify-center">
+                            <a href="index.html" class="w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold py-3 px-6 rounded-xl border border-slate-200 active:scale-95 transition-all text-sm flex items-center justify-center">
                                 Escolher Outra Prova
                             </a>
                         </div>
