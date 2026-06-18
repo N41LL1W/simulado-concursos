@@ -173,7 +173,7 @@
     {
       "numero": 12,
       "materia": "Matemática",
-      "enunciado": "Uma pessoa compreendeu 3 tipos de medicamentos, A, B e C. A tabela apresenta algumas informações sobre o número de caixas compradas de cada medicamento e o respectivo valor unitário.\n\nMedicamento | Nº de caixas | Valor unitário da caixa\nA | 3 | ?\nB | 2 | R$ 57,00\nC | 1 | R$ 84,00\n\nSabendo que o valor total dessa compra foi dividido em 3 parcelas iguais de R$ 98,00 cada uma, o valor de uma caixa do medicamento A era",
+      "enunciado": "Uma pessoa compreendeu 3 tipos de medicamentos, A, B e C. A tabela apresenta algumas informações sobre o número de caixas compradas de cada medicamento e o respectivo valor unitário.\n\nSabendo que o valor total dessa compra foi dividido em 3 parcelas iguais de R$ 98,00 cada uma, o valor de uma caixa do medicamento A era",
       "tem_imagem": true,
       "imagem_url": "2023_vunesp_acs_pindamonhangaba_q12.png",
       "alternativas": {
