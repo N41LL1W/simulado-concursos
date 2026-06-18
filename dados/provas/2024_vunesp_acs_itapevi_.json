@@ -1,0 +1,608 @@
+{
+  "banca": "VUNESP",
+  "ano": 2024,
+  "cargo": "Agente Comunitário de Saúde",
+  "localidade": "Itapevi",
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia o texto a seguir para responder às questões de números 01 a 07.\n\nPor que agora a solidão nos adoece?\n\nPara Vivek Murthy, cirurgião-geral e principal autoridade de saúde pública dos EUA, “a teoria evolutiva da solidão de John Cacioppo* está enraizada na observação de que os humanos sobreviveram como espécie não porque temos vantagens físicas como tamanho, força ou velocidade, mas por causa de nossa capacidade de nos conectar em grupos sociais”.\nEssa teoria define a solidão como um estímulo para uma necessidade básica: a de nos conectar. “Assim temos uma maior chance de adaptação ao nosso ambiente”, defendeu o psiquiatra Thyago Antonelli-Salgado, da Universidade Federal do Rio Grande do Sul (UFRGS).\n“Se pensarmos nos primatas, humanos e não-humanos, com um comportamento de grupo, eles se protegeram contra a ameaça de predação, a escassez de recursos, e, assim, houve uma seleção natural desses indivíduos”, explicou.\nHoje, todavia, segundo os especialistas, a solidão é mais prevalente e intensa do que nunca e se configura como um grave problema de saúde pública. Em relatório de 2023, Murthy destaca que essa condition está associada a um risco maior de doença cardiovascular, demência, AVC, depressão, ansiedade e morte prematura. “O impacto de estar socialmente desconectado na mortalidade é semelhante ao causado por fumar até 15 cigarros por dia.”\nPor enquanto, as principais evidências não são capazes de cravar essa relação de causa e efeito. De qualquer forma, o crescente arcabouço científico tem deixado países em alerta. O Japão criou um “Ministério da Solidão”, e, no Reino Unido, uma secretária foi nomeada para combatê-la.\nO ponto chave que envolve a solidão é o sofrimento. Entretanto a redução de interações pode ser feita com um objetivo maior, como autoconhecimento ou necessidade profissional (escrever um livro, por exemplo), não estando, portanto, associada a alguma repercussão negativa. Nesse caso, falamos de solitude.\nAntonelli-Salgado aponta que a solidão não pode ser tema abordado apenas na velhice. A importância da conexão social precisa ser ensinada desde cedo. “Mitas vezes, a gente ensina às crianças que, mesmo sem fome, é importante comer para crescer forte. É preciso tomar água para se hidratar. Mas não falamos sobre a importância de ter boas conexões sociais para que haja uma maior qualidade de vida.” Para ele, bons vínculos têm a ver com profundidade, com estabelecer efetivas relações sociais e pensar que elas são sempre uma troca.\n\n(Leon Ferrari. Adaptado)\n* John T. Cacioppo (1951-2018): professor da Universidade de Chicago, onde fundou o Centro da Neurociência Cognitiva e Social.\n\nAssinale a alternativa que traz a afirmação correta a respeito do texto.",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "A solidão e a necessidade de interações saudáveis e constantes são quesitos que devem ser discutidos especificamente no período da terceira idade.",
+        "B": "John Cacioppo defende que, em detrimento da permanência em grupo, são a potência e as habilidades físicas os atributos essenciais para a sobrevivência dos primatas.",
+        "C": "O termo “solitude” está relacionado à ideia de que, tendo o indivíduo um objetivo coerente a ser alcançado, a diminuição das interações sociais pode ser produtiva.",
+        "D": "Os especialistas alegam que a solidão deveria ter sido vista como um problema de saúde pública desde o início da existência dos seres humanos.",
+        "E": "O sofrimento provocado pela solidão, segundo Vivek Murthy, intensifica-se rapidamente quando o indivíduo também é um fumante compulsivo."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 2,
+      "materia": "Língua Portuguesa",
+      "enunciado": "[Texto Base: Por que agora a solidão nos adoece?]\n\nÉ correto afirmar que o texto",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "identifica o campo de atuação dos especialistas citados com o intuito de dar credibilidade ao que eles defendem acerca de solidão e saúde pública.",
+        "B": "parte de relatos de pessoas acometidas pela solidão e que buscam soluções para o problema da falta de conexão com outras pessoas.",
+        "C": "apresenta opiniões de profissionais da área da cirurgia e da psiquiatria que divergem quanto à classificação dos problemas de saúde pública.",
+        "D": "deixa subentendido que nosso país deve se pautar pelas ações bem-sucedidas, empreendidas por Japão e Reino Unido, no enfrentamento da solidão.",
+        "E": "reproduz a linguagem complexa dos tratados de medicina, apesar de ser um artigo jornalístico destinado a todos os leitores do periódico."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 3,
+      "materia": "Língua Portuguesa",
+      "enunciado": "[Texto Base: Por que agora a solidão nos adoece?]\n\nConsidere as passagens a seguir:\n\n- Por enquanto, as principais evidências não são capazes de **cravar essa relação** de causa e efeito. (5º parágrafo)\n- **O ponto chave que envolve a** solidão é o sofrimento. (6º parágrafo)\n\nOs trechos destacados podem ser substituídos, respectivamente e sem comprometimento do sentido do texto, por:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "afirmar imediatamente essa ideia; O ponto prescindível que origina a",
+        "B": "demonstrar indubitavelmente essa ligação; O ponto crucial que está associado à",
+        "C": "provar futuramente esse problema; O ponto recorrente que se insurge contra a",
+        "D": "garantir em parte essa conexão; O ponto inexplicável que é a base da",
+        "E": "explicar minimamente esse conceito; O ponto controverso que se mantém exterior à"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 4,
+      "materia": "Língua Portuguesa",
+      "enunciado": "[Texto Base: Por que agora a solidão nos adoece?]\n\nAssinale a alternativa em que as duas conjunções destacadas estabelecem no texto a mesma relação de sentido.",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Se pensarmos nos primatas, humanos e não-humanos... (3º parágrafo); ... não estando, portanto, associada a alguma repercussão... (6º parágrafo)",
+        "B": "Hoje, todavia, segundo os especialistas, a solidão... (4º parágrafo); Entretanto a redução de interações pode ser feita com um objetivo... (6º parágrafo)",
+        "C": "... não estando, portanto, associada a alguma repercussão... (6º parágrafo); Mas não falamos sobre a importância... (7º parágrafo)",
+        "D": "Entretanto a redução de interações pode ser feita com um objetivo... (6º parágrafo); ... efetivas relações sociais e pensar que elas são sempre... (7º parágrafo)",
+        "E": "Mas não falamos sobre a importância... (7º parágrafo); ... efetivas relações sociais e pensar que elas são sempre... (7º parágrafo)"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 5,
+      "materia": "Língua Portuguesa",
+      "enunciado": "[Texto Base: Por que agora a solidão nos adoece?]\n\nConsidere as passagens reescritas do texto:\n\n- Com um comportamento de grupo, os primatas se protegeram contra a ameaça de predação e escassez de recursos. (3º parágrafo)\n- Nesse caso, nós falamos de solitude. (6º parágrafo)\n\nDe acordo com a norma-padrão de regência verbal e nominal, os trechos em destaque podem ser substituídos, respectivamente, por:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "se impuseram sobre a; nos referimos de",
+        "B": "se defenderam pela; fazemos menção à",
+        "C": "se livraram com a; caracterizamos em",
+        "D": "tomaram cuidado à; traduzimos por",
+        "E": "fizeram frente à; definimos como"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 6,
+      "materia": "Língua Portuguesa",
+      "enunciado": "[Texto Base: Por que agora a solidão nos adoece?]\n\nOs parênteses permitem introduzir observação adicional que pode ser suprimida sem interferir na compreensão do texto. É o que ocorre no trecho reescrito em:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "“Assim temos (uma maior chance) de adaptação ao nosso ambiente”, defendeu o psiquiatra...",
+        "B": "Hoje, todavia, segundo os especialistas, a solidão é mais prevalente (e intensa) do que nunca...",
+        "C": "Em relatório de 2023, Murthy destaca que essa condição (está associada) a um risco maior de doença cardiovascular...",
+        "D": "O Japão criou um “Ministério da Solidão”, e, no Reino Unido, (uma secretária) foi nomeada para combatê-la.",
+        "E": "... têm a ver com profundidade, com estabelecer efetivas relações sociais e pensar que elas (são sempre) uma troca."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 7,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Considere as frases elaboradas a partir do texto.\n\n- A solidão pode ser um estímulo para que estejamos atentos ______ uma necessidade básica: a de nos conectar.\n- Em seu relatório, Vivek Murthy dá ênfase ______ situações em que a solidão está atrelada a um agravamento da saúde física e mental.\n- O cirurgião adverte que a mortalidade pelo impacto de se estar socialmente desconectado é similar ______ mortalidade causada pelo fumo.\n\nAtendendo à norma-padrão de emprego do sinal indicativo de crase, as lacunas devem ser preenchidas, respectivamente, por:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "a; a; à",
+        "B": "a; à; à",
+        "C": "à; a; a",
+        "D": "à; à; à",
+        "E": "à; a; à"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 8,
+      "materia": "Língua Portuguesa",
+      "enunciado": "A frase que está em conformidade com a norma-padrão de concordância verbal se encontra na alternativa:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Quando precisamos nos adaptar a novos ambientes, existe mais possibilidades de sucesso se evitarmos o isolamento.",
+        "B": "Predação e falta de recursos foram ameaças aos primatas, fato que os levaram a perceber que era mais vantajoso permanecer em grupo.",
+        "C": "Se houver boas conexões sociais, teremos chances de ampliar nossa qualidade de vida e não sucumbir ao sofrimento agravado pela solidão.",
+        "D": "Já se tomou algumas medidas contra os efeitos nocivos da solidão, a exemplo da criação de órgãos públicos que tratem desse tema.",
+        "E": "Devido à extrema solidão, pode surgir problemas graves para algumas pessoas, como doenças cardiovasculares e depressão."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 9,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia outro trecho do texto inicial da prova para responder às questões de números 09 e 10.\n\nA pesquisa, com mais de 8 mil pacientes, coordenada por Antonelli-Salgado, identificou efeitos protetores contra a solidão. Para a surpresa dos estudiosos, o mais importante foi a atividade física. Eles acreditam que a explicação é multifatorial. A atividade física possibilita a reunião de pessoas que têm um interesse em comum e também pode ajudar na questão inflamatória do organismo. “À medida que fazemos atividade física, ficamos mais tranquilos, há diminuição da ansiedade e uma melhora da depressão”, declarou o psiquiatra.\n\nAssinale a alternativa em que a reescrita da quarta frase do trecho segue a norma-padrão e apresenta ideias adequadas ao texto.\n\n\"A atividade física possibilita a reunião de pessoas...\"",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "com quem o interesse é comum e, por afinidade, pode auxiliar na questão inflamatória do organismo.",
+        "B": "onde o interesse é comum e, em contraste, pode auxiliar na questão inflamatória do organismo.",
+        "C": "para as quais o interesse é comum e, a despeito disso, pode auxiliar na questão inflamatória do organismo.",
+        "D": "cujo interesse é comum e, além disso, pode auxiliar na questão inflamatória do organismo.",
+        "E": "em quem o interesse é comum e, por analogia, pode auxiliar na questão inflamatória do organismo."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 10,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia outro trecho do texto inicial da prova para responder às questões de números 09 e 10.\n\nA pesquisa, com mais de 8 mil pacientes, coordenada por Antonelli-Salgado, identificou efeitos protetores contra a solidão. Para a surpresa dos estudiosos, o mais importante foi a atividade física. Eles acreditam que a explicação é multifatorial. A atividade física possibilita a reunião de pessoas que têm um interesse em comum e também pode ajudar na questão inflamatória do organismo. “À medida que fazemos atividade física, ficamos mais tranquilos, há diminuição da ansiedade e uma melhora da depressão”, declarou o psiquiatra.\n\nConsidere as seguintes frases:\n\n- O especialista e seu grupo realizaram a pesquisa com 8 mil pacientes, e esta surpreendentemente mostrou a eles que a atividade física é fator primordial contra a solidão.\n- Encontros com outras pessoas amenizam a sensação de isolamento, e é a prática esportiva que proporciona esses encontros com mais frequência.\n\nDe acordo com a norma-padrão de emprego e de colocação de pronomes, os trechos destacados devem ser substituídos por:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "os mostrou; proporciona-lhes",
+        "B": "os mostrou; lhes proporciona",
+        "C": "mostrou-lhes; os proporciona",
+        "D": "lhes mostrou; proporciona-lhes",
+        "E": "lhes mostrou; os proporciona"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 11,
+      "materia": "Matemática",
+      "enunciado": "Um evento artístico foi organizado por um orientador social, para todos os moradores de uma comunidade. Do total de pessoas dessa comunidade, uma parte eram homens, do restante correspondiam ao número de mulheres e 45 eram crianças.\nLogo, o número de mulheres dessa comunidade era:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "15",
+        "B": "27",
+        "C": "48",
+        "D": "94",
+        "E": "120"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 12,
+      "materia": "Matemática",
+      "enunciado": "Em um determinado ponto de ônibus, um ônibus A passa de 18 em 18 minutos, e um ônibus B passa de 24 em 24 minutos.\nSe nesse momento, às 8 horas e 22 minutos, os dois ônibus acabaram de passar pelo ponto, o próximo horário que os dois ônibus passarão juntos será às",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "8 horas e 40 minutos",
+        "B": "8 horas e 58 minutos",
+        "C": "9 horas e 34 minutos",
+        "D": "9 horas e 58 minutos",
+        "E": "10 horas e 22 minutos"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 13,
+      "materia": "Matemática",
+      "enunciado": "Um agente de administração pública organiza documentos em dois tipos de arquivos, o arquivo intermediário e o arquivo permanente. Foram separados 195 documentos para o arquivo intermediário e 165 documentos para o arquivo permanente. Todos esses documentos devem ser organizados em pastas, cada pasta com o mesmo número de documentos, sendo esse número o maior possível.\nSe cada pasta só poderá ter documentos de um mesmo arquivo, então a quantidade de pastas com documentos do arquivo intermediário excederá a quantidade de pastas com documentos do arquivo permanente em",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "2",
+        "E": "1"
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 14,
+      "materia": "Matemática",
+      "enunciado": "Um veículo quando abastecido somente com etanol faz 8 km/L. Esse mesmo veículo, quando abastecido somente com gasolina, faz 10 km/L. Esse veículo foi abastecido em um posto de combustível cujo preço do litro do etanol é R$ 3,84, e o preço do litro da gasolina é R$ 6,00.\nO motorista desse veículo concluiu que, abastecer somente com etanol é mais vantajoso, pois o preço do quilômetro rodado somente com etanol em relação ao preço do quilômetro rodado somente com gasolina é mais barato em",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "5%",
+        "B": "10%",
+        "C": "15%",
+        "D": "20%",
+        "E": "25%"
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 15,
+      "materia": "Matemática",
+      "enunciado": "Em um centro de acolhimento, um orientador social atendeu 40 jovens em situação de vulnerabilidade. Ele observou que entre os 40 jovens, para cada 6 meninos atendidos, eram atendidas 4 meninas.\nPortanto, entre esses 40 jovens em atendimento, quantos eram meninos?",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "8",
+        "B": "12",
+        "C": "16",
+        "D": "20",
+        "E": "24"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 16,
+      "materia": "Matemática",
+      "enunciado": "Um agente de inclusão escolar levou 35 minutos para organizar 3 prontuários de alunos.\nMantendo o mesmo rendimento de trabalho, o tempo necessário para esse agente organizar 27 prontuários será de",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "5 horas e 15 minutos",
+        "B": "5 horas e 05 minutos",
+        "C": "3 horas e 15 minutos",
+        "D": "3 horas e 05 minutos",
+        "E": "2 horas e 15 minutos"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 17,
+      "materia": "Matemática",
+      "enunciado": "Um cuidador social está preparando suco de laranja para oferecer a um grupo de idosos. Se o suco de laranja for servido em copos de 300 mL, ele renderá 5 copos a menos do que se for servido em copos de 250 mL.\nAssim, sabendo que 1000 mL corresponde a 1 L, a quantidade de suco de laranja preparado, em litros, é",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "5,0 L",
+        "B": "6,0 L",
+        "C": "6,5 L",
+        "D": "7,0 L",
+        "E": "7,5 L"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 18,
+      "materia": "Matemática",
+      "enunciado": "Ao fazer o levantamento de faltas de alunos de uma escola, um agente de inclusão escolar observou que, no primeiro ano, faltaram 4 alunos a menos do que faltaram no segundo ano.\nSe o total de faltas dessas duas turmas foi de 8 alunos, então o número de alunos faltantes no primeiro ano foi de",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 19,
+      "materia": "Matemática",
+      "enunciado": "O salário de um agente administrativo pode variar de acordo com o porte da empresa e o nível profissional, conforme a tabela a seguir:\n\n| Porte da empresa | Salário Trainee | Salário Pleno |\n| --- | --- | --- |\n| Grande | R$ 2.890,00 | R$ 4.500,00 |\n| Médio | X | R$ 3.472,00 |\n| Pequeno | R$ 1.965,00 | R$ 2.600,00 |\n\nSabendo que a média aritmética dos salários de agente pleno supera em R$ 1.165,00 a média aritmética dos salários de agente trainee, então o salário do agente trainee numa empresa de médio porte é:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "R$ 2.222,00",
+        "B": "R$ 2.225,00",
+        "C": "R$ 2.228,00",
+        "D": "R$ 2.231,00",
+        "E": "R$ 2.234,00"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 20,
+      "materia": "Matemática",
+      "enunciado": "Um terreno de 150 000 metros quadrados de área foi loteado por uma empreendedora imobiliária. Dessa área, 40% foi destinada a áreas públicas (praças e ruas). A área restante do terreno foi totalmente dividida em lotes retangulares de 15 metros de comprimento por 48 metros de largura.\nSendo assim, esse terreno foi dividido em",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "75 lotes",
+        "B": "100 lotes",
+        "C": "125 lotes",
+        "D": "150 lotes",
+        "E": "175 lotes"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 21,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Aos 3, 5 e 12 meses de idade, os bebês devem receber a vacina:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "hepatite A",
+        "B": "rotavírus",
+        "C": "varicela",
+        "D": "meningocócica C",
+        "E": "BCG"
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 22,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Carrapatos da espécie Amblyomma cajennense são os principais vetores da febre maculosa. Esses aracnídeos são hemimetábolos e se caracterizam por",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "se alimentarem de sangue em todas as fases de seu ciclo de vida.",
+        "B": "possuírem antenas, quelíceras e pedipalpos.",
+        "C": "apresentarem ciclo de vida composto de cinco fases: ovo, larva, pupa, ninfa e adulto.",
+        "D": "serem as fêmeas as responsáveis pela transmissão do agente etiológico.",
+        "E": "terem o corpo dividido em cabeça, tórax e abdômen."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 23,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Durante uma visita domiciliar, o agente comunitário de saúde suspeitou de um morador da casa estar com dengue, pois",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "apresentava hemorragia nasal, anorexia, diarreia e dores nas articulações.",
+        "B": "estava com febre há sete dias, com cefaleia e dor retro-orbital e residia em área que tem o mosquito vetor.",
+        "C": "começou a ter febre há um dia e um vizinho teve dengue.",
+        "D": "estava prostrado, com vermelhidão no corpo, e esteve em área infetada pelo Aedes há dois meses.",
+        "E": "apresentava prisão de ventre, tonturas, sensação de plenitude gástrica, coceira anal, palpitações e emagrecimento."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 24,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "No modelo de atenção em saúde fundamentado na assistência multiprofissional em saúde da família, é considerada atividade precípua do agente comunitário de saúde, em sua área geográfica de atuação (Lei no 11.350/2006, com as alterações introduzidas até a Lei no 13.595/2018),",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "o agendamento de consultas com especialistas.",
+        "B": "a realização de visitas domiciliares.",
+        "C": "o encaminhamento para unidades de pronto atendimento.",
+        "D": "a fiscalização do intra e do peridomicílio quanto à presença de inservíveis.",
+        "E": "o acompanhamento de condicionalidades de programas sociais."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 25,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Segundo o art. 8o do Estatuto da Criança e do Adolescente, é assegurado a todas as mulheres o acesso aos programas e às políticas de saúde da mulher e de planejamento reprodutivo e, às gestantes, nutrição adequada, atenção humanizada à gravidez, ao parto e ao puerpério e atendimento pré-natal, perinatal e pós-natal integral no âmbito do Sistema Único de Saúde.\nNesse contexto, define-se que",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "o atendimento pré-natal será realizado por profissionais da atenção terciária.",
+        "B": "a assistência deverá ser negada a gestantes e mães que manifestem interesse em entregar seus filhos para adoção, bem como a gestantes e mães que se encontrem em situação de privação de liberdade.",
+        "C": "a gestante e a parturiente têm direito a três acompanhantes durante o período do pré-natal, do trabalho de parto e do pós-parto imediato.",
+        "D": "a atenção secundária à saúde fará a busca ativa da gestante que não iniciar ou que abandonar as consultas de pré-natal, bem como da puérpera que não comparecer às consultas pós-parto.",
+        "E": "os profissionais de saúde de referência da gestante garantirão sua vinculação, no último trimestre da gestação, ao estabelecimento em que será realizado o parto, garantido o direito de opção da mulher."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 26,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A redistribuição das responsabilidades quanto às ações e aos serviços de saúde entre os vários níveis de governo, cabendo aos municípios a maior responsabilidade nas ações de promoção da saúde, compreende a diretriz do Sistema Único de Saúde denominada",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "integralidade de assistência.",
+        "B": "hierarquização.",
+        "C": "universalidade.",
+        "D": "descentralização.",
+        "E": "resolutividade."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 27,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A diabetes mellitus é uma doença que acontece quando o organismo produz pouca ou nenhuma insulina e, com isso, o corpo inteiro adoece.\nSão considerados fatores de risco para a doença",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "má alimentação, falta de higiene e tabagismo.",
+        "B": "condições de pobreza, com ausência de renda, escolaridade e/ou habitação inadequada",
+        "C": "subsistência em situação de rua, HIV/AIDS e alcoolismo.",
+        "D": "obesidade, história familiar, sedentarismo, colesterol e triglicerídeos elevados.",
+        "E": "aspectos relacionados à infância, como baixo peso ao nascer, infecções respiratórias e exposição ao tabaco, principalmente o cigarro."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 28,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Segundo a Política Nacional de Atenção Básica, o processo de trabalho na Atenção Básica se caracteriza por",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "integrar as ações de Atenção Básica e Vigilância em Saúde concretamente, de forma que se recomenda a adoção de territórios distintos para cada equipe, de modo a otimizar o trabalho do agente de combate às endemias, do agente comunitário de saúde e dos demais membros da equipe.",
+        "B": "assumir as questões sanitárias, ambientais, epidemiológicas, culturais e socioeconômicas no Distrito Sanitário de referência, contribuindo, por meio de intervenções clínicas e processos de internação, para os problemas de saúde da população com residência fixa.",
+        "C": "desenvolver relações de vínculo e responsabilização entre a equipe e a população do seu território de atuação, de forma a facilitar a adesão do usuário ao cuidado compartilhado com a equipe (vinculação de pessoas e/ou famílias e grupos a profissionais/equipes, com o objetivo de ser referência para o seu cuidado).",
+        "D": "acolher todas as pessoas do município, de modo universal, igual e centralizado, facilitando o acesso aos serviços de atendimento secundário e terciário e respondendo às necessidades de saúde da população (residente e itinerante), o que implica dizer que as necessidades da população devem ser o principal referencial.",
+        "E": "ter dias e horários específicos e divulgados para o acolhimento, na organização dos fluxos de usuários na unidade, no estabelecimento de avaliações de risco e vulnerabilidade, na definição de modelagens de escuta, na gestão das agendas de atendimento individual, nas ofertas de cuidado multidisciplinar."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 29,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Segundo o Estatuto do Idoso, a prevenção e a manutenção da saúde da pessoa idosa serão efetivadas por meio de",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "unidades geriátricas de referência, com pessoal especializado nas áreas de geriatria e gerontologia social.",
+        "B": "cadastramento da população idosa em base etária.",
+        "C": "atendimento geriátrico e gerontológico em hospitais especializados.",
+        "D": "reabilitação orientada pelo clínico geral da Unidade Básica de Saúde.",
+        "E": "atendimento domiciliar, excluindo internação, para a população que dele necessitar e esteja impossibilita-da de se locomover."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 30,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A figura a seguir mostra esquematicamente o ciclo do Plasmodium (agente etiológico da malária):\n\nSobre ele, é correto afirmar que",
+      "tem_imagem": true,
+      "imagem_url": "2024_vunesp_acs_pmip_q30.png",
+      "alternativas": {
+        "A": "3 represents o rompimento das células hepáticas liberando esporozoítos.",
+        "B": "2 representa o desenvolvimento dos esporozoítos.",
+        "C": "9 representa a migração através da parede do intestino, formando merozoítos.",
+        "D": "8 representa os trofozoítos penetrando no fígado e infectando células hepáticas.",
+        "E": "5 representa o ciclo sexual (merozoítos produzindo gametócitos)."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 31,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O papel do agente comunitário de saúde no controle da tuberculose envolve",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "identificar os sintomáticos respiratórios (pessoas com tosse e expectoração há, pelo menos, três semanas) nos domicílios e na comunidade.",
+        "B": "iniciar o tratamento profilático dos comunicantes.",
+        "C": "verificar a presença de cicatriz da vacina BCG no braço esquerdo da criança e do adolescente.",
+        "D": "realizar a coleta do escarro quando achar necessário.",
+        "E": "supervisionar a tomada da medicação, conforme recomendado pelo enfermeiro."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 32,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Durante as visitas domiciliares, é importante que o agente comunitário de saúde identifique",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "se o homem e a mulher são realmente casados e se moram em sua residência animais exóticos, além dos filhos e agregados.",
+        "B": "qual a participação de cada membro da família nas atividades domésticas diárias.",
+        "C": "qual membro exerce o papel de liderança na família.",
+        "D": "se professam a religião católica, frequentando regularmente os cultos.",
+        "E": "a existência de conflitos que envolvam a presença da polícia entre os membros da família."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 33,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Nas residências com crianças recém-nascidas, de 0 a 28 dias, o agente comunitário de saúde deve",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "comprovar se já foi feita a avaliação da imunidade do bebê pela maternidade.",
+        "B": "orientar os pais para que sejam utilizadas fraldas descartáveis, indicando, se possível, as melhores marcas.",
+        "C": "verificar quais os cuidados adotados com o coto umbilical.",
+        "D": "perguntar à mãe se as vacinas de poliomielite e rotavírus foram aplicadas na maternidade.",
+        "E": "observar as dificuldades em relação ao aleitamento e recomendar uso de mamadeira."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 34,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A esquistossomose é, de longe, a infecção mais importante por trematódeos. Mais de 200 milhões de pessoas são infectadas anualmente no mundo.\nSobre o ciclo biológico do agente etiológico, é correto afirmar que",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "os esquistossomos são vermes cilíndricos, de coloração branca, monogenéticos e delgados, sendo os machos mais longos do que as fêmeas.",
+        "B": "os parasitas infectam os vasos do trato gastrointestinal ou trato geniturinário, vivendo e se reproduzindo nas vênulas do mesentério ou da bexiga.",
+        "C": "os miracídios, quando penetram na pele humana, transformam-se em esquistossomos, que se deslocam pela circulação sanguínea até o fígado, onde amadurecem.",
+        "D": "o hospedeiro definitivo do esquistossomo é um caramujo de água doce do gênero Biomphalaria, pois, no interior desse molusco, o verme se encontra na forma adulta, reproduzindo-se sexuadamente.",
+        "E": "os ovos excretados eclodem na água doce, liberando cercárias, que entram nos caramujos, nos quais se multiplicam, produzindo miracídios infectantes."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 35,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O trabalho na atenção básica envolve, primeiramente, o conhecimento do território onde os profissionais irão atuar. É necessário conhecer os pontos vulneráveis ou frágeis e os pontos positivos da região, bem como saber se na sua região existem equipamentos públicos para atendimento da população.\nEsse território sob a atuação do agente comunitário de saúde é denominado",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "região político-administrativa.",
+        "B": "área adscrita à Unidade Básica de Saúde.",
+        "C": "distrito sanitário.",
+        "D": "área de agregação multiprofissional.",
+        "E": "microárea de risco."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 36,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "No contexto da saúde, o acolhimento é uma postura ética que implica",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "a distribuição de senhas e o encaminhamento de todas as pessoas ao atendimento médico.",
+        "B": "ter um profissional de nível superior treinado para essa atividade.",
+        "C": "o atendimento do paciente por ordem de chegada na unidade.",
+        "D": "a escuta qualificada das queixas dos usuários.",
+        "E": "ter uma sala própria e confortável para tal finalidade."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 37,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Em uma ação de campo, o agente comunitário de saúde se deparou com uma área íngreme e desmatada, sujeita a deslizamentos, com várias famílias com idosos e criança construindo habitações precárias. O agente informou a equipe sobre o risco dessa comunidade para que procedesse à remoção dessas famílias. Para isso, foram acionadas, além da equipe de saúde da Unidade Básica, a Assistência Social, a Defesa Civil, a Vigilância Ambiental e a Secretaria de Habitação, caracterizando um trabalho",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "intersetorial.",
+        "B": "regional.",
+        "C": "social.",
+        "D": "integral.",
+        "E": "universal."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 38,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A disseminação de verminoses na população pode estar relacionada com a",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "contaminação dos mananciais por agrotóxicos.",
+        "B": "ausência de saneamento básico.",
+        "C": "precariedade na oferta de vacinas à população.",
+        "D": "poluição de rios e córregos por despejos industriais.",
+        "E": "contaminação do solo por agentes químicos."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 39,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O agente comunitário de saúde deve estar atento aos sinais de risco na gestante; por exemplo, se ela",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "apresenta maior sensibilidade nas mamas e leves dores nas costas.",
+        "B": "tem enjoos esporádicos e prisão de ventre no primeiro trimestre da gestação.",
+        "C": "sente, às vezes, fraqueza, tontura e câimbras.",
+        "D": "tem azia, prisão de ventre, gases e vômitos, esporadicamente.",
+        "E": "acorda com pernas, mãos, braços e olhos inchados e vomita frequentemente."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 40,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Os recursos são repassados aos municípios considerando critérios como cadastro de pessoas nos serviços da atenção primária, pagamento por desempenho (indicadores de saúde) e incentivo para ações estratégicas (credenciamentos em programas e ações do Ministério da Saúde).\nA definição citada se refere ao programa",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Bolsa Família.",
+        "B": "Melhor em Casa.",
+        "C": "Previne Brasil.",
+        "D": "Saúde da População de Rua.",
+        "E": "Práticas Integrativas e Complementares em Saúde."
+      },
+      "resposta_correta": "C"
+    }
+  ]
+}
