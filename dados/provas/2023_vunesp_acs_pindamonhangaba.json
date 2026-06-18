@@ -1,0 +1,609 @@
+{
+  "id_prova": "2023_vunesp_acs_pindamonhangaba",
+  "banca": "Vunesp",
+  "ano": "2023",
+  "cargo": "Agente Comunitário de Saúde",
+  "localidade": "Pindamonhangaba - SP",
+  "questoes": [
+    {
+      "numero": 1,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia a tira para responder às questões de números 01 a 03.\n\nCalvin: POR QUE O BONECO ESTÁ OLHANDO PARA A BOLA DE NEVE?\nHaroldo: ELE ESTÁ CONTEMPLANDO A EVOLUÇÃO DO BONECO DE NEVE.\nCalvin: É ÓBVIO QUE, SE ELE EVOLUIU A PARTIR DE UMA BOLA DE NEVE, ESSA BOLA DEVE REPRESENTAR PARA ELE SÉRIAS QUESTÕES TEOLÓGICAS.\nHaroldo: CLARO. SEM FALAR NO PROBLEMA DE TIRAREM O SEU MATERIAL GENÉTICO DA CALÇADA COM UMA PÁ.\nCalvin: COMO, POR EXEMPLO, A ÉTICA DE SE ATIRAR OS GENITORES DOS OUTROS EM ALGUÉM?\n\n(Bill Watterson. O melhor de Calvin. https://cultura.estadao.com.br, 20.01.2023)\n\nA partir da leitura da tira, é correto afirmar que",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q1.png",
+      "alternativas": {
+        "A": "o tigre demonstra que não compreendeu a visão do garoto sobre a contemplação do boneco.",
+        "B": "o garoto e o tigre fazem uma associação da neve à genética, que é própria dos seres vivos.",
+        "C": "o garoto é irônico no último quadro, pois sua resposta não se relaciona com o que diz o tigre.",
+        "D": "a evolução do boneco de neve será alcançada após as intervenções que o garoto deseja fazer.",
+        "E": "o problema ético, a que se refere o tigre, tem a ver com o fato de o boneco não poder falar."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 2,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia a tira para responder às questões de números 01 a 03.\n\nO acréscimo de uma vírgula à fala do garoto no último quadro mantém a correção gramatical em:",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q2.png",
+      "alternativas": {
+        "A": "Sem falar, no problema de tirarem o seu material genético da calçada com uma pá.",
+        "B": "Sem falar no problema, de tirarem o seu material genético da calçada com uma pá.",
+        "C": "Sem falar no problema de tirarem, o seu material genético da calçada com uma pá.",
+        "D": "Sem falar no problema de tirarem o seu material genético, da calçada com uma pá.",
+        "E": "Sem falar no problema de tirarem o seu material genético da calçada, com uma pá."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 3,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia a tira para responder às questões de números 01 a 03.\n\nNo trecho – ... essa bola deve representar para ele sérias questões teológicas. (2º quadro) –, a palavra em destaque indica",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q3.png",
+      "alternativas": {
+        "A": "uma certeza.",
+        "B": "um débito.",
+        "C": "uma desculpa.",
+        "D": "um interesse.",
+        "E": "uma possibilidade."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 4,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa em que a expressão por que foi empregada segundo a norma-padrão.",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "As crianças brasileiras desconhecem a neve por que vivem em um país tropical.",
+        "B": "A neve deve ser retirada com frequência do telhado por que pode ficar muito pesada.",
+        "C": "Só por que o nosso Natal cai no verão, não podemos ter uma ceia como nos filmes?",
+        "D": "As cidades por que passamos tinham decorações de Natal belíssimas em suas praças.",
+        "E": "Não conseguimos entender o por que de se trocarem presentes em certas datas."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 5,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia o texto para responder às questões de números 05 a 08.\n\nVicente Manoel da Silva (ou Vicente Guató) faz parte de uma comunidade pantaneira que foi expulsa de suas terras e chegou a ser considerada extinta nos anos 1950. Ele acha que tem 82 anos, mas confessa não saber em que ano nasceu: “Só sei que foi no dia 10 de maio”. Um registro tirado quando tinha cerca de 30 anos, seu único documento, traz uma data fictícia de 1946. Datas, contudo, não têm muita importância para os guatós que, segundo ele, preferem se orientar “pelo rumo”.\nEmbora tímido, ele conta em sua língua natal que todos os dias pega a canoa, sai para pescar e, quando retorna, acende o fogo e frita ou cozinha os peixes, refeição que compartilha com cerca de 30 gatos que são suas únicas companhias. “Também tinha alguns cachorros, mas a onça comeu”, informa, acrescentando que “também caçava, matava e vendia o couro de onças, que valia muito, mas agora não pode mais mexer com elas”. A caça está proibida no Brasil desde 1967, mas a onça-pintada, típica do Pantanal, está na lista de espécies em risco de extinção.\nVicente cita várias palavras em guató e pede aos visitantes que as repitam. “Ele acha que só faz sentido falar a língua se estiver ensinando alguém”, diz o antropólogo e linguista Gustavo Godoy que, junto com a esposa Kristina Balykowa, também linguista, esteve com Vicente várias vezes.\nAlém de Vicente, que se tornou um “consultor” para o casal, outra falante nativa era Eufrásia Ferreira, falecida no ano passado. Há outras pessoas com elevado conhecimento do idioma, como o irmão de Vicente, André, e Dalva Maria de Souza Ferreira, também moradora de Corumbá, casada com um guató não falante e que aprendeu a língua com a sogra e amigos. Ambos, no entanto, não são fluentes.\nSeu Vicente prefere se entregar à solidão para ter a liberdade de permanecer na terra que considera sua, onde enterrou a mãe e um tio e onde mantém as tradições dos seus ancestrais. Ele se sente feliz em ajudar a nova geração a se interessar pelo idioma, mas lamenta não ter com quem conversar em sua língua nativa: “Se ainda tivesse alguém vivo... mas todos com quem eu falava já morreram”.\n(Cleide Silva. Um idioma em risco de extinção: conheça o último indígena a falar a língua guató. http://www.estadao.com.br, 16.12.2022. Adaptado)\n\nA partir de informações presentes no texto, é correto afirmar que",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Vicente não caça onças-pintadas desde 1967, quando a atividade foi proibida.",
+        "B": "o conhecimento de um idioma, para a autora do texto, não é sinônimo de ser fluente.",
+        "C": "o casal de linguistas quer ensinar a língua portuguesa para Vicente Guató.",
+        "D": "Vicente não consegue fazer narrativas em guató, mas conhece algumas palavras.",
+        "E": "as terras de onde Vicente e outros guatós foram expulsos foram reconquistadas por ele."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 6,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia o texto para responder às questões de números 05 a 08.\n\nVicente Manoel da Silva (ou Vicente Guató) faz parte de uma comunidade pantaneira que foi expulsa de suas terras e chegou a ser considerada extinta nos anos 1950. Ele acha que tem 82 anos, mas confessa não saber em que ano nasceu: “Só sei que foi no dia 10 de maio”. Um registro tirado quando tinha cerca de 30 anos, seu único documento, traz uma data fictícia de 1946. Datas, contudo, não têm muita importância para os guatós que, segundo ele, preferem se orientar “pelo rumo”.\nEmbora tímido, ele conta em sua língua natal que todos os dias pega a canoa, sai para pescar e, quando retorna, acende o fogo e frita ou cozinha os peixes, refeição que compartilha com cerca de 30 gatos que são suas únicas companhias. “Também tinha alguns cachorros, mas a onça comeu”, informa, acrescentando que “também caçava, matava e vendia o couro de onças, que valia muito, mas agora não pode mais mexer com elas”. A caça está proibida no Brasil desde 1967, mas a onça-pintada, típica do Pantanal, está na lista de espécies em risco de extinção.\nVicente cita várias palavras em guató e pede aos visitantes que as repitam. “Ele acha que só faz sentido falar a língua se estiver ensinando alguém”, diz o antropólogo e linguista Gustavo Godoy que, junto com a esposa Kristina Balykowa, também linguista, esteve com Vicente várias vezes.\nAlém de Vicente, que se tornou um “consultor” para o casal, outra falante nativa era Eufrásia Ferreira, falecida no ano passado. Há outras pessoas com elevado conhecimento do idioma, como o irmão de Vicente, André, e Dalva Maria de Souza Ferreira, também moradora de Corumbá, casada com um guató não falante e que aprendeu a língua com a sogra e amigos. Ambos, no entanto, não são fluentes.\nSeu Vicente prefere se entregar à solidão para ter a liberdade de permanecer na terra que considera sua, onde enterrou a mãe e um tio e onde mantém as tradições dos seus ancestrais. Ele se sente feliz em ajudar a nova geração a se interessar pelo idioma, mas lamenta não ter com quem conversar em sua língua nativa: “Se ainda tivesse alguém vivo... mas todos com quem eu falava já morreram”.\n(Cleide Silva. Um idioma em risco de extinção: conheça o último indígena a falar a língua guató. http://www.estadao.com.br, 16.12.2022. Adaptado)\n\nNo trecho – “Ele acha que só faz sentido falar a língua se estiver ensinando alguém”... (3º parágrafo) –, a palavra se exerce a mesma função gramatical da palavra destacada em:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "... os guatós que, segundo ele, preferem se orientar “pelo rumo”. (1º parágrafo)",
+        "B": "Além de Vicente, que se tornou um “consultor” para o casal... (4º parágrafo)",
+        "C": "Seu Vicente prefere se entregar à solidão para ter a liberdade... (5º parágrafo)",
+        "D": "Ele se sente feliz em ajudar a nova geração a se interessar pelo idioma... (5º parágrafo)",
+        "E": "“Se ainda tivesse alguém vivo... mas todos com quem eu falava já morreram”. (5º parágrafo)"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 7,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia o texto para responder às questões de números 05 a 08.\n\nVicente Manoel da Silva (ou Vicente Guató) faz parte de uma comunidade pantaneira que foi expulsa de suas terras e chegou a ser considerada extinta nos anos 1950. Ele acha que tem 82 anos, mas confessa não saber em que ano nasceu: “Só sei que foi no dia 10 de maio”. Um registro tirado quando tinha cerca de 30 anos, seu único documento, traz uma data fictícia de 1946. Datas, contudo, não têm muita importância para os guatós que, segundo ele, preferem se orientar “pelo rumo”.\nEmbora tímido, ele conta em sua língua natal que todos os dias pega a canoa, sai para pescar e, quando retorna, acende o fogo e frita ou cozinha os peixes, refeição que compartilha com cerca de 30 gatos que são suas únicas companhias. “Também tinha alguns cachorros, mas a onça comeu”, informa, acrescentando que “também caçava, matava e vendia o couro de onças, que valia muito, mas agora não pode mais mexer com elas”. A caça está proibida no Brasil desde 1967, mas a onça-pintada, típica do Pantanal, está na lista de espécies em risco de extinção.\nVicente cita várias palavras em guató e pede aos visitantes que as repitam. “Ele acha que só faz sentido falar a língua se estiver ensinando alguém”, diz o antropólogo e linguista Gustavo Godoy que, junto com a esposa Kristina Balykowa, também linguista, esteve com Vicente várias vezes.\nAlém de Vicente, que se tornou um “consultor” para o casal, outra falante nativa era Eufrásia Ferreira, falecida no ano passado. Há outras pessoas com elevado conhecimento do idioma, como o irmão de Vicente, André, e Dalva Maria de Souza Ferreira, também moradora de Corumbá, casada com um guató não falante e que aprendeu a língua com a sogra e amigos. Ambos, no entanto, não são fluentes.\nSeu Vicente prefere se entregar à solidão para ter a liberdade de permanecer na terra que considera sua, onde enterrou a mãe e um tio e onde mantém as tradições dos seus ancestrais. Ele se sente feliz em ajudar a nova geração a se interessar pelo idioma, mas lamenta não ter com quem conversar em sua língua nativa: “Se ainda tivesse alguém vivo... mas todos com quem eu falava já morreram”.\n(Cleide Silva. Um idioma em risco de extinção: conheça o último indígena a falar a língua guató. http://www.estadao.com.br, 16.12.2022. Adaptado)\n\nO trecho – Vicente cita várias palavras em guató e pede aos visitantes que as repitam. (3º parágrafo) – pode ser assim reescrito sem prejuízo da norma-padrão:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Vicente cita-as em guató e pede-os que as repitam.",
+        "B": "Vicente cita-as em guató e pede-lhes que as repitam.",
+        "C": "Vicente cita-lhes em guató e pede-lhes que as repitam.",
+        "D": "Vicente cita-lhes em guató e pede-os que as repitam.",
+        "E": "Vicente cita-nas em guató e pede-os que as repitam."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 8,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia o texto para responder às questões de números 05 a 08.\n\nVicente Manoel da Silva (ou Vicente Guató) faz parte de uma comunidade pantaneira que foi expulsa de suas terras e chegou a ser considerada extinta nos anos 1950. Ele acha que tem 82 anos, mas confessa não saber em que ano nasceu: “Só sei que foi no dia 10 de maio”. Um registro tirado quando tinha cerca de 30 anos, seu único documento, traz uma data fictícia de 1946. Datas, contudo, não têm muita importância para os guatós que, segundo ele, preferem se orientar “pelo rumo”.\nEmbora tímido, ele conta em sua língua natal que todos os dias pega a canoa, sai para pescar e, quando retorna, acende o fogo e frita ou cozinha os peixes, refeição que compartilha com cerca de 30 gatos que são suas únicas companhias. “Também tinha alguns cachorros, mas a onça comeu”, informa, acrescentando que “também caçava, matava e vendia o couro de onças, que valia muito, mas agora não pode mais mexer com elas”. A caça está proibida no Brasil desde 1967, mas a onça-pintada, típica do Pantanal, está na lista de espécies em risco de extinção.\nVicente cita várias palavras em guató e pede aos visitantes que as repitam. “Ele acha que só faz sentido falar a língua se estiver ensinando alguém”, diz o antropólogo e linguista Gustavo Godoy que, junto com a esposa Kristina Balykowa, também linguista, esteve com Vicente várias vezes.\nAlém de Vicente, que se tornou um “consultor” para o casal, outra falante nativa era Eufrásia Ferreira, falecida no ano passado. Há outras pessoas com elevado conhecimento do idioma, como o irmão de Vicente, André, e Dalva Maria de Souza Ferreira, também moradora de Corumbá, casada com um guató não falante e que aprendeu a língua com a sogra e amigos. Ambos, no entanto, não são fluentes.\nSeu Vicente prefere se entregar à solidão para ter a liberdade de permanecer na terra que considera sua, onde enterrou a mãe e um tio e onde mantém as tradições dos seus ancestrais. Ele se sente feliz em ajudar a nova geração a se interessar pelo idioma, mas lamenta não ter com quem conversar em sua língua nativa: “Se ainda tivesse alguém vivo... mas todos com quem eu falava já morreram”.\n(Cleide Silva. Um idioma em risco de extinção: conheça o último indígena a falar a língua guató. http://www.estadao.com.br, 16.12.2022. Adaptado)\n\nNo trecho – Embora tímido, ele conta em sua língua natal que todos os dias pega a canoa... (2º parágrafo) –, a palavra destacada pode ser substituída sem prejuízo do sentido e da correção gramatical por:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Como",
+        "B": "Mas",
+        "C": "Mesmo",
+        "D": "Porque",
+        "E": "Entretanto"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 9,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa em que a frase está em conformidade com a norma-padrão de concordância.",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "Animais domésticos correm risco de serem comidos por animais selvagens.",
+        "B": "Muitos indígenas hoje não sabem mais a língua que falava seus ancestrais.",
+        "C": "Há povos originários que preferem estar só para não perder suas tradições.",
+        "D": "Ainda hoje, povos nativos precisam entrarem em confronto por terras.",
+        "E": "Muitas poucas pessoas já visitaram uma tribo indígena para aprender sobre elas."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 10,
+      "materia": "Língua Portuguesa",
+      "enunciado": "Vicente parece estar acostumado ______ solidão, condição em que vive desde ______ morte de seu último familiar, com quem ele podia se dedicar ______ falar em sua língua nativa.\n\nAssinale a alternativa que, correta e respectivamente, completa as lacunas da frase, segundo a norma-padrão de emprego do acento indicativo de crase.",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "a ... a ... a",
+        "B": "a ... a ... à",
+        "C": "a ... à ... à",
+        "D": "à ... a ... a",
+        "E": "à ... a ... à"
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 11,
+      "materia": "Matemática",
+      "enunciado": "Em um grupo, com determinado número de pessoas, somente 3/8 havia tomado certa vacina e o respectivo reforço dela. Entre as demais pessoas, 4/5 havia tomado somente a vacina e as outras 15 pessoas não tinham tomado a vacina. O número de pessoas que havia tomado somente a vacina era",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "120.",
+        "B": "100.",
+        "C": "80.",
+        "D": "60.",
+        "E": "40."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 12,
+      "materia": "Matemática",
+      "enunciado": "Uma pessoa compreendeu 3 tipos de medicamentos, A, B e C. A tabela apresenta algumas informações sobre o número de caixas compradas de cada medicamento e o respectivo valor unitário.\n\nMedicamento | Nº de caixas | Valor unitário da caixa\nA | 3 | ?\nB | 2 | R$ 57,00\nC | 1 | R$ 84,00\n\nSabendo que o valor total dessa compra foi dividido em 3 parcelas iguais de R$ 98,00 cada uma, o valor de uma caixa do medicamento A era",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q12.png",
+      "alternativas": {
+        "A": "R$ 31,60.",
+        "B": "R$ 32,20.",
+        "C": "R$ 33,50.",
+        "D": "R$ 34,70.",
+        "E": "R$ 35,10."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 13,
+      "materia": "Matemática",
+      "enunciado": "Determinado produto está com 20% de desconto sobre o preço de etiqueta. Se esse produto for pago à vista, terá mais um desconto de 5% sobre o preço já com o desconto de 20%. Se ao comprar esse produto à vista, uma pessoa pagou R$ 91,20, o preço de etiqueta desse produto era",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "R$ 130,00.",
+        "B": "R$ 125,00.",
+        "C": "R$ 120,00.",
+        "D": "R$ 115,00.",
+        "E": "R$ 110,00."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 14,
+      "materia": "Matemática",
+      "enunciado": "Um agente comunitário de saúde cadastrou, em duas semanas, o total de 42 famílias. Sabendo que a razão do número de famílias cadastradas na primeira semana para o número de famílias cadastradas na segunda semana foi 3/4, então, o número de famílias cadastradas na primeira semana foi",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "26.",
+        "B": "24.",
+        "C": "22.",
+        "D": "20.",
+        "E": "18."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 15,
+      "materia": "Matemática",
+      "enunciado": "Uma máquina, trabalhando sem interrupções, imprime 200 folhas com o logotipo de uma empresa, em 1 minuto e 20 segundos. Nessas condições, o tempo que essa máquina levará para imprimir 3 500 dessas folhas será de",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "23 minutos e 30 segundos.",
+        "B": "23 minutos e 20 segundos.",
+        "C": "23 minutos e 10 segundos.",
+        "D": "22 minutos e 55 segundos.",
+        "E": "22 minutos e 45 segundos."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 16,
+      "materia": "Matemática",
+      "enunciado": "Com determinada quantia de dinheiro, uma pessoa comprou 5 frascos iguais de vitaminas. Se cada frasco custasse R$ 3,00 a menos do que custou, seria possível comprar, com a mesma quantidade de dinheiro, 2 frascos a mais. O valor gasto na compra desses 5 frascos foi",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "R$ 45,60.",
+        "B": "R$ 48,20.",
+        "C": "R$ 50,80.",
+        "D": "R$ 52,50.",
+        "E": "R$ 54,30."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 17,
+      "materia": "Matemática",
+      "enunciado": "Uma UBS (Unidade Básica de Saúde) recebeu 12 caixas de vacinas, cada caixa com o mesmo número de frascos. De cinco dessas caixas, foram retirados quatro frascos de cada uma; de outras quatro caixas, foram retirados três frascos de cada uma, e das caixas restantes, nenhum frasco foi retirado. Sabendo-se que, ao todo, restaram 148 frascos nas caixas, o número de frascos que havia em cada caixa de vacina recebida, por essa UBS, era",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "15.",
+        "B": "18.",
+        "C": "20.",
+        "D": "21.",
+        "E": "24."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 18,
+      "materia": "Matemática",
+      "enunciado": "Um agente comunitário de saúde precisou colocar determinado número de fichas cadastrais em pastas, de modo que cada pasta ficasse com o mesmo número de fichas. Ao realizar o serviço, percebeu que era possível colocar em cada pasta 24 fichas, ou 30 fichas, ou 36 fichas, e qualquer que fosse a opção não restaria ficha alguma fora das pastas. Sabendo que, ao todo, havia menos de 400 fichas, e que esse agente utilizou the menor número de pastas possível, então, o número de pastas utilizadas foi",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "15.",
+        "B": "12.",
+        "C": "10.",
+        "D": "9.",
+        "E": "8."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 19,
+      "materia": "Matemática",
+      "enunciado": "Em um terreno retangular ABCD, com 8 m de largura por 20 m de comprimento, foi construída uma garagem retangular, conforme mostra a figura. Sabendo que a área da garagem corresponde a 15% da área do terreno, o perímetro da garagem é igual a",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q19.png",
+      "alternativas": {
+        "A": "28 m.",
+        "B": "26 m.",
+        "C": "24 m.",
+        "D": "22 m.",
+        "E": "20 m."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 20,
+      "materia": "Matemática",
+      "enunciado": "Uma pessoa fez uma trilha, cujo percurso total, do início até o final é de 3,2 km. Durante o percurso, essa pessoa fez duas paradas, uma no ponto A e outra no ponto B. Sabe-se que a distância entre o ponto A e o ponto B é de 1,1 km, e que o percurso do início da trilha até o ponto A corresponde a 3/4 do percurso do ponto B até o final da trilha, conforme mostra a figura. A distância do início da trilha até o ponto B é de",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q20.png",
+      "alternativas": {
+        "A": "1,9 km.",
+        "B": "2,0 km.",
+        "C": "2,1 km.",
+        "D": "2,2 km.",
+        "E": "2,3 km."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 21,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Acolhimento é uma diretriz da Política Nacional de Humanização (PNH), que",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "necessita de um espaço físico específico que garanta privacidade e pressupões a distribuição de senhas e o encaminhamento de todas as pessoas ao atendimento médico.",
+        "B": "se caracteriza com uma forma de agir que dá atenção a todos que procuram o serviço e envolve uma postura ética que implica na escuta qualificada das queixas dos usuários.",
+        "C": "implica em transferência de informação do médico ao paciente, agilizando o atendimento do paciente por ordem de chegada na unidade.",
+        "D": "envolve sessões terapêuticas com grupos de pacientes possuidores de doenças similares e uma recepção confortável e de boa dimensão espacial.",
+        "E": "deve ocorrer com data e hora marcada e por profissional de nível universitário para uma triagem administrativa com um bom encaminhamento para serviços especializados."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 22,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Ao visitar uma comunidade, o Agente Comunitário de Saúde notou que no local havia uma bica em um pedaço do terreno onde tinha muito orgânico acumulado. De imediato, o agente orientou a população a",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "guardar essa água em grandes recipientes abertos para uma emergência.",
+        "B": "usar essa água apenas para higiene pessoal.",
+        "C": "levar as crianças para brincar na água em dias de calor.",
+        "D": "não consumir essa água.",
+        "E": "tampar a bica com entulho de construção."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 23,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O Agente Comunitário de Saúde ao suspeitar de um caso de maus-tratos com uma criança, após verificar marcas e hematomas na pele dela, passou o caso para a equipe avaliar e agendar uma visita à casa daquela família juntamente com o auxílio de outros profissionais (psicólogo, serviço social etc.). Se constatado algum indício de maus tratos, será necessária uma abordagem que extrapole o campo de atuação da saúde com o envolvimento de órgãos de outras áreas, como o Conselho Tutelar e/ou Juizado da Infância, por exemplo.\n\nO texto mostra a importância do trabalho",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "do Agente Comunitário de Saúde durante a visita domiciliar para confirmação de maus tratos infantil.",
+        "B": "do psicólogo, pois somente este profissional tem a competência para reconhecer possíveis maus tratos.",
+        "C": "dos membros da equipe de saúde e ações intersetoriais.",
+        "D": "a necessidade do preenchimento correto do prontuário de cada membro da família.",
+        "E": "do Agente Comunitário de Saúde no diagnóstico da violência doméstica feminina e infantil."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 24,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Segundo o preconizado pelo Calendário de vacinação do Estado de São Paulo, as vacinas contra poliomielite, vacina pentavalente (DTP-Hib-Hepatite B) e rotavírus devem ser administradas",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "aos 2 meses de idade.",
+        "B": "ao nascimento.",
+        "C": "anualmente.",
+        "D": "aos 15 meses de idade.",
+        "E": "aos 9 meses de idade."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 25,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A Lei nº 11.350/2006, com as alterações introduzidas pela Lei nº 13.595/2018, cita que é(são) atividade(s) do Agente Comunitário de Saúde, durante a visita domiciliar, desde que assistidas por profissional de saúde, membro da equipe, de nível superior:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "mobilização da comunidade e o estímulo à participação nas políticas públicas.",
+        "B": "realização de visitas domiciliares regulares semanais da pessoa em sofrimento psíquico.",
+        "C": "utilização de instrumentos para diagnóstico demográfico e sociocultural.",
+        "D": "realização de visitas domiciliares regulares e periódicas para acompanhamento do adolescente apreendido.",
+        "E": "aferição de temperatura axilar e verificação antropométrica."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 26,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Se na área de atuação do Agente Comunitário de Saúde existem muitas crianças de menos de 5 anos, ele deve",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "orientar os munícipes a cobrar das autoridades municipais e estaduais a construção de creches e escolas de nível fundamental I.",
+        "B": "estar atento às vacinas, e ser capaz de orientar as mães para a prevenção das doenças, principalmente diarreia e infecções respiratórias agudas.",
+        "C": "se preocupar com as taxas de nascimento e de mortalidade infantil, bem como ser apto a orientar os métodos contraceptivos mais eficazes.",
+        "D": "se certificar se há vagas em número suficiente nas creches e escolas de nível fundamental II para atendimento dessa população.",
+        "E": "verificar se há córregos e esgotos a céu aberto e sendo o caso entrar diretamente em contato com o órgão responsável pelo meio ambiente."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 27,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O Agente Comunitário de Saúde deve identificar os adolescentes de sua área e planejar suas atividades considerando que é necessário orientá-los sobre",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "como evitar doenças sexualmente transmissíveis (DST), HIV/Aids, Hepatite A, entre outras, indicando as melhores barreiras físicas.",
+        "B": "verificar o “status” do esquema vacinal e informar sobre violência e acidentes e saúde bucal.",
+        "C": "quais atividades físicas são mais indicadas a cada jovem para manter hábitos saudáveis.",
+        "D": "recomendar os métodos de anticoncepção e como usá-los, afim de evitar uma gravidez.",
+        "E": "a importância da educação sanitária do uso correto de álcool e outras drogas lícitas."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 28,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "São condições que aumentam o risco de as pessoas adoecerem:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "descontinuidade de tratamento médico, usar transporte público e frequentar praças.",
+        "B": "alimentação inadequada, uso de água mineral para consumo e ter contato com cães.",
+        "C": "residir em ambiente rural, lixo armazenado em local inadequado e gestantes.",
+        "D": "uso contínuo de medicamentos, trabalho em área aberta e obesidade.",
+        "E": "baixa renda, esgoto a céu aberto e desemprego."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 29,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O Agente Comunitário de Saúde, durante uma visita domiciliar a um idoso, observou que na residência havia tapetes em todos os cômodos e mesas no meio da sala entre os sofás. Orientou, então, a filha do senhor a retirar os tapetes e as mesas",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "para vendê-los e ganhar um dinheiro.",
+        "B": "melhorar a aparência da residência.",
+        "C": "para evitar tropeções e quedas.",
+        "D": "de modo a trocá-los por outros mais novos.",
+        "E": "deixar a casa mais fácil para limpar."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": 30,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "É papel do Agente Comunitário de Saúde nas ações de controle da dengue:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "elaborar e/ou executar estratégias para o encaminhamento das pendências para que haja a aplicação de biocidas intra e peridomiciliar.",
+        "B": "encaminhar os casos suspeitos de dengue à Unidade Básica de Saúde, de acordo com as orientações da Secretaria Municipal de Saúde.",
+        "C": "cadastrar hospitais e escolas para que haja uma programação periódica de aplicação de larvicidas e inseticidas.",
+        "D": "realizar a aplicação de inseticidas nos domicílios para eliminação do mosquito adulto.",
+        "E": "vistoriar e tratar com aplicação de larvicida para eliminação de larvas do Aedes, caso seja necessário, nos pontos estratégicos."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 31,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A figura a seguir mostra o número, hipotético, de casos de dengue em determinados locais, marcados com “alfinetes” no mapa.\n\nSua análise permite",
+      "tem_imagem": true,
+      "imagem_url": "2023_vunesp_acs_pindamonhangaba_q31.png",
+      "alternativas": {
+        "A": "afirmar que a distribuição na área apresentada é homogênea.",
+        "B": "saber quais os locais de maior risco para esse agravo.",
+        "C": "conhecer em detalhes o comportamento do mosquito.",
+        "D": "determinar o local de atuação de todos Agentes Comunitários de Saúde da Unidade Básica de Saúde.",
+        "E": "rastrear os mosquitos contaminados."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 32,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O Agente Comunitário de Saúde, junto a sua equipe, deve compartilhar, com a população adstrita, as responsabilidades pela saúde. Isso é particularmente importante na adequação das ações de saúde às necessidades da população, e é uma forma de",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "interferir na gestão pública, determinando as ações do Estado.",
+        "B": "orientar e executar as políticas públicas.",
+        "C": "definir a melhor forma de alocar os recursos público na área sanitária.",
+        "D": "controle social e participação popular.",
+        "E": "reorganização da sociedade e da comunidade local."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 33,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A adoção, segundo o Estatuto da Criança e do Adolescente, deve seguir regras legais como, por exemplo:",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "ser deferida quando apresentar reais vantagens para o adotando e fundar-se em motivos legítimos.",
+        "B": "depender do consentimento dos pais ou do representante legal do adotando, e se o adotando for maior de oito anos também deverá ser consultado.",
+        "C": "atribuir a condição, ao adotando, dos mesmos direitos e deveres, exceto sucessórios, desligando-o de qualquer vínculo com pais e parentes.",
+        "D": "o adotando deve contar com, no máximo, dez anos à data do pedido, salvo se já estiver sob a guarda ou tutela dos adotantes.",
+        "E": "o adotante deverá ser, pelo menos, vinte anos mais velho do que o adotando."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 34,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Para os pais de bebes de 0 a 28 dias de vida, o Agente Comunitário de Saúde deve orientar, em sua visita domiciliar,",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "a necessidade da frequência das trocas de fraldas a fim de evitar assaduras.",
+        "B": "sobre qual leite em pó usar na alimentação do bebe para que a mãe possa trabalhar.",
+        "C": "a realização dos testes da cabecinha e da barriguinha.",
+        "D": "a aplicação das vacinas dupla infantil, rubéola e hepatite A.",
+        "E": "que o bebe deve permanecer o maior tempo possível no berço, evitando o contato direto com as pessoas."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 35,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A família é o ponto de partida para o trabalho do Agente Comunitário de Saúde na comunidade. Por isso, é preciso identificar e compreender a formação e como funcionam as famílias da sua área de abrangência. Assim, é correto afirmar que a visita domiciliar é a atividade mais importante do processo de trabalho do Agente Comunitário de Saúde, uma vez que, ao entrar na casa de uma família, esse profissional",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "cria vínculos afetivos e duradouros com os indivíduos, que devem ultrapassar o limite do profissional.",
+        "B": "é capaz de influenciar os indivíduos a seguirem os hábitos sociais e religiosos adotados pela comunidade.",
+        "C": "deve indicar métodos contraceptivos de acordo com o nível socioeconômico do grupo familiar.",
+        "D": "verifica o estado sanitário da residência e determina os procedimentos de limpeza mais adequados.",
+        "E": "além de adentrar no espaço físico, também entra em contato com tudo o que esse espaço representa."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": 36,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O Sistema Único de Saúde – SUS deve disponibilizar serviços que promovam a justiça social, que canalizem maior atenção aos que mais necessitam, diferenciando as necessidades de cada um.\n\nA frase descreve o princípio da",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "resolutividade.",
+        "B": "equidade.",
+        "C": "coletividade.",
+        "D": "integralidade.",
+        "E": "universalidade."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 37,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Pessoas com deficiências devem ter oportunidades iguais de participação em todos os atendimentos e atividades dos serviços de saúde. Suas necessidades básicas são comuns, como: vacinação, consultas, pré-natal, planejamento familiar, puericultura e saúde bucal. É importante que o Agente Comunitário de Saúde (ACS), na sua área de atuação, identifique as pessoas com deficiência e as suas características de maneira que possibilite à equipe de saúde realizar um planejamento e direcionamento das ações. O primeiro passo é identificar as pessoas com deficiência e as suas características de maneira que possibilite à equipe de saúde",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "verificar as condições de acessibilidade à residência e o acesso e às condições de utilizar a Unidade Básica de Saúde.",
+        "B": "identificar na comunidade movimentos organizados de pessoas com deficiência e lideranças comunitárias, suas reivindicações, propostas e atividade.",
+        "C": "diagnosticar as deficiências encontradas em física, mental, auditiva, visual ou múltipla.",
+        "D": "promover a inclusão social, estimulando a participação nas diferentes atividades, valorizando os conhecimentos do indivíduo adquiridos na vida.",
+        "E": "encaminhar os deficientes para procurar os serviços de saúde terciários, prestando atenção se terão acesso à Unidade de Saúde indicada pelo agente."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": 38,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O artigo 15 do Estatuto do Idoso assegura a atenção integral à saúde da pessoa idosa, por intermédio do Sistema Único de Saúde (SUS), garantindo-lhe o acesso universal e igualitário, em conjunto articulado e contínuo das ações e serviços, para a prevenção, promoção, proteção e recuperação da saúde, incluindo a atenção especial às doenças que afetam preferencialmente as pessoas idosas. Assim, é correto afirmar que",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "a prevenção e a manutenção da saúde da pessoa idosa serão efetivadas por meio das unidades geriátricas da área de abrangência da Unidade Básica de Saúde.",
+        "B": "é assegurado o atendimento domiciliar, excluindo a internação, para a população que dele necessitar e esteja impossibilitada de se locomover nos meios urbano e rural.",
+        "C": "para a redução das sequelas decorrentes de todo tipo de agravo da saúde, a reabilitação incluirá e será orientada pelos serviços de gerontologia e geriatria da Unidade Básica de Saúde de referência.",
+        "D": "a prevenção e a manutenção da saúde da pessoa idosa serão efetivadas por meio de cadastramento da população idosa em base territorial e atendimento geriátrico e gerontológico em ambulatórios.",
+        "E": "o atendimento à pessoa idosa nos planos de saúde pela cobrança de valores diferenciados em razão da idade será legal visando o atendimento às pessoas idosas com deficiência ou com limitação incapacitante terão atendimento especializado."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": 39,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "No cadastramento familiar, o Agente Comunitário de Saúde, por meio das visitas domiciliares,",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "faz o acompanhamento anual da situação de saúde das famílias.",
+        "B": "identifica a situação de saneamento e moradia.",
+        "C": "comprova o conjunto de pessoas que dividiam o mesmo espaço de habitação.",
+        "D": "estabelece a área de abrangência da Unidade Básica de Saúde.",
+        "E": "corresponde a uma microrregião ou a uma região de saúde."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": 40,
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O processo de trabalho na Atenção Básica caracteriza-se pela",
+      "tem_imagem": false,
+      "imagem_url": "",
+      "alternativas": {
+        "A": "adstrição de usuários e desenvolvimento de relações de vínculo e responsabilização entre a equipe e a população do seu território de atuação.",
+        "B": "avaliação de risco com critério exclusivamente social para identificar subgrupos de acordo e definir a prioridade de atendimento.",
+        "C": "responsabilização pela equipe sobre o atendimento psicossocial da população cadastrada no bolsa-família.",
+        "D": "determinação de qual unidade (atenção básica, atenção secundária ou atenção terciária) será a porta de entrada para o SUS no Município.",
+        "E": "delimitação política do território a critério da equipe e programação de atividades no processo de territorialização."
+      },
+      "resposta_correta": "A"
+    }
+  ]
+}
