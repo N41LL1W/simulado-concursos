@@ -205,7 +205,7 @@
       "materia": "Língua Portuguesa",
       "enunciado": "Leia os quadrinhos que compõem a tira de André Dahmer para responder às questões de números 14 e 15\n\nAssinale a alternativa que reescreve o diálogo do último quadrinho sem alterar o seu sentido original, utilizando apenas expressões em sentido próprio e de acordo com a norma-padrão da língua.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_14.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q14.png",
       "alternativas": {
         "A": "“Não é triste?” “Era. Quando as pessoas tinham alguma sensibilidade.”.",
         "B": "“Não é cruel?” “Talvez, mas hoje em dia ninguém dá a mínima.”.",
@@ -220,7 +220,7 @@
       "materia": "Língua Portuguesa",
       "enunciado": "Leia os quadrinhos que compõem a tira de André Dahmer para responder às questões de números 14 e 15\n\nAssinale a alternativa que apresenta uma palavra que, no desenrolar do diálogo, establishes o sentido de posse.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_15.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q15.png",
       "alternativas": {
         "A": "de",
         "B": "o",
@@ -310,7 +310,7 @@
       "materia": "Matemática",
       "enunciado": "A tabela apresenta algumas informações sobre o número de latas compradas, de alguns produtos, e o preço unitário da lata. Considerando-se o número total de latas compradas, na média, cada lata saiu por (Dados parciais na imagem original)",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_16.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q16.png",
       "alternativas": {
         "A": "R$ 2,40.",
         "B": "R$ 2,50.",
@@ -340,7 +340,7 @@
       "materia": "Matemática",
       "enunciado": "O gráfico apresenta algumas informações sobre o número de domicílios visitados por agentes de saúde, em 4 regiões, A, B, C e D, de um mesmo município. Sabendo que cada visita a um domicílio leva, aproximadamente, 15 minutos, e que o tempo gasto para visitar todos os domicílios, dessas 4 regiões, foi de 40 horas, então, o número de domicílios visitados na região A foi",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_23.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q23.png",
       "alternativas": {
         "A": "60.",
         "B": "55.",
@@ -355,7 +355,7 @@
       "materia": "Matemática",
       "enunciado": "Em um espaço retangular ABCD, com 6 m de largura, foi feito um pequeno galpão retangular, e o restante do espaço foi utilizado para uma horta comunitária, conforme mostra a figura. Sabendo-se que o perímetro do galpão é de 10 m, a área da horta comunitária é igual a",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_24.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q24.png",
       "alternativas": {
         "A": "34 m².",
         "B": "36 m².",
@@ -370,7 +370,7 @@
       "materia": "Matemática",
       "enunciado": "Um reservatório de água, com capacidade máxima para 6 000 litros, tem a forma de um prisma reto de base retangular, cujas medidas internas, em metros, estão indicadas na figura. Lembrando que 1 m³ = 1 000 litros, a altura desse reservatório, indicada na figura pela letra h, é igual a",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_25.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q25.png",
       "alternativas": {
         "A": "0,5 m.",
         "B": "1,0 m.",
@@ -385,7 +385,7 @@
       "materia": "Noções de Informática",
       "enunciado": "Tem-se a imagem parcial da guia Página Inicial do Microsoft Word 2010, em sua configuração original. Em um documento em branco, ao iniciar a digitação, o texto estará alinhado _____ e formatado _____. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do texto.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_26.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q26.png",
       "alternativas": {
         "A": "à esquerda ... tachado",
         "B": "centralizado ... negrito e itálico",
@@ -400,7 +400,7 @@
       "materia": "Noções de Informática",
       "enunciado": "No Microsoft Windows 7, em sua configuração original, assinale a alternativa correta sobre a operação de minimizar uma janela, clicando no ícone Minimizar da Barra de Título, destacado na imagem a seguir.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_27.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q27.png",
       "alternativas": {
         "A": "Significa reduzi-la até que o programa seja encerrado.",
         "B": "É a operação que converte a janela em um ícone na Área de Trabalho.",
@@ -415,7 +415,7 @@
       "materia": "Noções de Informática",
       "enunciado": "Tem-se a seguinte planilha criada no Microsoft Excel 2010, em sua configuração padrão. A célula A11 contém a fórmula =CONTAR.VAZIO(A1:A9). Se o usuário alterar o conteúdo da célula A1 para um texto, apagar o conteúdo da célula A2, selecionando-a e pressionando a tecla DEL, alterar o conteúdo da célula A3 para o valor zero, alterar o conteúdo da célula A para um espaço em branco e, finalmente, ocultar a linha 5, assinale a alternativa que indica o conteúdo final da célula A11.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_28.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q28.png",
       "alternativas": {
         "A": "1",
         "B": "2",
@@ -430,7 +430,7 @@
       "materia": "Noções de Informática",
       "enunciado": "Tem-se a seguinte imagem, do painel de animação de 5 AutoFormas em um slide criado no Microsoft PowerPoint 2010, em sua configuração original. Assinale a alternativa que indica qual será a última AutoForma a ser exibida no slide.",
       "tem_imagem": true,
-      "imagem_url": "2019_vunesp_acs_morro_agudo_29.png",
+      "imagem_url": "2019_vunesp_acs_morro_agudo_q29.png",
       "alternativas": {
         "A": "1-Retângulo 4",
         "B": "2-Elipse 5",
