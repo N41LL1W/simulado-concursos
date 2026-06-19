@@ -1,0 +1,759 @@
+{
+  "id_prova": "2019_vunesp_acs_morro_agudo",
+  "banca": "Vunesp",
+  "ano": 2019,
+  "cargo": "Agente Comunitário de Saúde",
+  "localidade": "Morro Agudo",
+  "questoes": [
+    {
+      "numero": "01",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Com base nas informações apresentadas nel texto, é correto afirmar que",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "a confiança excessiva no resultado do tratamento determina a baixa adesão à terapia.",
+        "B": "o tratamento só terá êxito, caso realizado com anti-inflamatórios exclusivamente nas crises dolorosas.",
+        "C": "há pouca adesão ao tratamento porque os médicos não prescrevem os remédios corretos.",
+        "D": "o compromisso mútuo entre médico e paciente contribui para se chegar a bons resultados.",
+        "E": "a doença é causada principalmente pela falta de conhecimento do paciente sobre as formas de tratamento."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "02",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia os seguintes trechos:\n- A percepção inadequada pelos pacientes de uma doença crônica que atinge de 2% a 4% dos adultos nos Estados Unidos e no Reino Unido... (1o parágrafo)\n- As taxas de prescrição de remédios para manter níveis normais do ácido úrico no sangue são baixas... (3o parágrafo)\n- A crise de gota, desencadeada por dor no local da inflamação, interfere na ação da articulação... (5o parágrafo)\nConsiderando-se o contexto, assinale a alternativa que substitui, correta e respectivamente, os termos destacados, sem alteração de sentido.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "O discernimento impreciso; indicação; iniciada.",
+        "B": "A falta de entendimento; vencimento; liberada.",
+        "C": "A ausência de inépcia; vigência; provocada.",
+        "D": "A perspicácia inapropriada; formulação; determinada.",
+        "E": "O entendimento equivocado; recomendação; rompida."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "03",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Leia as seguintes passagens:\n- ... são baixas, assim como a adesão dos pacientes ao remédio. (3o parágrafo)\n- ... principalmente quando a doença parece inativa... (4o parágrafo)\n- Eles afirmam que, apesar do tratamento nas crises dolorosas... (7o parágrafo)\nOs termos destacados organizam as informações textuais e expressam, no contexto, correta e respectivamente, sentido de",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "concessão; finalidade; condição.",
+        "B": "comparação; tempo; concessão.",
+        "C": "condição; conformidade; adversidade.",
+        "D": "explicação; condição; alternância.",
+        "E": "proporção; alternância; contrariedade."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "04",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que apresenta uma leitura livre do texto em pleno acordo com a norma-padrão da língua portuguesa quanto à regência.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Os níveis de pacientes que assumem ao tratamento das chamadas doenças crônicas de modo integral são baixos.",
+        "B": "A crise de gota, provocada por inflamação local, prejudica à qualidade de vida do paciente.",
+        "C": "Em média, 3% dos adultos nos Estados Unidos e no Reino Unido são acometidos por alguma doença crônica.",
+        "D": "A campanha denominada por “Sua gota mente”, pretende conscientizar o brasileiro acerca das doenças crônicas.",
+        "E": "O desafio contra a gota foi publicado ao editorial da revista The Lancet Rheumatology deste mês."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "05",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que apresenta livre reescrita de um trecho do texto de acordo com a norma-padrão da língua portuguesa quanto ao emprego e à colocação do pronome.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Quanto a uma parte dos adultos nos Estados Unidos e no Reino Unido, atinge-lhes uma doença crônica.",
+        "B": "A gota tem relação com os cristais de urato. Os produzem, o organismo do paciente.",
+        "C": "As baixas taxas de adesão dos pacientes ao tratamento não produzem-lhes resultados mais efetivos.",
+        "D": "É preciso observar o grau de confiança do doente em seu médico. Reforçá-lo é fundamental para o tratamento.",
+        "E": "Quando julgam-na inativa, pela ausência de dor, a doença passa a agir silenciosamente."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "06",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa correta quanto à pontuação.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Colaboradores da Universidade Federal do Paraná afirmaram : “ Os cristais de urato podem provocar graves danos nas articulações .”.",
+        "B": "A prescrição de remédios e a adesão , ao tratamento , por parte dos pacientes são baixas.",
+        "C": "É uma inflamação , que desencadeia a crise de gota ; diagnosticada a partir do reconhecimento de intensa dor , no local.",
+        "D": "A ausência de dor não pode ser motivo para a interrupção do tratamento conforme o editorial diz : – ( é preciso que o doente confie em seu médico ).",
+        "E": "A qualidade de vida , do paciente , diminui pois a dor no local da inflamação é bastante intensa!"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "07",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que reescreve passagem do texto com a concordância adequada à norma-padrão da língua portuguesa.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Adultos nos Estados Unidos e no Reino Unido, atingidos por uma doença crônica, chega a 4%.",
+        "B": "A baixa adesão dos pacientes aos remédios prejudicam o tratamento da gota.",
+        "C": "Os depósitos de cristais de urato produtos pelo organismo do paciente constitui a principal causa da gota.",
+        "D": "A contribuição dos médicos para que os pacientes conheçam a doença resultam tratamentos mais exitosos.",
+        "E": "Confiança, prescrição de remédios, manutenção de tratamento, tudo é necessário para a recuperação do paciente."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "08",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Considerando o emprego do acento indicativo de crase, assinale a alternativa que respeita a norma-padrão da língua portuguesa para completar o enunciado: “Percepções inadequadas de enfermidades silenciosas podem trazer danos à",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "quem necessita de tratamento preventivo”.",
+        "B": "qualidade de vida de uma parte significativa da sociedade”.",
+        "C": "tratamentos que procurem diminuir as inflamações”.",
+        "D": "pacientes acometidos por gota”.",
+        "E": "pessoas displicentes com a medicina preventina”."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "09",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa em que há palavra ou expressão empregada em sentido figurado.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Manter os níveis normais de ácido úrico no sangue ajuda o paciente a controlar as consequências da doença.",
+        "B": "As taxas de prescrição de remédios para manter níveis normais do ácido úrico no sangue são baixas.",
+        "C": "A adesão à terapia é influenciada pelo grau de confiança do doente em seu médico.",
+        "D": "Colaboradores da Universidade Federal do Paraná chamam a atenção para a importância da campanha “Sua gota mente”.",
+        "E": "A doença provoca dor no lugar da inflamação, diminuindo a qualidade de vida do paciente."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "10",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Os termos destacados em:\n- ... devem ser administrados com cautela nesses pacientes. (1o parágrafo)\n- ... contém corantes que podem, eventualmente , causar reações alérgicas. (3o parágrafo)\n- ... a segurança e eficácia foram comprovadas mesmo em pacientes acima de 65 anos. (7o parágrafo)\nindicam no contexto, correta e respectivamente, as circunstâncias de",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "exclusão; afirmação; modo.",
+        "B": "dúvida; ordem; afirmação.",
+        "C": "modo; tempo; inclusão.",
+        "D": "intensidade; dúvida; oposição.",
+        "E": "meio; hipótese; causa."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "11",
+      "materia": "Língua Portuguesa",
+      "enunciado": "De acordo com as informações apresentadas no texto, é correto afirmar que",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "o medicamento não oferece risco a pacientes idosos desde que não tenham câncer.",
+        "B": "a ondansetrona interfere na ação de drogas inibidoras de enzimas do fígado, conforme estudos disponíveis.",
+        "C": "a ondansetrona não pode ser ingerida por quem apresenta alterações da função renal, conforme dados disponíveis.",
+        "D": "o medicamento deve ser evitado por fenilcetonúricos, pois as reações alérgicas nesses casos, são recorrentes.",
+        "E": "A gravidez não é impeditivo para o uso do Vonau Flash®, desde que administrado sob orientação profissional."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "12",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa em que a palavra por tem o mesmo emprego que o do trecho do texto – A ondansetrona, princípio ativo de Vonau Flash®, é metabolizada por enzimas do fígado...",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Ficou à espera de novos tratamentos, por orientação médica.",
+        "B": "O medicamento só pode ser manipulado por laboratórios autorizados.",
+        "C": "Evitavam o medicamento por pura ignorância sobre reações alérgicas.",
+        "D": "O mais recomendável é a ingestão de apenas uma dose por dia.",
+        "E": "Pesquisara por horas a fio, na internet, sobre o medicamento."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "13",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Antes de usar, _____ o aspecto do medicamento. Caso ele _____ no prazo de validade e você _____ alguma mudança no aspecto, consulte o farmacêutico para saber se _____ utilizá-lo.\nEm conformidade com a norma-padrão da língua portuguesa, as lacunas do enunciado devem ser preenchidas, respectivamente, com:",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "observes ... esteja ... constata ... pode",
+        "B": "observe ... esteje ... constatar ... poderá",
+        "C": "observa ... estiver ... constate ... pudesse",
+        "D": "observeis ... esteje ... constatou ... poderia",
+        "E": "observe ... esteja ... constate ... poderá"
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "14",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que reescreve o diálogo do último quadrinho sem alterar o seu sentido original, utilizando apenas expressões em sentido próprio e de acordo com a norma-padrão da língua.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "“Não é triste?” “Era. Quando as pessoas tinham alguma sensibilidade.”.",
+        "B": "“Não é cruel?” “Talvez, mas hoje em dia ninguém dá a mínima.”.",
+        "C": "“Não é de chorar por todos os poros?” “Se as pessoas ainda fossem honestas, seria.”.",
+        "D": "“Não é revoltante?” “Revolta não é artigo da moda.”.",
+        "E": "“Não é deprimente?” “Sim, claro, mas os novos tempos exigem novas atitudes.”."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "15",
+      "materia": "Língua Portuguesa",
+      "enunciado": "Assinale a alternativa que apresenta uma palavra que, no desenrolar do diálogo, establishes o sentido de posse.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "de",
+        "B": "o",
+        "C": "Seu",
+        "D": "Quando",
+        "E": "é"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "16",
+      "materia": "Matemática",
+      "enunciado": "Um agente comunitário de saúde visitou 36 famílias. Desse total, eram no bairro A, era no bairro B, e as demais famílias, no bairro C. O número de famílias visitadas no bairro C, em relação ao número total de famílias visitadas, corresponde à fração: (Imagens das frações indisponíveis no texto original)",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Fração alternativa A",
+        "B": "Fração alternativa B",
+        "C": "Fração alternativa C",
+        "D": "Fração alternativa D",
+        "E": "Fração alternativa E"
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "17",
+      "materia": "Matemática",
+      "enunciado": "Em uma palestra, estavam presentes 48 mulheres e 42 homens. Ao término dessa palestra, todas essas pessoas foram divididas em grupos, para a realização de uma atividade, de modo que todos os grupos tinham o mesmo número de pessoas e na maior quantidade possível. Sabendo-se que não tinham homens e mulheres juntos, em um mesmo grupo, então o número de grupos formados somente com mulheres foi",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "9.",
+        "B": "8.",
+        "C": "7.",
+        "D": "6.",
+        "E": "5."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "18",
+      "materia": "Matemática",
+      "enunciado": "Um posto de saúde de determinada região realizou exames em 120 moradores locais, para verificar se estavam infectados por determinado tipo de bactéria. Os exames mostraram que a razão do número de moradores infectados por essa bactéria para o número de moradores não infectados por essa bactéria era. O número de moradores infectados por essa bactéria era (Razão omitida no texto original)",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "72.",
+        "B": "66.",
+        "C": "60.",
+        "D": "54.",
+        "E": "48."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "19",
+      "materia": "Matemática",
+      "enunciado": "Um hospital atendeu, em um mesmo dia, 40 pessoas, das quais 20% eram adultos e as demais, crianças. Sabendo-se que 50% desses adultos e 75% desses crianças estavam com intoxicação alimentar, então, entre essas 40 pessoas, aquelas que não estavam com intoxicação alimentar correspondiam a:",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "30%",
+        "B": "35%",
+        "C": "40%",
+        "D": "45%",
+        "E": "50%"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "20",
+      "materia": "Matemática",
+      "enunciado": "Uma pessoa comprou determinada quantidade de guardanapos de papel. Se ela utilizar 2 guardanapos por dia, a quantidade comprada irá durar 15 dias a mais do que duraria se ela utilizasse 3 guardanapos por dia. O número de guardanapos comprados foi",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "60.",
+        "B": "70.",
+        "C": "80.",
+        "D": "90.",
+        "E": "100."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "21",
+      "materia": "Matemática",
+      "enunciado": "A tabela apresenta algumas informações sobre o número de latas compradas, de alguns produtos, e o preço unitário da lata. Considerando-se o número total de latas compradas, na média, cada lata saiu por (Dados parciais na imagem original)",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "R$ 2,40.",
+        "B": "R$ 2,50.",
+        "C": "R$ 2,60.",
+        "D": "R$ 2,70.",
+        "E": "R$ 2,80."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "22",
+      "materia": "Matemática",
+      "enunciado": "Marcos e Pedro foram a um rodízio de pizzas e, juntos, comeram 14 pedaços. Sabendo-se que Marcos comeu 2 pedaços a mais do que Pedro, o número de pedaços de pizzas que Marcos comeu foi",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "6.",
+        "B": "7.",
+        "C": "8.",
+        "D": "9.",
+        "E": "10."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "23",
+      "materia": "Matemática",
+      "enunciado": "O gráfico apresenta algumas informações sobre o número de domicílios visitados por agentes de saúde, em 4 regiões, A, B, C e D, de um mesmo município. Sabendo que cada visita a um domicílio leva, aproximadamente, 15 minutos, e que o tempo gasto para visitar todos os domicílios, dessas 4 regiões, foi de 40 horas, então, o número de domicílios visitados na região A foi",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "60.",
+        "B": "55.",
+        "C": "50.",
+        "D": "45.",
+        "E": "40."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "24",
+      "materia": "Matemática",
+      "enunciado": "Em um espaço retangular ABCD, com 6 m de largura, foi feito um pequeno galpão retangular, e o restante do espaço foi utilizado para uma horta comunitária, conforme mostra a figura. Sabendo-se que o perímetro do galpão é de 10 m, a área da horta comunitária é igual a",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "34 m².",
+        "B": "36 m².",
+        "C": "38 m².",
+        "D": "40 m².",
+        "E": "42 m²."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "25",
+      "materia": "Matemática",
+      "enunciado": "Um reservatório de água, com capacidade máxima para 6 000 litros, tem a forma de um prisma reto de base retangular, cujas medidas internas, em metros, estão indicadas na figura. Lembrando que 1 m³ = 1 000 litros, a altura desse reservatório, indicada na figura pela letra h, é igual a",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "0,5 m.",
+        "B": "1,0 m.",
+        "C": "1,5 m.",
+        "D": "2,0 m.",
+        "E": "2,5 m."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "26",
+      "materia": "Noções de Informática",
+      "enunciado": "Tem-se a imagem parcial da guia Página Inicial do Microsoft Word 2010, em sua configuração original. Em um documento em branco, ao iniciar a digitação, o texto estará alinhado _____ e formatado _____. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do texto.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "à esquerda ... tachado",
+        "B": "centralizado ... negrito e itálico",
+        "C": "justificado ... sublinhado",
+        "D": "justificado ... negrito e itálico",
+        "E": "à esquerda ... sublinhado"
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "27",
+      "materia": "Noções de Informática",
+      "enunciado": "No Microsoft Windows 7, em sua configuração original, assinale a alternativa correta sobre a operação de minimizar uma janela, clicando no ícone Minimizar da Barra de Título, destacado na imagem a seguir.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Significa reduzi-la até que o programa seja encerrado.",
+        "B": "É a operação que converte a janela em um ícone na Área de Trabalho.",
+        "C": "Significa reduzi-la a um tamanho que ocupe uma área livre da Área de Trabalho.",
+        "D": "É a operação que converte a janela em um ícone na Barra de Tarefas.",
+        "E": "É a operação que encerra o programa em execução."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "28",
+      "materia": "Noções de Informática",
+      "enunciado": "Tem-se a seguinte planilha criada no Microsoft Excel 2010, em sua configuração padrão. A célula A11 contém a fórmula =CONTAR.VAZIO(A1:A9). Se o usuário alterar o conteúdo da célula A1 para um texto, apagar o conteúdo da célula A2, selecionando-a e pressionando a tecla DEL, alterar o conteúdo da célula A3 para o valor zero, alterar o conteúdo da célula A para um espaço em branco e, finalmente, ocultar a linha 5, assinale a alternativa que indica o conteúdo final da célula A11.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "29",
+      "materia": "Noções de Informática",
+      "enunciado": "Tem-se a seguinte imagem, do painel de animação de 5 AutoFormas em um slide criado no Microsoft PowerPoint 2010, em sua configuração original. Assinale a alternativa que indica qual será a última AutoForma a ser exibida no slide.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "1-Retângulo 4",
+        "B": "2-Elipse 5",
+        "C": "3-Triângulo isós...",
+        "D": "4-Hexágono 7",
+        "E": "5-Seta para a Di..."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "30",
+      "materia": "Noções de Informática",
+      "enunciado": "João recebeu uma mensagem de correio eletrônico por meio do aplicativo Microsoft Outlook 2010, em sua configuração padrão. No entanto, João era o único que estava relacionado no campo Cco. Isso significa que todos os demais destinatários não sabem que João recebeu a mensagem. Assinale a alternativa que indica a pasta em que, por padrão, a mensagem foi gravada no aplicativo de João.",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "Rascunhos",
+        "B": "Caixa de Entrada",
+        "C": "Itens Lidos",
+        "D": "Caixa de Itens Ocultos",
+        "E": "Caixa Confidencial"
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "31",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Os princípios do SUS que asseguraram a todas as pessoas, o acesso às ações e serviços de saúde, independentemente de características sociais ou pessoais, incluindo a promoção da saúde, a prevenção de doenças, o tratamento e a reabilitação, de forma a diminuir as desigualdades são",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "universalidade, igualdade e centralização.",
+        "B": "equidade, igualdade e seletividade.",
+        "C": "centralização, universalidade, intrasetorialidade.",
+        "D": "universalidade, integralidade e equidade.",
+        "E": "igualdade, setorialidade e universalidade."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "32",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Segundo a Lei no 11.350/2006, e suas alterações introduzidas pela Lei no 13.595/2018, são atribuições do Agente Comunitário de Saúde (ACS), entre outras,",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "atendimento de terapia em grupo para adolescentes, encaminhamento e agendamento de fisioterapia, consultas de avaliação de saúde bucal.",
+        "B": "visitas domiciliares, orientações sobre nutrição de adolescentes e idosos, administração de medicamentos para tuberculose e hanseníase que necessitam de supervisão.",
+        "C": "aplicação de imunobiológicos em crianças acima de 5 anos, insulina em idosos que tem dificuldade de realizar a auto aplicação, colaboração na higienização dos idosos acamados.",
+        "D": "mapeamento de sua área de atuação, cadastramento das famílias de sua microárea, visitas domiciliares às famílias sob sua responsabilidade.",
+        "E": "realização de ações de vigilância sanitária, atendimentos de primeiros socorros em partos e quedas, participação no planejamento na unidade básica de saúde."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "33",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A participação da comunidade na gestão do SUS",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "depende da centralização das unidades mantidas pelo SUS, que possuem o mesmo planejamento em saúde.",
+        "B": "é uma diretriz garantida legalmente que permite à sociedade civil organizada participação na definição de politicas públicas de saúde.",
+        "C": "impede a aplicação da equidade nas ações de saúde da Unidade Básica de Saúde (UBS).",
+        "D": "permite decidir quais politicas de saúde serão implementadas, a partir de reuniões entre gestores e médicos das UBS.",
+        "E": "é apenas um artifício do governo para controlar as ações da população."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "34",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "As visitas domiciliares constituem-se na atividade mais importante do processo de trabalho dos ACS. A periodicidade dessas vistas é",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "quinzenal, independente da situação de vulnerabilidade observada nas famílias.",
+        "B": "semanal,se houver idoso acima de 70 anos de idade, no domicílio.",
+        "C": "anual ou sempre que houver consulta agendada com o médico.",
+        "D": "trimestral, se houver crianças entre 5 e 12 anos no domicílio.",
+        "E": "mensal, podendo ter frequência maior em caso de necessidade."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "35",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A etapa inicial do trabalho do Agente Comunitário de Saúde (ACS) é o cadastramento das famílias da micro área com, no máximo",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "150 pessoas e os dados desse cadastramento devem ser de conhecimento apenas do ACS.",
+        "B": "750 pessoas e os dados desse cadastramento devem ser de conhecimento de toda a equipe de saúde",
+        "C": "350 famílias e apenas os dados referentes a casos de infecções sexualmente transmissíveis devem ser compartilhados coma equipe de saúde.",
+        "D": "750 famílias e os dados são de conhecimento exclusivo do ACS, pois o sigilo é fundamental na saúde.",
+        "E": "1 000 pessoas e apenas os casos de indivíduos vitimas de violência devem ser compartilhados com a equipe de saúde."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "36",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "É competência do ACS no controle da dengue,",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "vistoriar e tratar com aplicação de larvicida, caso seja necessário os pontos estratégicos.",
+        "B": "vistoriar os imóveis comerciais e acompanhar o responsável na remoção, destruição ou vedação de criadouros de mosquitos nos locais de difícil acesso.",
+        "C": "atuar junto aos domicílios, informando aos moradores sobre a doença, o agente transmissor e as medidas de prevenção.",
+        "D": "elaborar e/ou executar estratégias para o encaminhamento das pendências (casa fechadas e/ou recusas do morador em receber a visita).",
+        "E": "identificar e tratar os pacientes com resultado de sorologia positiva para dengue."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "37",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Para que se possa realizar o diagnóstico de saúde da comunidade, é preciso reunir informações, que são coletadas por meio de",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "consultas de especialidades médicas e exames realizados.",
+        "B": "entrevistas/ visitas domiciliares e mapa da comunidade.",
+        "C": "atendimentos realizados no pronto-socorro da região e reuniões com a comunidade.",
+        "D": "reuniões com a comunidade e número de matrículas nas escolas da região.",
+        "E": "entrevistas com líderes comunitários e coeficiente de incidência de doenças diarreicas."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "38",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Durante uma visita domiciliar, a moradora relata ao ACS que há meses percebeu o aparecimento de uma ferida indolor na área genital, que desapareceu sem tratamento e que agora estava incomodada com manchas nas palmas das mãos e pés. O ACS faz perguntas sobre sua vida sexual e fica sabendo que seu marido é caminhoneiro. O ACS pensa em lues secundária e orienta a moradora a ir até a UBS para uma consulta com o ginecologista. Neste caso, o ACS",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "não deveria ter feito perguntas sobre a vida íntima da moradora.",
+        "B": "deveria ter orientado a moradora a utilizar um creme nas manchas, até desaparecerem.",
+        "C": "agiu corretamente, pois associou os sintomas a infecção sexualmente transmissível (sífilis).",
+        "D": "errou ao orientar a moradora a ir até a UBS passar em consulta com o ginecologista.",
+        "E": "não agiu corretamente, pois deveria ter encaminhado a moradora para um dermatologista."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "39",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Em uma visita domiciliar, o ACS constata que uma das crianças apresenta sintomas sugestivos de sarampo. Neste caso, ele deve",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "prescrever vitamina A para a criança.",
+        "B": "orientar os pais a procurarem um médico quando possível.",
+        "C": "encaminhar a criança à UBS o mais rápido possível.",
+        "D": "explicar que provavelmente se trata de uma possível virose.",
+        "E": "agendar uma consulta com o pediatra no prazo de 30 dias."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "40",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Uma criança de 3 meses de idade deve ter o registro das seguintes vacinas, entre outras:",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "poliomielite; febre amarela; hepatite A.",
+        "B": "influenza, hepatite B; febre amarela.",
+        "C": "hepatite B; malária; poliomielite 1, 2,3.",
+        "D": "tetravalente; dupla adulto; pneumocócica 10 valente.",
+        "E": "BCG; penta; hepatite B."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "41",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Durante o processo de territorialização, é possível conhecer a vida da comunidade, sua história e sua organização social, tornando mais fácil o entendimento dos problemas de saúde e seus fatores de risco, entre eles, lixo e esgoto a céu aberto e abastecimento irregular de água, que contribui para",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "o aumento dos índices de mortalidade infantil.",
+        "B": "a redução dos índices de letalidade por doenças crônico-degenerativas.",
+        "C": "a ampliação de atendimentos de pessoas com doenças respiratórias.",
+        "D": "a redução dos índices de incidência de infecções sexualmente transmissíveis.",
+        "E": "o aumento do coeficiente de incidência de doenças de veiculação hídrica como a hanseníase."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "42",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Não jogar lixo em terrenos baldios; manter o lixo tampado e seco até seu recolhimento para destinação adequada; tampar as garrafas antes de colocá-las no lixo são medidas que contribuem para a melhoria do saneamento local e, consequentemente, para o controle de doenças",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "de transmissão oral-fecal, como febre amarela.",
+        "B": "imunoprevíniveis, como doença de Chagas.",
+        "C": "crônico-degenerativas, como diabetes.",
+        "D": "veiculação hídrica, como hepatite C.",
+        "E": "de transmissão vetorial, como dengue."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "43",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "É papel do Agente Comunitário de Saúde (ACS) no cuidado da saúde da gestante,",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "orientar para que toda gestante inicie o acompanhamento pré-natal a partir do 6o mês de gestação.",
+        "B": "ensinar a gestante a realizar exercícios físicos que facilitem o momento do parto.",
+        "C": "orientar sobre a periodicidade das consultas.",
+        "D": "orientar a gestante sobre a importância de introduzir o leite em pó quando a criança completar 3 meses.",
+        "E": "tratar a gestante que apresente corrimento com mau cheiro, mamas endurecidas, vermelhas e quentes."
+      },
+      "resposta_correta": "C"
+    },
+    {
+      "numero": "44",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "As manifestações das Infecções Sexualmente Transmissíveis (ISTs) ocorrem,",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "especificamente no órgão genital.",
+        "B": "principalmente no órgão genital, mas podem surgir em outras partes do corpo.",
+        "C": "sempre na forma de feridas.",
+        "D": "na mulher sempre na forma de um corrimento branco.",
+        "E": "apenas no sexo masculino, porque este possui a genitália externa."
+      },
+      "resposta_correta": "B"
+    },
+    {
+      "numero": "45",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "A promoção da saúde exije uma articulação e atuação conjunta sobre os determinantes sociais de saúde entre os quais, educação, saneamento básico, habitação, renda, trabalho, alimentação, meio ambiente, acesso a bens e serviços essenciais, lazer, entre outros. Esse é o conceito de",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "humanização.",
+        "B": "democratização.",
+        "C": "interlocução",
+        "D": "equidade.",
+        "E": "intersetorialidade."
+      },
+      "resposta_correta": "E"
+    },
+    {
+      "numero": "46",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Em uma determinada micro área, a rede de esgoto é insuficiente e precária, gerando entupimentos e vazamentos constantes nas ruas; o serviço de coleta de lixo é irregular, não atende a todas as casas, causando a proliferação de roedores. Esta situação",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "causa problemas de saúde apenas no período de chuvas.",
+        "B": "poderia ser resolvida com a realização de desratização na microárea.",
+        "C": "deve ser resolvida por cada morador, individualmente.",
+        "D": "é de responsabilidade do poder público.",
+        "E": "não se caracteriza como uma área de risco para a saúde pública."
+      },
+      "resposta_correta": "D"
+    },
+    {
+      "numero": "47",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O acolhimento",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "é um compromisso de resposta às necessidades dos cidadãos que procuram os serviços de saúde.",
+        "B": "deve ser feito aos usuários que procuram as unidades de saúde sem agendamento, desde que tenham mais de 70 anos.",
+        "C": "deve facilitar o acesso às consultas dos usuários participantes do conselho de saúde.",
+        "D": "deve estar presente, in particular, na relação médico e paciente gestante.",
+        "E": "deve ser realizada pelo ACS, responsável exclusivo do procedimento."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "48",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O ACS observa que um recém-nascido que completou 12 dias de vida, apresenta coloração da pele amarelada (icterícia) e orienta a família para",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "procurar a UBS, pois pode ser uma condição normal e passageira ou alguma alteração com risco para a criança.",
+        "B": "colocar a criança para receber 1 hora de banho de sol diariamente.",
+        "C": "dar 100 ml de água por dia ao recém-nascido, para diluir a bilirrubina produzida no processo de renovação das hemácias.",
+        "D": "não se preocupar com a icterícia, fenômeno fisiológico que desaparece após os 3 meses.",
+        "E": "procurar o pediatra do hospital, onde a criança nasceu se a icterícia permanecer após 90 dias."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "49",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "Os casos de suspeita ou confirmação de castigo físico, de tratamento cruel ou degradante e de maus-tratos contra criança ou adolescente, serão obrigatoriamente comunicados",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "ao Conselho Tutelar da respectiva localidade, sem prejuízo de outras providências legais.",
+        "B": "à escola onde a criança ou adolescente está matriculado.",
+        "C": "à Câmara de Vereadores da cidade para que providencie um abrigo para a vítima.",
+        "D": "à Secretaria da Infância e Juventude para investigar o caso.",
+        "E": "ao líder religioso da igreja frequentada pela família da vítima."
+      },
+      "resposta_correta": "A"
+    },
+    {
+      "numero": "50",
+      "materia": "Conhecimentos Específicos",
+      "enunciado": "O direito ao benefício mensal de 1 (um) salário-mínimo, nos termos da Lei Orgânica da Assistência Social – Loas, é assegurado ao idoso,",
+      "tem_imagem": false,
+      "imagem_url": null,
+      "alternativas": {
+        "A": "acima de 60 (sessenta) anos, que possui alguma doença crônica.",
+        "B": "a partir de 70 (setenta) anos, portador de HIV e que paga aluguel.",
+        "C": "a partir de 65 (sessenta e cinco) anos, que não possui meios para prover sua subsistência, nem de tê-la provida por sua família.",
+        "D": "acima de 80 (oitenta) anos que possui alguma incapacidade física e necessita de um acompanhante e/ou cuidador.",
+        "E": "a partir de 55 (cinquenta e cinco) anos, que não possui meios para prover sua subsistência, nem de tê-la provida por sua família."
+      },
+      "resposta_correta": "C"
+    }
+  ]
+}
